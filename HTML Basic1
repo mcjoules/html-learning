@@ -26,7 +26,25 @@
     <p>Testing with a <a href="#" target="_blank">Dead link</a></p>
 
     <!-- turn an image into a link using dead link href-->
-    <a href="#" target="_blank"><img src="https://www.bit.ly/fcc-relaxing-cat" alt="Cute kitten"></a>
+    <a href="#" target="_blank"><img src="https://www.bit.ly/fcc-relaxing-cat" alt="cute kitten"></a>
+
+    <!-- unordered list <ul> element-->
+    <p><strong>Unordered List - nice things</strong></p>
+    <ul>
+      <li>sunshine</li>
+      <li>kibble</li>
+      <li>birds</li>
+      <li>sleep</li>
+    </ul>
+
+    <!-- ordered list <ol> element -->
+    <p><strong>Ordered List - more nice things</strong></p>
+    <ol>
+      <li>cuddles</li>
+      <li>scratching</li>
+      <li>running water</li>
+      <li>chasing butterfly</li>
+    </ol>
 
     <!--`<div>` elements can contain *flow content* such as headings, paragraphs, links, images, etc.-->
       <div>
