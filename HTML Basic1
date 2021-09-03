@@ -23,10 +23,10 @@
     <p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a></p>
 
     <!--a dead link using `#` for JavaScript behaviour-->
-    <p>Testing with a <a href="#" target="_blank">Dead link</a></p>
+    <p>Testing with a <a href="#">dead link</a></p>
 
     <!-- turn an image into a link using dead link href-->
-    <a href="#" target="_blank"><img src="https://www.bit.ly/fcc-relaxing-cat" alt="cute kitten"></a>
+    <a href="#2"><img src="https://www.bit.ly/fcc-relaxing-cat" alt="cute kitten"></a>
 
     <!-- unordered list <ul> element-->
     <p><strong>Unordered List - nice things</strong></p>
@@ -59,6 +59,7 @@
 
       <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
       </div>
+      <p>Credit to <a href="https://www.lipsum.com">www.lipsum.com</a></p>
 
    </main>
 
