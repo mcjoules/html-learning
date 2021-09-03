@@ -26,7 +26,7 @@
     <p>Testing with a <a href="#">dead link</a></p>
 
     <!-- turn an image into a link using dead link href-->
-    <a href="#2"><img src="https://www.bit.ly/fcc-relaxing-cat" alt="cute kitten"></a>
+    <a href="#2"><img src="#" alt="cute kitten"></a>
 
     <!-- unordered list <ul> element-->
     <p><strong>Unordered List - nice things</strong></p>
