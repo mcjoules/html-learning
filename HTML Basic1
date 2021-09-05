@@ -1,88 +1,101 @@
-<!doctype HTML>
+<!DOCTYPE HTML>
 <html> <!--The `<html>` element, the root of an HTML document, should be added after the `!DOCTYPE` declaration.-->
 <body>
-   <main>
+  <main>
 
      <!--<head> element is all the background code that makes the website work-->
-      <head>
-          <title>This is the title.</title>
-      </head>
+    <head>
+      <title>Title element</title>
+    </head>
 		<h3>Hello, World!</h3>
 
-    <!-- testing a comment line with <strong> element -->
-		<p><strong>This is my first test for HTML. I hope it goes well. </strong></p>
+      <!-- testing a comment line with <strong> element -->
+  		<p><strong>Test HTML</strong></p>
 
-    <!--an <anchor> element-->
-    1. <a href="https://www.tumblr.com" target="_blank">Blog Link</a>;
+    <div>
+        <!--an <anchor> element-->
+        1. <a href="https://www.tumblr.com" target="_blank">Blog Link</a>;
 
-    <!--<anchor> element with an internet link, must use with id="value"-->
-		2. <a href="#footer">Internal link - Jump to Footer</a>;
+        <!--<anchor> element with an internet link, must use with id="value"-->
+  		  2. <a href="#footer">Internal link - Jump to Footer</a>;
 
-    <!--an <anchor> element within a <p> element-->
-    3. <span>View <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a></span>;
+        <!--an <anchor> element within a <p> element-->
+        3. <span>View <a href="https://www.freecatphotoapp.com" target="_blank">photos</a></span>;
 
-    <!--a dead link using `#` for JavaScript behaviour-->
-    4. <span>Test <a href="#">dead link</a></span>;
+        <!--a dead link using `#` for JavaScript behaviour-->
+        4. <span>Test <a href="#">dead link</a></span>;
 
-    <!--turn an image into a link using dead link href-->
-    5. <a href="#2"><img src="#" alt="cute kitten"></a>
+        <!--turn an image into a link using dead link href-->
+        5. <a href="#2"><img src="#" alt="cute kitten"></a>
+    </div>
 
-    <!--form element, can best input element inside, need close tag; an input element, provide with type, self-closing; placeholder is displaced in the input element; button element with closing tag, required attribute for the input:text-->
-    <p><strong>Form element</strong></p>
+    <div>
+      <!--form element, can best input element inside, need close tag; an input element, provide with type, self-closing; placeholder is displaced in the input element; button element with closing tag, required attribute for the input:text-->
+      <p><strong>Form element</strong></p>
 
-    <form action="/url-where-to-submit-form-data">
-      <input type="text" placeholder="Text here" required>
-      <button type="submit">Submit</button>
-      <input type="date">
-      <button type="submit">Submit</button>
+      <form action="/url-where-to-submit-form-data">
 
       <!--All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.-->
-      <label for=yes>
-        <input id="yes" type="radio" name="yn"> Yes
-      </label>
-      <label for="no">
-        <input id="no" type="radio" name="yn"> No
-      </label>
+        <label for=indoor>
+          <input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label> <!--value="" for data attribute; checked attribute, default checked-->
+        <label for="outdoor">
+          <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
 
-    </form>
+      <!-- checkbox input element-->
+        <label for="coffee">
+          <input id="coffee" value="coffee" type="checkbox" name="morning" checked> Coffee</label>
+        <label for="breakfast">
+          <input id="breakfast" value="breakfast" type="checkbox" name="morning"> Breakfast</label>
+        <label for="dress">
+          <input id="dress" value="dress" type="checkbox" name="morning"> Dress</label><br>
 
-    <!-- unordered list <ul> element-->
-    <p><strong>Unordered List - nice things</strong></p>
-    <ul>
-      <li>sunshine</li>
-      <li>kibble</li>
-      <li>birds</li>
-      <li>sleep</li>
-    </ul>
+        <input type="date">
+        <input type="text" placeholder="Text here" required> <!--required attribute, required before submit-->
 
-    <!-- ordered list <ol> element -->
-    <p><strong>Ordered List - more nice things</strong></p>
-    <ol>
-      <li>cuddles</li>
-      <li>scratching</li>
-      <li>running water</li>
-      <li>chasing butterfly</li>
-    </ol>
+        <button type="submit">Submit</button>
+
+      </form>
+    </div>
+
+    <div>
+      <!-- unordered list <ul> element-->
+      <p><strong>Unordered List</strong></p>
+      <ul>
+        <li>sunshine</li>
+        <li>kibble</li>
+        <li>birds</li>
+        <li>sleep</li>
+      </ul>
+
+      <!-- ordered list <ol> element -->
+      <p><strong>Ordered List</strong></p>
+      <ol>
+        <li>cuddles</li>
+        <li>scratching</li>
+        <li>running water</li>
+        <li>chasing butterfly</li>
+      </ol>
+    </div>
 
     <p>Credit to <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></p>
 
     <!--`<div>` elements can contain *flow content* such as headings, paragraphs, links, images, etc.-->
-      <div>
-      <p><strong>What is lorem ipsum?</strong></p>
+    <div>
+      <p><strong>Paragraph 1</strong></p>
 	    <p>Lorem ipsum dolor sit amet, est ad partem accusam, mel et eligendi perfecto. Detracto consequat duo no, eu choro prodesset usu, vel ne everti prompta appellantur. At regione adversarium vix, ex modo tollit est. Ullum commune assueverit qui in. Quando utamur vituperata mel eu, modo menandri cu vis.</p>
 
-      <p><strong>Why do we use it?</strong></p>
+      <p><strong>Paragraph 2</strong></p>
       <p>Viris facilis usu ei. Ei vis recteque necessitatibus conclusionemque, et vel lobortis eleifend, placerat menandri praesent nec at. In est facer commodo, te mea detraxit inimicus, mea tempor meliore aliquando ne. Latine sententiae ei pri. Id qui rebum falli elitr, vis at partem animal periculis. Te sea quis abhorreant, cu his animal regione. Ut eos viris semper sapientem, cu sea vituperata interesset. In eum verear saperet cotidieque, graeco mollis vis ne, exerci vituperata at vis. Est enim tollit id. Ex eam mazim euripidis evertitur, docendi vituperata qui eu. Natum dolor moderatius pro et. Id nisl docendi per, quis habemus theophrastus eu nam, mea ut impetus aliquando.</p>
 
-      <p><strong>Where does it come from?</strong></p>
+      <p><strong>Paragraph 3</strong></p>
 	    <p>Id pro atqui eruditi. Ei pro autem solet vivendum. Pro legere suscipiantur te, has aperiri fastidii referrentur ex. Eam nibh illum commune ne. Eam in purto utroque explicari, vel elit dicam qualisque et. Illum fastidii nominati ex pro, at qui diam accusamus, vel primis voluptaria an. Eu per minim delicata, tation insolens expetenda id cum, prima brute iudico sed id. Sed ne vidit postea, ne usu quodsi everti intellegam. His ea vide verear postulant, dicit graecis moderatius eam et.</p>
-      </div>
+    </div>
 
       <p>Credit to <a href="https://www.lipsum.com" target="_blank">lipsum.com</a> and <a href="https://generator.lorem-ipsum.info/" target="_blank">generator.lorem-ipsum.info</a></p>
 
    </main>
 
    <!-- id attribute for the element, uniquely describes an element-->
-   <footer id="footer"> This is a footer </footer>
+   <footer id="footer">Footer element</footer>
 </body>
 </html>
