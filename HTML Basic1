@@ -53,7 +53,6 @@
         <input type="text" placeholder="Text here" required> <!--required attribute, required before submit-->
 
         <button type="submit">Submit</button>
-
       </form>
     </div>
 
