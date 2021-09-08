@@ -12,5 +12,12 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 ### **Progress**
 #### Basic HTML
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*
+Coolest thing I learnt
+```html
+<form action="/url-where-to-submit-form-data">
+  <input type="text" placeholder="Text here" required> <!--required attribute, required before submit-->
+  <button type="submit">Submit</button>
+</form>
+```
 #### Basic CSS
 *style, color, margin*
