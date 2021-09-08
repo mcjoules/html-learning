@@ -10,21 +10,24 @@
       <title>Title element</title>
 
       <!--CSS styling elements-->
-      <!--CSS class for style element, note the class name start with a period-->
+      <!--CSS class for style element, note the class name start with a period, same class can be applied to multiple elements!-->
       <style>
         p {
           color: DarkSlateGrey;
           margin: 0;
+          font-size: 15px;
         }
 
         ul {
           color: GoldenRod;
           margin: 0;
+          font-size: 15px;
         }
 
         ol {
           color: GoldenRod;
           margin:0;
+          font-size: 15px;
         }
 
         .header-text {
@@ -51,7 +54,7 @@
         <span> View <a href="https://www.freecatphotoapp.com" target="_blank">photos</a></span>;
 
         <!--a dead link using `#` for JavaScript behaviour-->
-        <span> Test <a href="#">dead link</a></span>;
+        <span> Test <a href="#" class="header-text">dead link</a></span>;
 
         <!--turn an image into a link using dead link href-->
         <a href="#2"><img src="#" alt="cute kitten"></a>
