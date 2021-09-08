@@ -1,5 +1,3 @@
-[TOC]
-
 # Basic-HTML-learning
 ### <span style="color: Teal;"><strong>HTML learning</strong></span><br>
 // Just trying to learn some basic coding, started with Free Code Camp ^^
