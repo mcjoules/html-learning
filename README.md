@@ -1,5 +1,5 @@
 # Basic-HTML-learning
-<span style="color: Teal;"><strong>HTML learning</strong></span>
+<span style="color: Teal;"><strong>HTML learning</strong></span><br>
 // Just trying to learn some basic coding, started with Free Code Camp ^^
 <b><a href="https://mcjoules.github.io/html-learning" target="_blank" style="color: DarkSeaGreen;">Main Page</a></b>;
 <b><a href="https://mcjoules.github.io/html-learning/htmlbasic" target="_blank" style="color: Teal;"> HTML Build Project</a></b>
@@ -9,7 +9,7 @@
 Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp<a>
 
 ```HTML
-// Progress
+<!--Progress-->
 1. Basic HTML
 2. Basic CSS <started>
 ```
