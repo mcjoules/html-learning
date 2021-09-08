@@ -8,4 +8,4 @@
 
 // Progress
 1. Basic HTML
-2. Basic CSS <started>
+2. Basic CSS [started]
