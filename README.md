@@ -1,7 +1,7 @@
 ### Basic-HTML-learning
 ### <span style="color: Teal;"><strong>HTML learning</strong></span><br>
 // Just trying to learn some basic coding, started with Free Code Camp ^^
-<a href="https://mcjoules.github.io/html-learning" target="_blank" style="color: DarkSeaGreen;">Main Page</a>;
+<a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;
 <a href="https://mcjoules.github.io/html-learning/htmlbasic" target="_blank" style="color: Teal;"> HTML Build Project</a>
 
 // I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the <b>output</b> of my code and experience <b>progress</b> motivates me to continue to learn coding.
