@@ -5,3 +5,7 @@
 <b><a href="https://mcjoules.github.io/html-learning/htmlbasic" target="_blank" style="color: Teal;"> HTML Build Project</a></b>
 
 // I am trying to put what I have learnt into this little web build project, starting from basic HTML tags and elements. Being able to see the output of my code and experience it motivates me to continue to learn coding.
+
+// Progress
+1. Basic HTML
+2. Basic CSS <started>
