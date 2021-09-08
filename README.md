@@ -6,6 +6,10 @@
 
 // I am trying to put what I have learnt into this little web build project, starting from basic HTML tags and elements. Being able to see the output of my code and experience it motivates me to continue to learn coding.
 
+Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp<a>
+
+```HTML
 // Progress
 1. Basic HTML
-2. Basic CSS [started]
+2. Basic CSS <started>
+```
