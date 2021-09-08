@@ -16,7 +16,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 Coolest thing I learnt
 ```html
 <form action="/url-where-to-submit-form-data">
-  <input type="text" placeholder="Text here" required> <!--required attribute, required before submit-->
+  <input type="text" value="textbox" placeholder="Text here" required> <!--required attribute, required before submit-->
   <button type="submit">Submit</button>
 </form>
 ```
