@@ -8,6 +8,6 @@
 
 Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp<a>
 
->**Progress**
+>###**Progress**
 >1. Basic HTML
->2. Basic CSS  
+>2. Basic CSS
