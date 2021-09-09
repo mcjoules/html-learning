@@ -10,7 +10,9 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 
 ---
 ### **Progress**
-#### Basic HTML
+
+<ul>
+<li><b>Basic HTML</b></li>
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*<br>
 <br>
 Coolest thing I learnt: `<form>` element with submit button
@@ -20,7 +22,8 @@ Coolest thing I learnt: `<form>` element with submit button
   <button type="submit">Submit</button> <!--submit button!!!-->
 </form>
 ```
-#### Basic CSS
+<br>
+<li><b>Basic CSS</b></li>
 *style, color, margin, class*<br>
 <br>
 Coolest thing I learnt: CSS `class` attribute
