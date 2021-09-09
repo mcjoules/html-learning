@@ -11,8 +11,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 ---
 ### **Progress**
 
-<details>
-<summary><b>Basic HTML</b></summary>
+#### - Basic HTML ####
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*<br>
 <br>
 Coolest thing I learnt: `<form>` element with submit button
@@ -39,10 +38,8 @@ Things I struggled with: writing in correct HTML structure, understanding the li
   <footer>footer</footer>
 </html>
 ```
-</details>
 
-<details>
-<summary><b>Basic CSS</b></summary>
+#### - Basic CSS ####
 *style, color, margin, class*<br>
 <br>
 Coolest thing I learnt: CSS `class` attribute
@@ -63,4 +60,3 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 Things I struggled with: keeping the class attribute tidy, knowing which tags to apply class attribute
-</details>
