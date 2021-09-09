@@ -33,7 +33,8 @@ Coolest thing I learnt: CSS `class` attribute
   font-family: "Consolas", monaco, monospace;
 }
 ```
-Treasure discovery: `meta`
+Treasure discovery: `meta` responsive web development
+Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">w3schools</a>
 ```html
 <!--meta wonder for mobile devices experience-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
