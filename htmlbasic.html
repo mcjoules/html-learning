@@ -1,17 +1,20 @@
 <!DOCTYPE HTML>
 <html> <!--The `<html>` element, the root of an HTML document, should be added after the `!DOCTYPE` declaration.-->
-<body>
-  <main>
 
    <!--head and style div-->
    <div>
      <!--<head> element is all the background code that makes the website work-->
     <head>
       <title>Title element</title>
-
       <!--CSS styling elements-->
       <!--CSS class for style element, note the class name start with a period, same class can be applied to multiple elements!-->
       <style>
+
+
+        form {
+          font-size: 15px;
+        }
+
         p {
           color: DarkSlateGrey;
           margin: 0;
@@ -33,12 +36,17 @@
         .header-text {
           color: Teal;
         }
+
+        footer {
+          font-size: 14px;
+        }
       </style>
     </head>
    </div>
 
+<body>
 		<h3 id="header"><a href="#header" class="header-text">Hello, World!</a></h3> <!--spell: color, end with ';'-->
-
+ <main>
       <!-- testing a comment line with <strong> element -->
   		<strong>Test HTML</strong>
 
@@ -134,10 +142,9 @@
     </div>
 
       <p>Credit to <a href="https://www.lipsum.com" target="_blank">lipsum.com</a> and <a href="https://generator.lorem-ipsum.info/" target="_blank">generator.lorem-ipsum.info</a></p>
+  </main>
 
-   </main>
-
-   <!-- id attribute for the element, uniquely describes an element-->
-   <footer id="footer">Footer element</footer>
+  <!-- id attribute for the element, uniquely describes an element-->
+  <footer id="footer">Footer element</footer>
 </body>
 </html>
