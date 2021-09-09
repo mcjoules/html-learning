@@ -6,12 +6,21 @@
      <!--<head> element is all the background code that makes the website work-->
     <head>
       <title>Title element</title>
+
+      <!--importing Google Font, add <link> in <head> element-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+
       <!--CSS styling elements-->
       <style>
 
         /* CSS class for style element, note the class name start with a period, same class can be applied to multiple elements! */
-        .all-text {
-          font-family: "Consolas", monaco, monospace;
+        /*Google font-family only available after <link> input in <head>*/
+        .header-text {
+          color: Teal;
+          font-family: 'Major Mono Display', monospace;
         }
 
         form {
@@ -48,12 +57,13 @@
           font-family: "Consolas", monaco, monospace;
         }
 
-        .header-text {
+        .link-text {
           color: Teal;
+          font-size: 15px;
           font-family: "Consolas", monaco, monospace;
         }
 
-        .div1 {
+        .link-div {
           font-size: 15px;
           font-family: "Consolas", monaco, monospace;
         }
@@ -69,27 +79,27 @@
    </div>
 
 <body>
-		<h3 id="header"><a href="#header" class="header-text">Hello, World!</a></h3> <!--spell: color, end with ';'-->
+		<h3 id="header"><a href="#header" class="header-text"><b>Hello, World!</b></a></h3> <!--spell: color, end with ';'-->
  <main>
       <!-- testing a comment line with <strong> element -->
   		<p><strong>Test HTML</strong></p>
 
     <!-- links href element div-->
-    <div class="div1">
+    <div class="link-div">
         <!--an <anchor> element-->
         <a href="https://mcjoules.github.io/html-learning/" target="_blank" style="color: teal;">Blog Link</a>;
 
         <!--<anchor> element with an internet link, must use with id="value"-->
-  		  <a href="#footer"> Internal link - Jump to Footer</a>;
+  		  <a href="#footer" class="link-text"> Internal link - Jump to Footer</a>;
 
         <!--an <anchor> element within a <p> element-->
-        <span> View <a href="https://www.freecatphotoapp.com" target="_blank">photos</a></span>;
+        <span> View <a href="https://www.freecatphotoapp.com" target="_blank" class="link-text">photos</a></span>;
 
         <!--a dead link using `#` for JavaScript behaviour-->
-        <span> Test <a href="#" class="header-text">dead link</a></span>;
+        <span> Test <a href="#" class="link-text">dead link</a></span>;
 
         <!--turn an image into a link using dead link href-->
-        <a href="#2"><img src="#" alt="cute kitten"></a>
+        <a href="#2" class="link-text"><img src="#" alt="cute kitten"></a>
     </div>
     <br>
 
