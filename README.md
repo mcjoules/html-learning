@@ -25,7 +25,7 @@ Coolest thing I learnt: `<form>` element with submit button
 <br>
 Coolest thing I learnt: CSS `class` attribute
 ```css
-<!--CSS style class attribute-->
+/*CSS style class attribute*/
 .class-value {
   color: rgb(80,80,80);
   margin: 0;
