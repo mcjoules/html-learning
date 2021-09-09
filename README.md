@@ -11,7 +11,8 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 ---
 ### **Progress**
 
-#### - Basic HTML
+<details>
+<summary><b>Basic HTML</b></summary>
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*<br>
 <br>
 Coolest thing I learnt: `<form>` element with submit button
@@ -21,8 +22,27 @@ Coolest thing I learnt: `<form>` element with submit button
   <button type="submit">Submit</button> <!--submit button!!!-->
 </form>
 ```
+Things I struggled with: writing in correct HTML structure, understanding the line spacing in certain elements and keeping child of element organised using correct indentation
+```html
+<!doctype HTML>
+<html>
+  <head>
+    <title>title</title>
+    <style>CSS</style>
+  </head>
+  <body>
+    <h1>header</h1>
+    <main>
+      <p>content</p>
+    </main>
+  </body>
+  <footer>footer</footer>
+</html>
+```
+</details>
 
-#### - Basic CSS
+<details>
+<summary><b>Basic CSS</b></summary>
 *style, color, margin, class*<br>
 <br>
 Coolest thing I learnt: CSS `class` attribute
@@ -42,3 +62,5 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
 <!--meta wonder for mobile devices experience-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+Things I struggled with: keeping the class attribute tidy, knowing which tags to apply class attribute
+</details>
