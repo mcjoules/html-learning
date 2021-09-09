@@ -13,7 +13,8 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 
 #### - Basic HTML ####
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*
-<br></br>
+<br/>
+
 **Coolest thing I learnt:** `form` element with submit button
 
   ```html
@@ -45,7 +46,8 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 
 #### - Basic CSS ####
 *style, color, margin, class*
-<br></br>
+<br/>
+
 **Coolest thing I learnt:** CSS `class` attribute, Google-font import
 
   ```css
