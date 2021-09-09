@@ -21,4 +21,20 @@ Coolest thing I learnt: `<form>` element with submit button
 </form>
 ```
 #### Basic CSS
-*style, color, margin, class*
+*style, color, margin, class*<br>
+<br>
+Coolest thing I learnt: CSS `class` attribute
+```css
+<!--CSS style class attribute-->
+.class-value {
+  color: rgb(80,80,80);
+  margin: 0;
+  font-size: 15px;
+  font-family: "Consolas", monaco, monospace;
+}
+```
+Treasure discovery: `meta`
+```html
+<!--meta wonder for mobile devices experience-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
