@@ -42,7 +42,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
       <footer>footer</footer>
     </html>
   ```
-
+<br></br>
 #### - Basic CSS ####
 *style, color, margin, class*<br>
 <br>
