@@ -36,7 +36,7 @@ Coolest thing I learnt: CSS `class` attribute
 }
 ```
 
-Treasure discovery: `meta` responsive web development<br>
+Treasure discovery: `meta` responsive web development - setting viewport <br>
 Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">w3schools</a>
 ```html
 <!--meta wonder for mobile devices experience-->
