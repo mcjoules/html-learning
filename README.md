@@ -30,7 +30,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
     <html>
       <head>
         <title>title</title>
-        <style>CSS</style>
+        <style>/*CSS*/</style>
       </head>
       <body>
         <h1>header</h1>
@@ -46,24 +46,24 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 #### - Basic CSS ####
 *style, color, margin, class*
 <br></br>
-**Coolest thing I learnt:** CSS `class` attribute
+**Coolest thing I learnt:** CSS `class` attribute, Google-font import
 
   ```css
-  /*CSS style class attribute*/
-  .class-value {
-    color: rgb(80,80,80);
-    margin: 0;
-    font-size: 15px;
-    font-family: "Consolas", monaco, monospace;
-  }
+    /*CSS style class attribute*/
+    .class-value {
+      color: rgb(80,80,80);
+      margin: 0;
+      font-size: 15px;
+      font-family: "Consolas", monaco, monospace;
+    }
   ```
 
 **Treasure discovery:** `meta` responsive web development - setting viewport <br>
 Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">w3schools</a>
 
   ```html
-  <!--meta wonder for mobile devices experience-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta wonder for mobile devices experience-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   ```
 
 **Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute
