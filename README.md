@@ -11,7 +11,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 ---
 ### **Progress**
 
-#### Basic HTML
+#### - Basic HTML
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*<br>
 <br>
 Coolest thing I learnt: `<form>` element with submit button
@@ -21,7 +21,8 @@ Coolest thing I learnt: `<form>` element with submit button
   <button type="submit">Submit</button> <!--submit button!!!-->
 </form>
 ```
-#### Basic CSS
+
+#### - Basic CSS
 *style, color, margin, class*<br>
 <br>
 Coolest thing I learnt: CSS `class` attribute
@@ -34,6 +35,7 @@ Coolest thing I learnt: CSS `class` attribute
   font-family: "Consolas", monaco, monospace;
 }
 ```
+
 Treasure discovery: `meta` responsive web development<br>
 Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">w3schools</a>
 ```html
