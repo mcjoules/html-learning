@@ -14,14 +14,15 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 #### - Basic HTML ####
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*<br>
 <br>
-Coolest thing I learnt: `<form>` element with submit button
+
+*Coolest thing I learnt:* `<form>` element with submit button
   ```html
   <form action="/url-where-to-submit-form-data">
     <input type="text" value="textbox" placeholder="Text here" required> <!--required attribute, required before submit-->
     <button type="submit">Submit</button> <!--submit button!!!-->
   </form>
   ```
-Things I struggled with: writing in correct HTML structure, understanding the line spacing in certain elements and keeping child of element organised using correct indentation
+*Things I struggled with:* writing in correct HTML structure, understanding the line spacing in certain elements and keeping child of element organised using correct indentation
   ```html
   <!doctype HTML>
   <html>
@@ -42,7 +43,8 @@ Things I struggled with: writing in correct HTML structure, understanding the li
 #### - Basic CSS ####
 *style, color, margin, class*<br>
 <br>
-Coolest thing I learnt: CSS `class` attribute
+
+*Coolest thing I learnt:* CSS `class` attribute
   ```css
   /*CSS style class attribute*/
   .class-value {
@@ -53,10 +55,10 @@ Coolest thing I learnt: CSS `class` attribute
   }
   ```
 
-Treasure discovery: `meta` responsive web development - setting viewport <br>
+*Treasure discovery:* `meta` responsive web development - setting viewport <br>
 Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">w3schools</a>
   ```html
   <!--meta wonder for mobile devices experience-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   ```
-Things I struggled with: keeping the class attribute tidy, knowing which tags to apply class attribute
+*Things I struggled with:* keeping the class attribute tidy, knowing which tags to apply class attribute
