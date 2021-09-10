@@ -18,9 +18,11 @@
 
         /* CSS class for style element, note the class name start with a period, same class can be applied to multiple elements! */
         /*Google font-family only available after <link> input in <head>*/
+        /*font-family: FAMILY_NAME, GENERIC_NAME; generic_name is a fall back font to specify who the font will degrade when main font is not available. Family names are case-sensitive and best wrapped in quotes, generic names are not case-sensitive*/
         .header-text {
           color: Teal;
           font-family: 'Major Mono Display', monospace;
+          font-style:
         }
 
         form {
@@ -73,6 +75,19 @@
           font-size: 13px;
           font-family: "Consolas", monaco, monospace;
         }
+
+        /*width controls element's width*/
+        .small-img {
+          width: 100px;
+        }
+
+        .border-img {
+          border-color: white;
+          border-width: 2px;
+          border-style: inset;
+          border-radius: 20px;
+        }
+
       </style>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -105,18 +120,19 @@
 
     <!--Form element div-->
     <div>
-      <!--form element, can best input element inside, need close tag; an input element, provide with type, self-closing; placeholder is displaced in the input element; button element with closing tag, required attribute for the input:text-->
+      <!--form element, can place input element inside, need closing tag; an input element, provide with type, self-closing; placeholder is displaced in the input element; button element with closing tag, required attribute for the input:text-->
       <p><b>Form element</b></p>
 
       <form action="/url-where-to-submit-form-data">
 
       <!--All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.-->
         <label for=indoor>
-          <input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label> <!--value="" for data attribute; checked attribute, default checked-->
+          <input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
+          <!--value="" for data attribute; checked attribute, specify on default checked-->
         <label for="outdoor">
           <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
 
-      <!-- checkbox input element-->
+        <!-- checkbox input element-->
         <label for="coffee">
           <input id="coffee" value="coffee" type="checkbox" name="morning" checked> Coffee</label>
         <label for="breakfast">
