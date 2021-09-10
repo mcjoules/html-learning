@@ -18,7 +18,8 @@ Table of Contents
 // I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the <b>output</b> of my code and experience <b>progress</b> motivates me to continue to learn coding.
 
 Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp<a>
-
+<br/>
+<br/>
 ---
 ### <a name="progress"><b>Progress</b></a>
 
