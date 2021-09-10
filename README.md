@@ -9,7 +9,7 @@ Table of Contents
 
 ### <a name="title">Basic-HTML-learning</a>
 ### <a name="introduction"><span style="color: Teal;"><strong>HTML learning Introduction</strong></span></a><br>
-// Just trying to learn some basic coding, started with Free Code Camp ^^
+// Just trying to learn some basic coding, started with Free Code Camp ^^<br>
 <a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;<br>
 <a href="https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html" target="_blank" style="color: Teal;"> HTML Build Project</a>
 
