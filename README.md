@@ -88,7 +88,7 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
 
 **Coolest thing I learn:** Table of Contents
 
-  ```html
+  ```md
   Table of Contents
   =================
   * [Topic](#class-name)
