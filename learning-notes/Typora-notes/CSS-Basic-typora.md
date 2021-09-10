@@ -98,9 +98,7 @@ In addition to specifying common fonts that are found on most operating systems,
 
 [Google Fonts](https://fonts.google.com/) is a free library of web fonts that you can use in your CSS by referencing the font's URL.
 
-So, let's go ahead and import and apply a Google font (note that if Google is blocked in your country, you will need to skip this challenge).
-
-To import a Google Font, you can copy the font's URL from the Google Fonts library and then paste it in your HTML. For this challenge, we'll import the `Lobster` font. To do this, copy the following code snippet and paste it into the top of your code editor (before the opening `style` element):
+To import a Google Font, you can copy the font's URL from the Google Fonts library and then paste it in your HTML. We'll import the `Major Mono Display` font. To do this, copy the following code snippet and paste it into the top of your code editor (before the opening `style` element):
 
 ```html
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -112,14 +110,14 @@ or
 </head>
 ```
 
-Now you can use the `Lobster` font in your CSS by using `Lobster` as the FAMILY_NAME as in the following example:
+You can use the `Major Mono Display` font in your CSS by using `Major Mono Display` as the FAMILY_NAME as in the following example:
 
 ```css
 font-family: FAMILY_NAME, GENERIC_NAME;
 font-family: 'Major Mono Display', monospace;
 ```
 
-The GENERIC_NAME is optional, and is a fallback font in case the other specified font is not available. This is covered in the next challenge.
+The GENERIC_NAME is optional - `monospace`, and is a fallback font in case the other specified font is not available. 
 
 Family names are case-sensitive and need to be wrapped in quotes if there is a space in the name. For example, you need quotes to use the `"Open Sans"` font, but not to use the `Lobster` font.
 
@@ -161,16 +159,14 @@ For example, if we wanted to create a CSS class called `larger-image` that gave 
 
 ### **Add Borders Around Your Elements**
 
-CSS borders have properties like `style`, `color` and `width`.
-
-For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
+CSS borders have properties like `style`, `color` and `width`. For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
 
 ```css
 <style>
   .thin-red-border {
     border-color: red;
     border-width: 5px;
-    border-style: solid;
+    border-style: solid; /*other styles are available*/
     border-radius: 15px;
   }
 </style>
@@ -191,6 +187,17 @@ Remember that you can apply multiple classes to an element using its `class` att
 ### **Add Rounded Corners with border-radius**
 
 You can specify a `border-radius` with pixels. `border-radius` of `10px`.
+
+```css
+<style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px; /*add round corners*/
+  }
+</style>
+```
 
 
 
