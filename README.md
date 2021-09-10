@@ -78,7 +78,8 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   ```
 
-**Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes, Markdown elements for README.md
+**Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes
+<br/>
 <br/>
 
 #### <a name="markdown">Markdown</a> ####
@@ -94,4 +95,4 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
   <a href="class-name">Topic</a>
   ```
 
-**Things I struggle with:** understanding markdown syntax, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
+**Things I struggle with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
