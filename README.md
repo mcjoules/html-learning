@@ -60,7 +60,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 <br/>
 
 #### <a name="basic-css">Basic CSS</a> ####
-*style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}*
+*style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}, background-color*
 <br/>
 
 **Coolest thing I learnt:** CSS `class` attribute, Google-font import

@@ -192,3 +192,14 @@ Remember that you can apply multiple classes to an element using its `class` att
 
 You can specify a `border-radius` with pixels. `border-radius` of `10px`.
 
+
+
+### **Give a Background Color to a div Element**
+
+You can set an element's background color with the `background-color` property. For example, if you wanted an element's background color to be `green`, you'd put this within your `style` element:
+
+```css
+.green-background {
+  background-color: green;
+}
+```
