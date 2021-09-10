@@ -53,7 +53,8 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
       <footer>footer</footer>
     </html>
   ```
-<br/>  
+<br/>
+<br/>
 
 #### <a name="basic-css">Basic CSS</a> ####
 *style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}*
@@ -80,6 +81,7 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
   ```
 
 **Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes
+<br/>
 <br/>
 <br/>
 
