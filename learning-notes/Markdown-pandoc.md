@@ -4,7 +4,7 @@
   [Dropdowns](#dropdowns)  
   [Table of content TOC](#table-of-content-toc)  
   [Empty line break `<br/>`](#empty-line-break-br)  
-  [Italic/ bold/header](#italic-boldheader)
+  [Italic/ bold/ header](#italic-bold-header)
 
 </div>
 
@@ -22,8 +22,6 @@ Guide](https://www.markdownguide.org/cheat-sheet/)
 </details>
 ```
 
-
-
 ### Table of content TOC
 
 ``` markdown
@@ -33,8 +31,6 @@ Table of Contents
   <a href="class-name">Topic</a>
 ```
 
-
-
 ### Empty line break `<br/>`
 
 ``` html
@@ -43,9 +39,7 @@ Table of Contents
 <br/>
 ```
 
-
-
-### Italic/ bold/header
+### Italic/ bold/ header
 
 ``` markdown
 <!--italic-->*Hello*
