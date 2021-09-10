@@ -1,5 +1,5 @@
 ## <a name="title" style="color: Teal;">Basic-HTML-learning</a>
-![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github) ![HTML](https://img.shields.io/badge/HTML-Build-brightgreen)
 ### <a name="introduction"><span><strong>HTML learning Introduction</strong></span></a><br>
 // Just trying to learn some basic coding, started with Free Code Camp ^^<br>
 <a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;<br>
