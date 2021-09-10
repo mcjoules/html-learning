@@ -1,10 +1,11 @@
-Table of Contents
+### Table of Contents
 =================
 
 * [Introduction](#introduction)
 * [Progress](#progress)
     * [Basic HTML](#basic-html)
     * [Basic CSS](#basic-css)
+    * [Markdown](#markdown)
 <br/>
 
 ### <a name="title">Basic-HTML-learning</a>
@@ -54,7 +55,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 <br/>  
 
 #### <a name="basic-css">Basic CSS</a> ####
-*style, color, margin, class*
+*style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}*
 <br/>
 
 **Coolest thing I learnt:** CSS `class` attribute, Google-font import
@@ -78,3 +79,19 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
   ```
 
 **Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes, Markdown elements for README.md
+<br/>
+
+#### <a name="markdown">Markdown</a> ####
+*code box, dropdowns, table of content [TOC], horizontal line,*
+<br/>
+
+**Coolest thing I learn:** Table of Contents
+
+  ```html
+  Table of Contents
+  =================
+  * [Topic](#class-name)
+  <a href="class-name">Topic</a>
+  ```
+
+**Things I struggle with:** understanding markdown syntax, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
