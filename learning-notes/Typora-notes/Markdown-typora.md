@@ -44,3 +44,13 @@ Table of Contents
 <!--h3-->### Hello ###
 ```
 
+
+
+### Making a code fence
+
+~~~markdown
+```html/css/markdown
+	<!--insert code here-->
+```
+~~~
+

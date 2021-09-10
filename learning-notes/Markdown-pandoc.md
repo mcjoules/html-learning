@@ -4,7 +4,8 @@
   [Dropdowns](#dropdowns)  
   [Table of content TOC](#table-of-content-toc)  
   [Empty line break `<br/>`](#empty-line-break-br)  
-  [Italic/ bold/ header](#italic-bold-header)
+  [Italic/ bold/ header](#italic-bold-header)  
+  [Making a code fence](#making-a-code-fence)
 
 </div>
 
@@ -46,3 +47,11 @@ Table of Contents
 <!--bold-->**Hello**
 <!--h3-->### Hello ###
 ```
+
+### Making a code fence
+
+```` markdown
+```html/css/markdown
+	<!--insert code here-->
+```
+````
