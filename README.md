@@ -92,13 +92,17 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
 *code box, dropdowns, table of content [TOC], horizontal line,*
 <br/>
 
-**Coolest thing I learn:** Table of Contents
+**Coolest thing I learn:** Table of Contents, shied.io badge ![shields.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=%3Cbrightgreen%3E&logo=Shields.io)
 
-  ```md
+  ```markdown
   Table of Contents
   =================
   * [Topic](#class-name)
   <a href="class-name">Topic</a>
   ```
 
+  ```markdown
+  <!--https://shields.io/-->
+  ![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
+  ```
 **Things I struggle with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
