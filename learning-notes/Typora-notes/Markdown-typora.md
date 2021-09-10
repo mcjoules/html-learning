@@ -15,8 +15,6 @@
 
 
 
-
-
 ### Table of content TOC
 
 ```markdown
@@ -25,8 +23,6 @@ Table of Contents
   * [Topic](#class-name)
   <a href="class-name">Topic</a>
 ```
-
-
 
 
 
@@ -40,9 +36,7 @@ Table of Contents
 
 
 
-
-
-### Italic/ bold/header
+### Italic/ bold/ header
 
 ```markdown
 <!--italic-->*Hello*
