@@ -1,18 +1,12 @@
----
-Hello
----
-
 [TOC]
 
 # CSS Basic
 
-### Meta for setting Viewport for mobile device
+### **Meta for setting Viewport for mobile device**
 
 [Responsive Web Design Viewport (w3schools.com)](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
-HTML5 introduced a method to let web designers take control over the viewport, through the `<meta>` tag.
-
-You should include the following `<meta>` viewport element in all your web pages:
+HTML5 introduced a method to let web designers take control over the viewport, through the `<meta>` tag. You should include the following `<meta>` viewport element in all your web pages:
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

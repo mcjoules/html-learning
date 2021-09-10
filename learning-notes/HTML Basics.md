@@ -1,7 +1,3 @@
----
-
----
-
 [TOC]
 
 # Responsive Web Design
