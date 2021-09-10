@@ -22,7 +22,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 ### <a name="progress"><b>Progress</b></a>
 
 #### <a name="basic-html">Basic HTML</a> ####
-*h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*
+*h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br, align*
 <br/>
 
 **Coolest thing I learnt:** `form` element with submit button
