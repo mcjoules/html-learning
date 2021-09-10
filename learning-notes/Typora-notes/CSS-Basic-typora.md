@@ -80,9 +80,7 @@ h1 {
 
 ### **Set the Font Family of an Element**
 
-You can set which font an element should use, by using the `font-family` property.
-
-For example, if you wanted to set your `h2` element's font to `sans-serif`, you would use the following CSS:
+You can set which font an element should use, by using the `font-family` property. For example, if you wanted to set your `h2` element's font to `sans-serif`, you would use the following CSS:
 
 ```css
 h2 {
@@ -125,9 +123,7 @@ Family names are case-sensitive and need to be wrapped in quotes if there is a s
 
 ### **Specify How Fonts Should Degrade**
 
-There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`.
-
-When one font isn't available, you can tell the browser to "degrade" to another font.
+There are several default fonts that are available in all browsers. These generic font families include `monospace`, `serif` and `sans-serif`. When one font isn't available, you can tell the browser to "degrade" to another font.
 
 For example, if you wanted an element to use the `Helvetica` font, but degrade to the `sans-serif` font when `Helvetica` isn't available, you will specify it as follows:
 
@@ -143,9 +139,7 @@ Generic font family names are not case-sensitive. Also, they do not need quotes 
 
 ### **Size Your Images**
 
-CSS has a property called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width.
-
-For example, if we wanted to create a CSS class called `larger-image` that gave HTML elements a width of 500 pixels, we'd use:
+CSS has a property called `width` that controls an element's width. Just like with fonts, we'll use `px` (pixels) to specify the image's width. For example, if we wanted to create a CSS class called `larger-image` that gave HTML elements a width of 500 pixels, we'd use:
 
 ```css
 <style>

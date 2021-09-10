@@ -54,3 +54,10 @@ Table of Contents
 ```
 ~~~
 
+
+
+### Adding a shield.io badge
+
+[GitHub: How to add Shields | Easy, visible info on your projects - YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)
+[Shields.io: Quality metadata badges for open source projects](https://shields.io/#your-badge)
+

@@ -54,9 +54,7 @@ These tags give a descriptive structure to your HTML, make your HTML easier to r
 </main>
 ```
 
-You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute.
-
-Note that `img` elements are self-closing. All `img` elements **must** have an `alt` attribute. The text inside an `alt` attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+You can add images to your website by using the `img` element, and point to a specific image's URL using the `src` attribute. Note that `img` elements are self-closing. All `img` elements **must** have an `alt` attribute. The text inside an `alt` attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
 
 **Note:** If the image is purely decorative, using an empty `alt` attribute is a best practice. Ideally the `alt` attribute should not contain special characters unless needed.
 
@@ -88,7 +86,6 @@ Below is an example of an internal anchor link and its target element:
 ```
 
 When users click the `Contacts` link, they'll be taken to the section of the webpage with the **Contacts** header element.
-
 `#` create an internal link, `target="_blank"` cause it to open a new window tab
 
 ```html
@@ -264,10 +261,6 @@ Here's an example submit button: put it within the form element
 ```html
 <button type="submit">Submit</button>
 ```
-
-------
-
-Add a button as the last element of your `form` element with a type of `submit`, and `Submit` as its text.
 
 
 
