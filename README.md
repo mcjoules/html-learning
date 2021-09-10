@@ -68,4 +68,4 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   ```
 
-**Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute and Markdown elements for README.md
+**Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes, Markdown elements for README.md
