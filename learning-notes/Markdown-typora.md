@@ -1,48 +1,52 @@
-<div id="toc">
-
-[Markdown](#markdown)  
-  [Dropdowns](#dropdowns)  
-  [Table of content TOC](#table-of-content-toc)  
-  [Empty line break `<br/>`](#empty-line-break-br)  
-  [Italic/ bold/header](#italic-boldheader)
-
-</div>
+[TOC]
 
 # Markdown
 
-[Markdown Cheat Sheet \| Markdown
-Guide](https://www.markdownguide.org/cheat-sheet/)
+[Markdown Cheat Sheet | Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
 ### Dropdowns
 
-``` markdown
+```markdown
 <details>
 	<summary>Topic</summary>
 	This text will be hidden.
 </details>
 ```
 
+
+
+
+
 ### Table of content TOC
 
-``` markdown
+```markdown
 Table of Contents
 =================
   * [Topic](#class-name)
   <a href="class-name">Topic</a>
 ```
 
+
+
+
+
 ### Empty line break `<br/>`
 
-``` html
+```html
 <!--sometimes an empty line break is required, so <br/> does not affect other syntax/elements in markdown-->
 <br/>
 <br/>
 ```
 
+
+
+
+
 ### Italic/ bold/header
 
-``` markdown
+```markdown
 <!--italic-->*Hello*
 <!--bold-->**Hello**
 <!--h3-->### Hello ###
 ```
+
