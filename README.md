@@ -1,16 +1,6 @@
-Table of Contents
-=================
-
-* [Introduction](#introduction)
-* [Progress](#progress)
-    * [Basic HTML](#basic-html)
-    * [Basic CSS](#basic-css)
-    * [Markdown](#markdown)
-<br/>
-<br/>
-
-### <a name="title">Basic-HTML-learning</a>
-### <a name="introduction"><span style="color: Teal;"><strong>HTML learning Introduction</strong></span></a><br>
+## <a name="title" style="color: Teal;">Basic-HTML-learning</a>
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
+### <a name="introduction"><span><strong>HTML learning Introduction</strong></span></a><br>
 // Just trying to learn some basic coding, started with Free Code Camp ^^<br>
 <a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;<br>
 <a href="https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html" target="_blank" style="color: Teal;"> HTML Build Project</a>
@@ -20,7 +10,17 @@ Table of Contents
 Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp<a>
 
 <br/>
+
+<h3>Table of Contents</h3>
+
+* [Introduction](#introduction)
+* [Progress](#progress)
+    * [Basic HTML](#basic-html)
+    * [Basic CSS](#basic-css)
+    * [Markdown](#markdown)
 <br/>
+<br/>
+
 
 ---
 ### <a name="progress"><b>Progress</b></a>
