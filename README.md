@@ -1,5 +1,5 @@
 ## <a name="title" style="color: Teal;">Basic-HTML-learning</a>
-![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github) ![HTML](https://img.shields.io/badge/HTML-Build-brightgreen)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github) ![HTML](https://img.shields.io/static/v1?label=HTML&message=build&color=%3Cbrightgreen%3E&logo=HTML5) ![CSS](https://img.shields.io/static/v1?label=CSS&message=build&color=%3Cbrightgreen%3E&logo=CSS3) ![Markdown](https://img.shields.io/static/v1?label=Markdown&message=build&color=%3Cbrightgreen%3E&logo=Markdown)
 ### <a name="introduction"><span><strong>HTML learning Introduction</strong></span></a><br>
 // Just trying to learn some basic coding, started with Free Code Camp ^^<br>
 <a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;<br>
@@ -89,16 +89,23 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
 <br/>
 
 #### <a name="markdown">Markdown</a> ####
-*code box, dropdowns, table of content [TOC], horizontal line,*
+*code box, dropdowns, table of content [TOC], horizontal line, shield.io badge*
 <br/>
 
-**Coolest thing I learn:** Table of Contents
+**Coolest thing I learn:** Table of Contents 
 
-  ```md
+  ```markdown
   Table of Contents
   =================
   * [Topic](#class-name)
   <a href="class-name">Topic</a>
   ```
 
+**Treasure discovery:** shied.io badge ![shields.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=%3Cbrightgreen%3E&logo=Shields.io)
+  
+   ```markdown
+  <!--https://shields.io/-->
+  ![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
+  ```
+   
 **Things I struggle with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
