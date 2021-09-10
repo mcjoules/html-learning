@@ -20,7 +20,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 ---
 ### <a name="progress"><b>Progress</b></a>
 
-#### <a name="basic-html">- Basic HTML</a> ####
+#### <a name="basic-html">Basic HTML</a> ####
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br*
 <br/>
 
@@ -53,7 +53,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
   ```
 <br/>  
 
-#### <a name="basic-css">- Basic CSS</a> ####
+#### <a name="basic-css">Basic CSS</a> ####
 *style, color, margin, class*
 <br/>
 
