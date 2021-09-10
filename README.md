@@ -89,7 +89,7 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
 <br/>
 
 #### <a name="markdown">Markdown</a> ####
-*code box, dropdowns, table of content [TOC], horizontal line,*
+*code box, dropdowns, table of content [TOC], horizontal line, shield.io badge*
 <br/>
 
 **Coolest thing I learn:** Table of Contents, shied.io badge ![shields.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=%3Cbrightgreen%3E&logo=Shields.io)
