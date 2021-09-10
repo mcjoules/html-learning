@@ -5,7 +5,7 @@ Table of Contents
 * [Progress](#progress)
     * [Basic HTML](#basic-html)
     * [Basic CSS](#basic-css)
-    
+
 
 ### <a name="title">Basic-HTML-learning</a>
 ### <a name="introduction"><span style="color: Teal;"><strong>HTML learning Introduction</strong></span></a><br>
@@ -53,7 +53,7 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
   ```
 <br/>  
 
-#### <a name"basic-css">- Basic CSS</a> ####
+#### <a name="basic-css">- Basic CSS</a> ####
 *style, color, margin, class*
 <br/>
 
