@@ -74,7 +74,7 @@ You can use `a` (*anchor*) elements to link to content outside of your web page.
 
 
 
-### **Link to Internal Sections of a Page with Anchor Elements**
+### Link to Internal Sections of a Page with Anchor Elements
 
 `a` (*anchor*) elements can also be used to create internal links to jump to different sections within a webpage.
 
@@ -170,7 +170,7 @@ The `<html>` element, the root of an HTML document, should be added after the `!
 
 
 
-### **Make Dead Links Using the Hash Symbol**
+### Make Dead Links Using the Hash Symbol
 
 Add `a` elements to your website before you know where they will link. This is also handy when you're changing the behaviour of a link using `JavaScript`. For example: `href="#"`
 
@@ -181,7 +181,7 @@ Add `a` elements to your website before you know where they will link. This is a
 
 
 
-### **Turn an Image into a Link** `with a dead link`
+### Turn an Image into a Link `with a dead link`
 
 You can make elements into links by nesting them within an `a` element. Nest your image within an `a` element. Here's an example:
 
@@ -193,7 +193,7 @@ Remember to use `#` as your `a` element's `href` property in order to turn it in
 
 
 
-### **Create a Bulleted Unordered List**
+### Create a Bulleted Unordered List
 
 HTML has a special element for creating unordered lists, or bullet point style lists. Unordered lists start with an opening `<ul>` element, followed by any number of `<li>` elements. Finally, unordered lists close with a `</ul>`. For example:
 
@@ -206,7 +206,7 @@ HTML has a special element for creating unordered lists, or bullet point style l
 
 
 
-### **Create an Ordered List**
+### Create an Ordered List
 
 HTML has another special element for creating ordered lists, or numbered lists. Ordered lists start with an opening `<ol>` element, followed by any number of `<li>` elements. Finally, ordered lists are closed with the `</ol>` tag. For example:
 
@@ -235,7 +235,7 @@ Note that `input` elements are self-closing.
 
 
 
-### **Add Placeholder Text to a Text Field**
+### Add Placeholder Text to a Text Field
 
 Placeholder text is what is displayed in your `input` element before your user has inputted anything. You can create placeholder text like so:
 
@@ -245,7 +245,7 @@ Placeholder text is what is displayed in your `input` element before your user h
 
 
 
-### **Create a Form Element**
+### Create a Form Element
 
 `form` element. For example:
 
@@ -257,7 +257,7 @@ Placeholder text is what is displayed in your `input` element before your user h
 
 
 
-### **Add a Submit Button to a Form**
+### Add a Submit Button to a Form
 
 Here's an example submit button: put it within the form element
 
@@ -271,7 +271,7 @@ Add a button as the last element of your `form` element with a type of `submit`,
 
 
 
-### **Use HTML5 to Require a Field**
+### Use HTML5 to Require a Field
 
 ```html
 <form action="/url-where-to-submit-form-data">
@@ -284,7 +284,7 @@ For example, if you wanted to make a text input field required, you can just add
 
 
 
-### **Create a Set of Radio Buttons**
+### Create a Set of Radio Buttons
 
 ```html
 <!--Radio buttons-->
@@ -310,7 +310,7 @@ For example, if you wanted to make a text input field required, you can just add
 
 
 
-### **Use the value attribute with Radio Buttons and Checkboxes**
+### Use the value attribute with Radio Buttons and Checkboxes
 
 When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type `radio` and `checkbox` report their values from the `value` attribute. For example:
 
@@ -323,7 +323,7 @@ When a form gets submitted, the data is sent to the server and includes entries 
 
 
 
-**Check Radio Buttons and Checkboxes by Default**
+### Check Radio Buttons and Checkboxes by Default
 
 You can set a checkbox or radio button to be checked by default using the `checked` attribute. To do this, just add the word `checked` to the inside of an input element. For example:
 
@@ -333,14 +333,14 @@ You can set a checkbox or radio button to be checked by default using the `check
 
 
 
-### **Nest Many Elements within a Single div Element**
+### Nest Many Elements within a Single div Element
 
 The `div` element, also known as a division element, is a general purpose container for other elements.
 The `div` element is probably the most commonly used HTML element of all.
 
 
 
-### **Declare the Doctype of an HTML Document**
+### Declare the Doctype of an HTML Document
 
 At the top of your document, you need to tell the browser which version of HTML your page is using. HTML is an evolving language, and is updated regularly. Most major browsers support the latest specification, which is HTML5. However, older web pages may use previous versions of the language.
 
@@ -360,7 +360,7 @@ Here's an example of the page structure. Your HTML code would go in the space be
 
 
 
-### **Define the Head and Body of an HTML Document**
+### Define the Head and Body of an HTML Document
 
 You can add another level of organization in your HTML document within the `html` tags with the `head` and `body` elements. Any markup with information about your page would go into the `head` tag. Then any markup with the content of the page (what displays for a user) would go into the `body` tag.
 
