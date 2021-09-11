@@ -1,4 +1,4 @@
-<h3><a name="title" style="color: white;"><b>Basic-HTML-learning</b></a></h3>
+<h3><a name="title" style="color: Teal;"><b>Basic-HTML-learning</b></a></h3>
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=github)
 ![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
