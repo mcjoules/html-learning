@@ -1,10 +1,10 @@
-<h3><a name="title" style="color: Teal;">Basic-HTML-learning</a></h3>
+<h3><a name="title" style="color: white;"><b>Basic-HTML-learning</b></a></h3>
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=purple&logo=github)
-![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=purple&include_prereleases&logo=Github)
-![HTML](https://img.shields.io/static/v1?label=HTML&message=build&color=%3Cbrightgreen%3E&logo=HTML5)
-![CSS](https://img.shields.io/static/v1?label=CSS&message=build&color=%3Cbrightgreen%3E&logo=CSS3)
-![Markdown](https://img.shields.io/static/v1?label=Markdown&message=build&color=%3Cbrightgreen%3E&logo=Markdown)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=github)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
+![HTML](https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5)
+![CSS](https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3)
+![Markdown](https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown)
 ![Atom](https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom)
 ![Typora](https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo=)
 ![freeCodeCamp](https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp)
