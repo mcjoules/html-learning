@@ -384,3 +384,32 @@ Here's an example of a page's layout:
 <p align="justify">paragraph</p>
 ```
 
+
+
+### Adding a shield.io badge 
+
+![name](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io)
+[GitHub: How to add Shields | Easy, visible info on your projects - YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)
+[Shields.io: Quality metadata badges for open source projects](https://shields.io/#your-badge)
+
+Study the web link address carefully, input in place of <input> and remove the <> as well. Select the categories in the shields.io website for interactive, dynamic badges linked to GitHub
+
+**Markdown:**
+
+```markdown
+<!--https://shields.io/--> <!--Markdown-->
+![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
+```
+
+**HTML:**
+
+```html
+<!--https://shields.io/--> <!--HTML-->
+<img alt="alt-text" src="https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>">
+
+<!--to make the badge into a link using anchor href-->
+<a href="https://atom.io/" target="_blank"><img alt="Atom shields.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
+```
+
+**Activity: version**
+Click on the categories, e.g. activity, version is the release version tag e.g. `v1.0.0`, shield.io will automatically check if the version exist or not.

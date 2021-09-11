@@ -80,7 +80,10 @@ for interactive, dynamic badges linked to GitHub
 
 ``` html
 <!--https://shields.io/--> <!--HTML-->
-<img alt="alt-text" src="https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>"> 
+<img alt="alt-text" src="https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>">
+
+<!--to make the badge into a link using anchor href-->
+<a href="https://atom.io/" target="_blank"><img alt="Atom shields.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
 ```
 
 **Activity: version**  

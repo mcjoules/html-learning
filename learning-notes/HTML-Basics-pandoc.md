@@ -37,7 +37,8 @@ Element](#nest-many-elements-within-a-single-div-element)
 Document](#declare-the-doctype-of-an-html-document)  
   [Define the Head and Body of an HTML
 Document](#define-the-head-and-body-of-an-html-document)  
-  [Align text](#align-text)
+  [Align text](#align-text)  
+  [Adding a shield.io badge ](#adding-a-shieldio-badge)
 
 </div>
 
@@ -102,12 +103,10 @@ developers find the main content of your page.
 ```
 
 You can add images to your website by using the `img` element, and point
-to a specific image's URL using the `src` attribute.
-
-Note that `img` elements are self-closing. All `img` elements **must**
-have an `alt` attribute. The text inside an `alt` attribute is used for
-screen readers to improve accessibility and is displayed if the image
-fails to load.
+to a specific image's URL using the `src` attribute. Note that `img`
+elements are self-closing. All `img` elements **must** have an `alt`
+attribute. The text inside an `alt` attribute is used for screen readers
+to improve accessibility and is displayed if the image fails to load.
 
 **Note:** If the image is purely decorative, using an empty `alt`
 attribute is a best practice. Ideally the `alt` attribute should not
@@ -146,8 +145,7 @@ Below is an example of an internal anchor link and its target element:
 ```
 
 When users click the `Contacts` link, they'll be taken to the section of
-the webpage with the **Contacts** header element.
-
+the webpage with the **Contacts** header element.  
 `#` create an internal link, `target="_blank"` cause it to open a new
 window tab
 
@@ -329,11 +327,6 @@ Here's an example submit button: put it within the form element
 <button type="submit">Submit</button>
 ```
 
-------------------------------------------------------------------------
-
-Add a button as the last element of your `form` element with a type of
-`submit`, and `Submit` as its text.
-
 ### Use HTML5 to Require a Field
 
 ``` html
@@ -461,3 +454,37 @@ Here's an example of a page's layout:
 ``` html
 <p align="justify">paragraph</p>
 ```
+
+### Adding a shield.io badge 
+
+![](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
+[GitHub: How to add Shields \| Easy, visible info on your projects -
+YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)  
+[Shields.io: Quality metadata badges for open source
+projects](https://shields.io/#your-badge)
+
+Study the web link address carefully, input in place of <input> and
+remove the \<\> as well. Select the categories in the shields.io website
+for interactive, dynamic badges linked to GitHub
+
+**Markdown:**
+
+``` markdown
+<!--https://shields.io/--> <!--Markdown-->
+![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
+```
+
+**HTML:**
+
+``` html
+<!--https://shields.io/--> <!--HTML-->
+<img alt="alt-text" src="https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>">
+
+<!--to make the badge into a link using anchor href-->
+<a href="https://atom.io/" target="_blank"><img alt="Atom shields.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
+```
+
+**Activity: version**  
+Click on the categories, e.g. activity, version is the release version
+tag e.g. `v1.0.0`, shield.io will automatically check if the version
+exist or not.
