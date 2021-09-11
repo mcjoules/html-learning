@@ -6,7 +6,9 @@
   [Empty line break `<br/>`](#empty-line-break-br)  
   [Italic/ bold/ header](#italic-bold-header)  
   [Making a code fence](#making-a-code-fence)  
-  [Adding a shield.io badge ](#adding-a-shieldio-badge)
+  [Adding a shield.io badge ](#adding-a-shieldio-badge)  
+  [Transfer Typora TOC onto GitHub
+README.md](#transfer-typora-toc-onto-github-readmemd)
 
 </div>
 
@@ -90,3 +92,20 @@ for interactive, dynamic badges linked to GitHub
 Click on the categories, e.g. activity, version is the release version
 tag e.g. `v1.0.0`, shield.io will automatically check if the version
 exist or not.
+
+### Transfer Typora TOC onto GitHub README.md
+
+GitHub markdown uses **pandoc** markdown which differs from Typora
+markdown. To turn the **Typora** markdown table of content TOC into
+functional TOC in GitHub, we need to export the Typora file as
+**Markdown (other spec)**.
+
+1 - Go to **File \> Preferences \> Export**  
+2 - Add export type as **Markdown (other spec) \> variant:
+GitHub-flavored markdown**  
+3 - Install **pandoc** as instructed  
+4 - Restart **PC? or Typora**  
+5 - Export your **Typora** file: **File \> Export \> Markdown (other
+spec)**  
+6 - Your new file should have TOC that works in GitHub README.md/ GitHub
+markdown
