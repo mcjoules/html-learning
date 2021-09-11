@@ -5,7 +5,7 @@
 ![HTML](https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5)
 ![CSS](https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3)
 ![Markdown](https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown)
-![Atom](https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom)
+![Atom](https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom&link=https://atom.io/)
 ![VS Code](https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code)
 ![Typora](https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo=)
 ![freeCodeCamp](https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp)
