@@ -2,227 +2,237 @@
 <html> <!--The `<html>` element, the root of an HTML document, should be added after the `!DOCTYPE` declaration.-->
 
    <!--head and style div-->
-   <div>
-     <!--<head> element is all the background code that makes the website work-->
-    <head>
-      <title>Title element</title>
+    <div class="head-div">
+      <!--<head> element is all the background code that makes the website work-->
+      <head>
+        <title>Title element</title>
 
-      <!--importing Google Font, add <link> in <head> element-->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+          <div class="font-import-div">
+            <!--importing Google Font, add <link> in <head> element-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+          </div>
 
+        <!--CSS styling elements-->
+        <style>
 
-      <!--CSS styling elements-->
-      <style>
+          /* CSS class for style element, note the class name start with a period, same class can be applied to multiple elements! */
+          /*Google font-family only available after <link> input in <head>*/
+          /*font-family: FAMILY_NAME, GENERIC_NAME; generic_name is a fall back font to specify who the font will degrade when main font is not available. Family names are case-sensitive and best wrapped in quotes, generic names are not case-sensitive*/
+          .header-text {
+            color: Teal;
+            font-family: 'Major Mono Display', monospace;
+            font-style: normal;
+          }
 
-        /* CSS class for style element, note the class name start with a period, same class can be applied to multiple elements! */
-        /*Google font-family only available after <link> input in <head>*/
-        /*font-family: FAMILY_NAME, GENERIC_NAME; generic_name is a fall back font to specify who the font will degrade when main font is not available. Family names are case-sensitive and best wrapped in quotes, generic names are not case-sensitive*/
-        .header-text {
-          color: Teal;
-          font-family: 'Major Mono Display', monospace;
-          font-style: normal;
-        }
+          form {
+            color: rgb(80,80,80);
+            font-size: 15px;
+            font-family: "Consolas", monaco, monospace;
 
-        form {
-          color: rgb(80,80,80);
-          font-size: 15px;
-          font-family: "Consolas", monaco, monospace;
+          }
 
-        }
+          p {
+            color: rgb(80,80,80);
+            margin: 0;
+            font-size: 15px;
+            font-family: "Consolas", monaco, monospace;
+          }
 
-        p {
-          color: rgb(80,80,80);
-          margin: 0;
-          font-size: 15px;
-          font-family: "Consolas", monaco, monospace;
-        }
+          span {
+            color: rgb(80,80,80);
+            font-size: 15px;
+            font-family: "Consolas", monaco, monospace;
+          }
 
-        span {
-          color: rgb(80,80,80);
-          font-size: 15px;
-          font-family: "Consolas", monaco, monospace;
-        }
+          ul {
+            color: GoldenRod;
+            margin: 0;
+            font-size: 15px;
+            font-family: "Consolas", monaco, monospace;
+          }
 
-        ul {
-          color: GoldenRod;
-          margin: 0;
-          font-size: 15px;
-          font-family: "Consolas", monaco, monospace;
-        }
+          ol {
+            color: GoldenRod;
+            margin: 0;
+            font-size: 15px;
+            font-family: "Consolas", monaco, monospace;
+          }
 
-        ol {
-          color: GoldenRod;
-          margin: 0;
-          font-size: 15px;
-          font-family: "Consolas", monaco, monospace;
-        }
+          .link-text {
+            color: Teal;
+            font-size: 15px;
+            font-family: "Consolas", monaco, monospace;
+          }
 
-        .link-text {
-          color: Teal;
-          font-size: 15px;
-          font-family: "Consolas", monaco, monospace;
-        }
+          .link-div {
+            font-size: 15px;
+            font-family: "Consolas", monaco, monospace;
+          }
 
-        .link-div {
-          font-size: 15px;
-          font-family: "Consolas", monaco, monospace;
-        }
+          footer {
+            color: rgb(80,80,80);
+            font-size: 13px;
+            font-family: "Consolas", monaco, monospace;
+          }
 
-        footer {
-          color: rgb(80,80,80);
-          font-size: 13px;
-          font-family: "Consolas", monaco, monospace;
-        }
+          /*width controls element's width*/
+          .small-img {
+            width: 100px;
+            height: 100px;
+          }
 
-        /*width controls element's width*/
-        .small-img {
-          width: 100px;
-          height: 100px;
-        }
+          .border-img {
+            border-color: white;
+            border-width: 2px;
+            border-style: inherit;
+            border-radius: 20px;
+          }
 
-        .border-img {
-          border-color: white;
-          border-width: 2px;
-          border-style: inherit;
-          border-radius: 20px;
-        }
+          .background-a {
+            background-color: white;
+          }
 
-        .background-a {
-          background-color: white;
-        }
+        </style>
 
-      </style>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-   </div>
+        <!--meta element to set viewport for better mobile device viewing-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body>
-		<h3 id="header"><a href="#header" class="header-text"><b>Hello, World!</b></a></h3> <!--spell: color, end with ';'-->
-
-    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=github">
-    <img alt="GitHub commits since latest release (by date including pre-releases)" src="https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=github">
-    <a href="https://html.spec.whatwg.org/" target="_blank"><img alt="HTML shield.io" src="https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5"></a>
-    <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img alt="CSS shield.io" src="https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3"></a>
-    <a href="https://daringfireball.net/projects/markdown/" target="_blank"><img alt="Markdown shield.io" src="https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown"></a>
-    <a href="https://atom.io/" target="_blank"><img alt="Atom shield.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
-    <a href="https://code.visualstudio.com/" target="_blank"><img alt="VS Code shield.io" src="https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code"></a>
-    <a href="https://typora.io/" target="_blank"><img alt="Typora shield.io" src="https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo="></a>
-    <a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp shield.io" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp"></a>
-    <a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shield.io" src="https://img.shields.io/static/v1?label=Codecademy&message=course&color=yellow&logo=Codecademy"></a>
-
-    <br></br>
-
- <main>
-      <!-- testing a comment line with <strong> element -->
-  		<p><strong>Test HTML</strong></p>
-
-    <!-- links href element div-->
-    <div class="link-div">
-        <!--an <anchor> element-->
-        <a href="https://mcjoules.github.io/html-learning/" target="_blank" style="color: teal;">Main</a>;
-
-        <!--<anchor> element with an internet link, must use with id="value"-->
-  		  <a href="#footer" class="link-text"> Internal link - Jump to Footer</a>;
-
-        <!--an <anchor> element within a <p> element-->
-        <span> View <a href="https://unsplash.com/photos/7uXn7nudorc" target="_blank" class="link-text">photo</a></span>;
-
-        <!--a dead link using `#` for JavaScript behaviour-->
-        <span> Test <a href="#" class="link-text">`#` link</a></span>;
-
-        <!--turn an image into a link using anchor href, alt shows when link is not available-->
-        <a href="#2" class="link-text"><img src="#" alt="alt-text"></a>
-    </div>
-    <br></br>
-
-     <!--img element, self-closing, multiple CSS classes can be used with space between -->
-     <a href="https://unsplash.com/photos/7uXn7nudorc" class="link-text"><img class="small-img border-img" src="https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=674&q=80" alt="beach image from https://unsplash.com/photos/7uXn7nudorc by @hermansyah"></a>
-
-     <p>Credit to <a href="https://unsplash.com/photos/7uXn7nudorc" target="_blank" class="link-text">unsplash</a> and <a href="https://unsplash.com/@hermansyah" target="_blank" class="link-text">@hermansyah</a>
-
-     <br></br>
-
-    <!--Form element div-->
-    <div>
-      <!--form element, can place input element inside, need closing tag; an input element, provide with type, self-closing; placeholder is displaced in the input element; button element with closing tag, required attribute for the input:text-->
-      <p><b>Form element</b></p>
-
-      <form action="/url-where-to-submit-form-data">
-
-      <!--All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.-->
-        <label for=indoor>
-          <input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
-          <!--value="" for data attribute; checked attribute, specify on default checked-->
-        <label for="outdoor">
-          <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
-
-        <!-- checkbox input element-->
-        <label for="coffee">
-          <input id="coffee" value="coffee" type="checkbox" name="morning" checked> Coffee</label>
-        <label for="breakfast">
-          <input id="breakfast" value="breakfast" type="checkbox" name="morning"> Breakfast</label>
-        <label for="dress">
-          <input id="dress" value="dress" type="checkbox" name="morning"> Dress</label><br>
-
-        <input type="date" value="date">
-        <input type="text" value="textbox" placeholder="Text here" required> <!--required attribute, required before submit-->
-
-        <button type="submit">Submit</button>
-      </form>
-      <br>
+      </head>
     </div>
 
-    <!--list element div-->
-    <div>
-      <!-- unordered list <ul> element-->
-      <p><i><b>Unordered List</b></i></p>
-      <ul>
-        <li>sunshine</li>
-        <li>kibble</li>
-        <li>birds</li>
-        <li>sleep</li>
-      </ul>
-      <br>
+    <body>
+        <h3 id="header"><a href="#header" class="header-text"><b>Hello, World!</b></a></h3> <!--spell: color, end with ';'-->
 
-      <!-- ordered list <ol> element -->
-      <p><i><b>Ordered List</b></i></p>
-      <ol>
-        <li>cuddles</li>
-        <li>scratching</li>
-        <li>running water</li>
-        <li>chasing butterfly</li>
-      </ol>
-      <br>
-    </div>
+          <div class="badge-div"> <!--shields.io badges here-->
+            <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=github">
+            <img alt="GitHub commits since latest release (by date including pre-releases)" src="https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=github">
+            <a href="https://html.spec.whatwg.org/" target="_blank"><img alt="HTML shields.io" src="https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5"></a>
+            <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img alt="CSS shields.io" src="https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3"></a>
+            <a href="https://daringfireball.net/projects/markdown/" target="_blank"><img alt="Markdown shields.io" src="https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown"></a>
+            <a href="https://atom.io/" target="_blank"><img alt="Atom shields.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
+            <a href="https://code.visualstudio.com/" target="_blank"><img alt="VS Code shields.io" src="https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code"></a>
+            <a href="https://typora.io/" target="_blank"><img alt="Typora shields.io" src="https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo="></a>
+            <a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp shields.io" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp"></a>
+            <a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shields.io" src="https://img.shields.io/static/v1?label=Codecademy&message=course&color=yellow&logo=Codecademy"></a>
+          </div>
+
+        <br></br>
+
+      <main>
+          <!-- testing a comment line with <strong> element -->
+          <p><strong>Test HTML</strong></p>
+
+          <!-- links href element div-->
+          <div class="link-div">
+              <!--an <anchor> element-->
+              <a href="https://mcjoules.github.io/html-learning/" target="_blank" style="color: teal;">Main</a>;
+
+              <!--<anchor> element with an internet link, must use with id="value"-->
+              <a href="#footer" class="link-text"> Internal link - Jump to Footer</a>;
+
+              <!--an <anchor> element within a <p> element-->
+              <span> View <a href="https://unsplash.com/photos/7uXn7nudorc" target="_blank" class="link-text">photo</a></span>;
+
+              <!--a dead link using `#` for JavaScript behaviour-->
+              <span> Test <a href="#" class="link-text">`#` link</a></span>;
+
+              <!--turn an image into a link using anchor href, alt shows when link is not available-->
+              <a href="#2" class="link-text"><img src="#" alt="alt-text"></a>
+          </div>
+          <br></br>
+
+          <div class="img-div">
+            <!--img element, self-closing, multiple CSS classes can be used with space between -->
+            <a href="https://unsplash.com/photos/7uXn7nudorc" class="link-text"><img class="small-img border-img" src="https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=674&q=80" alt="beach image from https://unsplash.com/photos/7uXn7nudorc by @hermansyah"></a>
+
+            <p>Credit to <a href="https://unsplash.com/photos/7uXn7nudorc" target="_blank" class="link-text">unsplash</a> and <a href="https://unsplash.com/@hermansyah" target="_blank" class="link-text">@hermansyah</a>
+          
+          <br></br>
+          </div>
+
+          <!--Form element div-->
+          <div class="form-div">
+            <!--form element, can place input element inside, need closing tag; an input element, provide with type, self-closing; placeholder is displaced in the input element; button element with closing tag, required attribute for the input:text-->
+            <p><b>Form element</b></p>
+
+            <form action="/url-where-to-submit-form-data">
+
+            <!--All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.-->
+              <label for=indoor>
+                <input id="indoor" value="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
+                <!--value="" for data attribute; checked attribute, specify on default checked-->
+              <label for="outdoor">
+                <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+
+              <!-- checkbox input element-->
+              <label for="coffee">
+                <input id="coffee" value="coffee" type="checkbox" name="morning" checked> Coffee</label>
+              <label for="breakfast">
+                <input id="breakfast" value="breakfast" type="checkbox" name="morning"> Breakfast</label>
+              <label for="dress">
+                <input id="dress" value="dress" type="checkbox" name="morning"> Dress</label><br>
+
+              <input type="date" value="date">
+              <input type="text" value="textbox" placeholder="Text here" required> <!--required attribute, required before submit-->
+
+              <button type="submit">Submit</button>
+            </form>
+            <br>
+          </div>
+
+          <!--list element div-->
+          <div class="list-div">
+            <!-- unordered list <ul> element-->
+            <p><i><b>Unordered List</b></i></p>
+            <ul>
+              <li>sunshine</li>
+              <li>kibble</li>
+              <li>birds</li>
+              <li>sleep</li>
+            </ul>
+            <br>
+
+            <!-- ordered list <ol> element -->
+            <p><i><b>Ordered List</b></i></p>
+            <ol>
+              <li>cuddles</li>
+              <li>scratching</li>
+              <li>running water</li>
+              <li>chasing butterfly</li>
+            </ol>
+            <br>
+          </div>
 
 
-    <p>Credit to <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></p>
-    <br>
+          <p>Credit to <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></p>
+          <br>
 
-    <!-- p element div-->
-    <!--`<div>` elements can contain *flow content* such as headings, paragraphs, links, images, etc.-->
-    <div>
-      <p><b>Paragraph 1</b></p>
-      <!--<p align="justify"> markup will justify the paragraph-->
-	    <p align="justify">Out of another, I get a lovely view of the bay and a little private wharf belonging to the estate. There is a beautiful shaded lane that runs down there from the house. I always fancy I see people walking in these numerous paths and arbors, but John has cautioned me not to give way to fancy in the least. He says that with my imaginative power and habit of story-making a nervous weakness like mine is sure to lead to all manner of excited fancies and that I ought to use my will and good sense to check the tendency. So I try.</p>
-      <br>
+          <!-- p element div-->
+          <!--`<div>` elements can contain *flow content* such as headings, paragraphs, links, images, etc.-->
+          <div class="para-div">
+            <p><b>Paragraph 1</b></p>
+            <!--<p align="justify"> markup will justify the paragraph-->
+            <p align="justify">Out of another, I get a lovely view of the bay and a little private wharf belonging to the estate. There is a beautiful shaded lane that runs down there from the house. I always fancy I see people walking in these numerous paths and arbors, but John has cautioned me not to give way to fancy in the least. He says that with my imaginative power and habit of story-making a nervous weakness like mine is sure to lead to all manner of excited fancies and that I ought to use my will and good sense to check the tendency. So I try.</p>
+            <br>
 
-      <p><b>Paragraph 2</b></p>
-      <p align="justify">Dave wasn't exactly sure how he had ended up in this predicament. He ran through all the events that had lead to this current situation and it still didn't make sense. He wanted to spend some time to try and make sense of it all, but he had higher priorities at the moment. The first was how to get out of his current situation of being naked in a tree with snow falling all around and no way for him to get down.</p>
-      <br>
+            <p><b>Paragraph 2</b></p>
+            <p align="justify">Dave wasn't exactly sure how he had ended up in this predicament. He ran through all the events that had lead to this current situation and it still didn't make sense. He wanted to spend some time to try and make sense of it all, but he had higher priorities at the moment. The first was how to get out of his current situation of being naked in a tree with snow falling all around and no way for him to get down.</p>
+            <br>
 
-      <p><b>Paragraph 3</b></p>
-	    <p align="justify">The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.</p>
-      <br>
-    </div>
+            <p><b>Paragraph 3</b></p>
+            <p align="justify">The red ball sat proudly at the top of the toybox. It had been the last to be played with and anticipated it would be the next as well. The other toys grumbled beneath. At one time each had held the spot of the red ball, but over time they had sunk deeper and deeper into the toy box.</p>
+            <br>
 
-      <p>Credit to <a href="https://randomwordgenerator.com/paragraph.php" target="_blank">random word generator</a></p>
-      <br>
-  </main>
+            <p>Credit to <a href="https://randomwordgenerator.com/paragraph.php" target="_blank">random word generator</a></p>
+            <br>
+          </div>
+            
+      </main>
+
+    </body>
 
   <!-- id attribute for the element, uniquely describes an element-->
   <footer id="footer">Footer element</footer>
-</body>
 </html>
