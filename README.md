@@ -6,6 +6,7 @@
 ![CSS](https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3)
 ![Markdown](https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown)
 ![Atom](https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom)
+![VS Code](https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code)
 ![Typora](https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo=)
 ![freeCodeCamp](https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp)
 ![Codecademy](https://img.shields.io/static/v1?label=Codecademy&message=course&color=yellow&logo=Codecademy)
