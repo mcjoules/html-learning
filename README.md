@@ -1,15 +1,15 @@
 <h3><a name="title" style="color: Teal;"><b>Basic-HTML-learning</b></a></h3>
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=github)
-![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
-![HTML](https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5)
-![CSS](https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3)
-![Markdown](https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown)
-![Atom](https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom&link=https://atom.io/)
-![VS Code](https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code)
-![Typora](https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo=)
-![freeCodeCamp](https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp)
-![Codecademy](https://img.shields.io/static/v1?label=Codecademy&message=course&color=yellow&logo=Codecademy)
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=github">
+<img alt="GitHub commits since latest release (by date including pre-releases)" src="https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=github">
+<a href="https://html.spec.whatwg.org/" target="_blank"><img alt="HTML shield.io"src="https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5"></a>
+<a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img alt="CSS shield.io" src="https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3"></a>
+<a href="https://daringfireball.net/projects/markdown/" target="_blank"><img alt="Markdown shield.io" src="https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown"></a>
+<a href="https://atom.io/" target="_blank"><img alt="Atom shield.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
+<a href="https://code.visualstudio.com/" target="_blank"><img alt="VS Code shield.io" src="https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code"></a>
+<a href="https://typora.io/" target="_blank"><img alt="Typora shield.io" src="https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo="></a>
+<a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp shield.io" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp"></a>
+<a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shield.io" src="https://img.shields.io/static/v1?label=Codecademy&message=course&color=yellow&logo=Codecademy"></a>
 
 ### <a name="introduction"><span><strong>HTML learning Introduction</strong></span></a><br>
 // Just trying to learn some basic coding, started with Free Code Camp ^^<br>
