@@ -72,13 +72,18 @@ for interactive, dynamic badges linked to GitHub
 **Markdown:**
 
 ``` markdown
-<!--https://shields.io/--> <!--Markdown-->
+<!--https://shields.io/--> <!--Markdown-->
 ![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
 ```
 
 **HTML:**
 
 ``` html
-<!--https://shields.io/--> <!--HTML-->
+<!--https://shields.io/--> <!--HTML-->
 <img alt="alt-text" src="https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>"> 
 ```
+
+**Activity: version**  
+Click on the categories, e.g. activity, version is the release version
+tag e.g. `v1.0.0`, shield.io will automatically check if the version
+exist or not.
