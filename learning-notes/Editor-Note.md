@@ -3,14 +3,13 @@
 Some helpful tips and extensions for editors for personal reference.
 
 Table of content
-
--   [Editor notes](#editor-notes)
--   [Atom](#atom)
-    -   [Packages](#packages)
--   [Typora](#typora)
--   [GitHub markdown](#github-markdown)
--   [VS-Code](#vs-code)
-    -   [Extensions](#extensions)
+- [Editor notes](#editor-notes)
+- [Atom](#atom)
+  * [Packages](#packages)
+- [Typora](#typora)
+- [GitHub markdown](#github-markdown)
+- [VS-Code](#vs-code)
+  * [Extensions](#extensions)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 

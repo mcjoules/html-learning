@@ -1,14 +1,16 @@
 <div id="toc">
 
-[Markdown](#markdown)  
-  [Dropdowns](#dropdowns)  
-  [Table of content TOC](#table-of-content-toc)  
-  [Empty line break `<br/>`](#empty-line-break-br)  
-  [Italic/ bold/ header](#italic-bold-header)  
-  [Making a code fence](#making-a-code-fence)  
-  [Adding a shield.io badge](#adding-a-shieldio-badge)  
-  [Transfer Typora TOC onto GitHub
-README.md](#transfer-typora-toc-onto-github-readmemd)
+- [Markdown](#markdown)
+    + [Dropdowns](#dropdowns)
+    + [Table of content TOC](#table-of-content-toc)
+    + [Empty line break](#empty-line-break)
+    + [Italic/ bold/ header](#italic--bold--header)
+    + [Making a code fence](#making-a-code-fence)
+    + [Adding a shield.io badge](#adding-a-shieldio-badge)
+    + [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 </div>
 
@@ -35,7 +37,7 @@ Table of Contents
   <a href="class-name">Topic</a>
 ```
 
-### Empty line break `<br/>`
+### Empty line break
 
 ```html
 <!--sometimes an empty line break is required, so <br/> does not affect other syntax/elements in markdown-->
