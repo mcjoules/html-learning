@@ -157,7 +157,7 @@ or
 You can use the `Major Mono Display` font in your CSS by using
 `Major Mono Display` as the FAMILY_NAME as in the following example:
 
-```css
+```html
 font-family: FAMILY_NAME, GENERIC_NAME;
 font-family: 'Major Mono Display', monospace;
 ```
@@ -182,7 +182,7 @@ For example, if you wanted an element to use the `Helvetica` font, but
 degrade to the `sans-serif` font when `Helvetica` isn't available, you
 will specify it as follows:
 
-```css
+```html
 p {
   font-family: Helvetica, sans-serif;
 }
@@ -199,7 +199,7 @@ like with fonts, we'll use `px` (pixels) to specify the image's width.
 For example, if we wanted to create a CSS class called `larger-image`
 that gave HTML elements a width of 500 pixels, we'd use:
 
-```css
+```html
 <style>
   .larger-image {
     width: 500px;
@@ -213,7 +213,7 @@ CSS borders have properties like `style`, `color` and `width`. For
 example, if we wanted to create a red, 5 pixel border around an HTML
 element, we could use this class:
 
-```css
+```html
 <style>
   .thin-red-border {
     border-color: red;
@@ -239,7 +239,7 @@ example:
 You can specify a `border-radius` with pixels. `border-radius` of
 `10px`.
 
-```css
+```html
 <style>
   .thin-red-border {
     border-color: red;
@@ -256,7 +256,7 @@ You can set an element's background color with the `background-color`
 property. For example, if you wanted an element's background color to be
 `green`, you'd put this within your `style` element:
 
-```css
+```html
 .green-background {
   background-color: green;
 }
