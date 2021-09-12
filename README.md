@@ -23,13 +23,13 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 <br/>
 
 Table of Contents
+- [HTML learning Introduction](#html-learning-introduction)
+- [Progress](#progress)
+  * [Basic HTML](#basic-html)
+  * [Basic CSS](#basic-css)
+  * [Markdown](#markdown)
 
--   \[HTML learning Introduction](#html-learning-introduction)
--   \[Progress](#progress)
-    -   \[Basic HTML](#basic-html)
-    -   \[Basic CSS](#basic-css)
-    -   \[Markdown](#markdown)
-
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 <br/>
 
 * * *
