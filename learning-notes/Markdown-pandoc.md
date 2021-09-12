@@ -6,7 +6,7 @@
   [Empty line break `<br/>`](#empty-line-break-br)  
   [Italic/ bold/ header](#italic-bold-header)  
   [Making a code fence](#making-a-code-fence)  
-  [Adding a shield.io badge ](#adding-a-shieldio-badge)  
+  [Adding a shield.io badge](#adding-a-shieldio-badge)  
   [Transfer Typora TOC onto GitHub
 README.md](#transfer-typora-toc-onto-github-readmemd)
 
@@ -59,7 +59,7 @@ Table of Contents
 ```
 ````
 
-### Adding a shield.io badge 
+### Adding a shield.io badge
 
 ![](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
 [GitHub: How to add Shields \| Easy, visible info on your projects -
