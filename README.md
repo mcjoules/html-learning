@@ -19,16 +19,15 @@
 
 Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp<a>
 
-<br/>
 
-<h3>Table of Contents</h3>
 
+Table of Contents
 * [Introduction](#introduction)
 * [Progress](#progress)
     * [Basic HTML](#basic-html)
     * [Basic CSS](#basic-css)
     * [Markdown](#markdown)
-<br/>
+
 <br/>
 
 
