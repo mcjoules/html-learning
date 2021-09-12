@@ -19,7 +19,7 @@
 
 Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp<a>
 
-
+<br/>
 
 Table of Contents
 * [Introduction](#introduction)
