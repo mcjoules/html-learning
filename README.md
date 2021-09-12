@@ -11,6 +11,7 @@
 <a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shield.io" src="https://img.shields.io/static/v1?label=Codecademy&message=course&color=yellow&logo=Codecademy"></a>
 
 ### HTML learning Introduction
+
 // Just trying to learn some basic coding, started with Free Code Camp ^^<br>
 <a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;<br>
 <a href="https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html" target="_blank" style="color: Teal;"> HTML Build Project</a>
@@ -22,75 +23,79 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 <br/>
 
 Table of Contents
-- [HTML learning Introduction](#html-learning-introduction)
-- [Progress](#progress)
-  * [Basic HTML](#basic-html)
-  * [Basic CSS](#basic-css)
-  * [Markdown](#markdown)
+
+-   \[HTML learning Introduction](#html-learning-introduction)
+-   \[Progress](#progress)
+    -   \[Basic HTML](#basic-html)
+    -   \[Basic CSS](#basic-css)
+    -   \[Markdown](#markdown)
 
 <br/>
 
+* * *
 
----
 ### Progress
 
 #### Basic HTML
-*h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br, align*
+
+_h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br, align_
 <br/>
 
 **Coolest thing I learnt:** `form` element with submit button
 
-  ```html
-    <form action="/url-where-to-submit-form-data">
-      <input type="text" value="textbox" placeholder="Text here" required> <!--required attribute, required before submit-->
-      <button type="submit">Submit</button> <!--submit button!!!-->
-    </form>
-  ```
+```html
+  <form action="/url-where-to-submit-form-data">
+    <input type="text" value="textbox" placeholder="Text here" required> <!--required attribute, required before submit-->
+    <button type="submit">Submit</button> <!--submit button!!!-->
+  </form>
+```
 
 **Things I struggled with:** writing in correct HTML structure, understanding the line spacing in certain elements and keeping child of element organised using correct indentation
 
-  ```html
-    <!doctype HTML>
-    <html>
-      <head>
-        <title>title</title>
-        <style>/*CSS*/</style>
-      </head>
-      <body>
-        <h1>header</h1>
-        <main>
-          <p>content</p>
-        </main>
-      </body>
-      <footer>footer</footer>
-    </html>
-  ```
+```html
+  <!doctype HTML>
+  <html>
+    <head>
+      <title>title</title>
+      <style>/*CSS*/</style>
+    </head>
+    <body>
+      <h1>header</h1>
+      <main>
+        <p>content</p>
+      </main>
+    </body>
+    <footer>footer</footer>
+  </html>
+```
+
 <br/>
 <br/>
 
 #### Basic CSS
-*style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}, background-color*
+
+_style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}, background-color_
 <br/>
 
 **Coolest thing I learnt:** CSS `class` attribute, Google-font import
 
-  ```css
-    /*CSS style class attribute*/
-    .class-value {
-      color: rgb(80,80,80);
-      margin: 0;
-      font-size: 15px;
-      font-family: "Consolas", monaco, monospace;
-    }
-  ```
+```css
+  /*CSS style class attribute*/
+  .class-value {
+    color: rgb(80,80,80);
+    margin: 0;
+    font-size: 15px;
+    font-family: "Consolas", monaco, monospace;
+  }
+```
 
 **Treasure discovery:** `meta` responsive web development - setting viewport <br>
 Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">w3schools</a>
 
-  ```html
-    <!--meta wonder for mobile devices experience-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  ```
+```html
+  <!--meta wonder for mobile devices experience-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 
 **Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes
 <br/>
@@ -98,23 +103,24 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
 <br/>
 
 #### Markdown
-*code box, dropdowns, table of content [TOC], horizontal line, shield.io badge*
+
+_code box, dropdowns, table of content [TOC], horizontal line, shield.io badge_
 <br/>
 
 **Coolest thing I learn:** Table of Contents
 
-  ```markdown
-  Table of Contents
-  =================
-  * [Topic](#class-name)
-  <a href="class-name">Topic</a>
-  ```
+```markdown
+Table of Contents
+=================
+* [Topic](#class-name)
+<a href="class-name">Topic</a>
+```
 
 **Treasure discovery:** shied.io badge ![shields.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=%3Cbrightgreen%3E&logo=Shields.io)
 
-   ```markdown
-  <!--https://shields.io/-->
-  ![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
-  ```
+```markdown
+<!--https://shields.io/-->
+![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
+```
 
 **Things I struggle with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
