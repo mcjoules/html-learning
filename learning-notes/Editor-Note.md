@@ -7,8 +7,11 @@ Table of content
   * [Packages](#packages)
 - [Typora](#typora)
 - [GitHub markdown](#github-markdown)
+- [VS-Code](#vs-code)
+  * [Extensions](#extensions)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ### Atom
@@ -43,3 +46,10 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
 ### GitHub markdown
 Create TOC in markdown File  
 [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada
+
+### VS-Code
+#### Extensions
+[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
+[Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  
+[HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
