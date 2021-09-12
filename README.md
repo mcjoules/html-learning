@@ -12,13 +12,12 @@
 
 ### HTML learning Introduction
 
-// Just trying to learn some basic coding, started with Free Code Camp ^^<br>
+// Just trying to learn some basic coding, started with <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp</a> ^^<br>
 <a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;<br>
 <a href="https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html" target="_blank" style="color: Teal;"> HTML Build Project</a>
 
-// I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the <b>output</b> of my code and experience <b>progress</b> motivates me to continue to learn coding. A lot of my effort will be going into building my learning notes besides my project. Writing down notes help me tremendously in my learning.
+// I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the <b>output</b> of my code and experience <b>progress</b> motivates me to continue to learn coding. A lot of my effort will be going into building my learning notes besides my project. Writing down notes help me tremendously in my learning.  
 
-Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp<a>
 
 <br/>
 
