@@ -1,6 +1,12 @@
 ### Editor notes ###
 Some helpful tips and extensions for editors for personal reference.
-<br/>
+
+Table of content
+- [Editor notes](#editor-notes)
+- [Atom](#atom)
+  * [Packages](#packages)
+- [Typora](#typora)
+
 
 ### Atom ###
 #### Packages ####
