@@ -10,7 +10,7 @@
 <a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp shield.io" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp"></a>
 <a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shield.io" src="https://img.shields.io/static/v1?label=Codecademy&message=course&color=yellow&logo=Codecademy"></a>
 
-### <a name="introduction"><span><strong>HTML learning Introduction</strong></span></a><br>
+### HTML learning Introduction
 // Just trying to learn some basic coding, started with Free Code Camp ^^<br>
 <a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;<br>
 <a href="https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html" target="_blank" style="color: Teal;"> HTML Build Project</a>
@@ -22,19 +22,19 @@ Credit to <a href="https://www.freecodecamp.org/" target="_blank" style="color: 
 <br/>
 
 Table of Contents
-* [Introduction](#introduction)
-* [Progress](#progress)
-    * [Basic HTML](#basic-html)
-    * [Basic CSS](#basic-css)
-    * [Markdown](#markdown)
+- [HTML learning Introduction](#html-learning-introduction)
+- [Progress](#progress)
+  * [Basic HTML](#basic-html)
+  * [Basic CSS](#basic-css)
+  * [Markdown](#markdown)
 
 <br/>
 
 
 ---
-### <a name="progress"><b>Progress</b></a>
+### Progress
 
-#### <a name="basic-html">Basic HTML</a> ####
+#### Basic HTML
 *h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br, align*
 <br/>
 
@@ -68,7 +68,7 @@ Table of Contents
 <br/>
 <br/>
 
-#### <a name="basic-css">Basic CSS</a> ####
+#### Basic CSS
 *style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}, background-color*
 <br/>
 
@@ -97,7 +97,7 @@ Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_
 <br/>
 <br/>
 
-#### <a name="markdown">Markdown</a> ####
+#### Markdown
 *code box, dropdowns, table of content [TOC], horizontal line, shield.io badge*
 <br/>
 
