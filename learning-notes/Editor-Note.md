@@ -1,23 +1,25 @@
-### Editor notes ###
+### Editor notes
+
 Some helpful tips and extensions for editors for personal reference.
 
 Table of content
-- [Editor notes](#editor-notes)
-- [Atom](#atom)
-  * [Packages](#packages)
-- [Typora](#typora)
-- [GitHub markdown](#github-markdown)
-- [VS-Code](#vs-code)
-  * [Extensions](#extensions)
+
+-   [Editor notes](#editor-notes)
+-   [Atom](#atom)
+    -   [Packages](#packages)
+-   [Typora](#typora)
+-   [GitHub markdown](#github-markdown)
+-   [VS-Code](#vs-code)
+    -   [Extensions](#extensions)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
-
 ### Atom
+
 #### Packages
+
 [Emmet](https://atom.io/packages/emmet) by emmetio  
-[File Icons](https://atom.io/packages/file-icons) by file-icons    
+[File Icons](https://atom.io/packages/file-icons) by file-icons  
 [Atom Live Server](https://atom.io/packages/atom-live-server) by jas-chen  
 [Todo](https://atom.io/packages/todo) by reergymerej  
 [Minimap](https://atom.io/packages/minimap) by atom-minimap  
@@ -30,6 +32,7 @@ Table of content
 [Highlight selected](https://atom.io/packages/highlight-selected) by richrace
 
 ### Typora
+
 <details>
 <summary>Transfer Typora TOC onto GitHub README.md</summary>
 
@@ -41,14 +44,18 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
 4 - Restart **PC? or Typora**  
 5 - Export your **Typora** file: **File > Export > Markdown (other spec)**  
 6 - Your new file should have TOC that works in GitHub README.md/ GitHub markdown  
+
 </details>
 
 ### GitHub markdown
+
 Create TOC in markdown File  
 [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada
 
 ### VS-Code
+
 #### Extensions
+
 [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
 [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  

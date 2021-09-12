@@ -39,7 +39,7 @@ HTML5 introduced a method to let web designers take control over the
 viewport, through the `<meta>` tag. You should include the following
 `<meta>` viewport element in all your web pages:
 
-``` html
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
@@ -52,7 +52,7 @@ The property that is responsible for the color of an element's text is
 the `color` style property. Here's how you would set your `h2` element's
 text color to blue:
 
-``` html
+```html
 <h2 style="color: blue;">CatPhotoApp</h2>
 ```
 
@@ -65,7 +65,7 @@ Inside that style block, you can create a CSS selector for all `h2`
 elements. For example, if you wanted all `h2` elements to be red, you
 would add a style rule that looks like this:
 
-``` html
+```html
 <style>
   h2 {
     color: red;
@@ -84,7 +84,7 @@ each of your element's style rules.
 Classes are reusable styles that can be added to HTML elements. Here's
 an example CSS class declaration:
 
-``` html
+```html
 <style>
   .blue-text {
     color: blue;
@@ -108,7 +108,7 @@ element.
 
 Font size is controlled by the `font-size` CSS property, like this:
 
-``` css
+```css
 h1 {
   font-size: 30px;
 }
@@ -122,7 +122,7 @@ property.
 For example, if you wanted to set your `h2` element's font to
 `sans-serif`, you would use the following CSS:
 
-``` css
+```css
 h2 {
   font-family: sans-serif;
 }
@@ -144,7 +144,7 @@ Fonts library and then paste it in your HTML. We'll import the
 and paste it into the top of your code editor (before the opening
 `style` element):
 
-``` html
+```html
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 or
 <head>
@@ -157,7 +157,7 @@ or
 You can use the `Major Mono Display` font in your CSS by using
 `Major Mono Display` as the FAMILY_NAME as in the following example:
 
-``` css
+```css
 font-family: FAMILY_NAME, GENERIC_NAME;
 font-family: 'Major Mono Display', monospace;
 ```
@@ -182,7 +182,7 @@ For example, if you wanted an element to use the `Helvetica` font, but
 degrade to the `sans-serif` font when `Helvetica` isn't available, you
 will specify it as follows:
 
-``` css
+```css
 p {
   font-family: Helvetica, sans-serif;
 }
@@ -199,7 +199,7 @@ like with fonts, we'll use `px` (pixels) to specify the image's width.
 For example, if we wanted to create a CSS class called `larger-image`
 that gave HTML elements a width of 500 pixels, we'd use:
 
-``` css
+```css
 <style>
   .larger-image {
     width: 500px;
@@ -213,7 +213,7 @@ CSS borders have properties like `style`, `color` and `width`. For
 example, if we wanted to create a red, 5 pixel border around an HTML
 element, we could use this class:
 
-``` css
+```css
 <style>
   .thin-red-border {
     border-color: red;
@@ -230,7 +230,7 @@ Remember that you can apply multiple classes to an element using its
 `class` attribute, by separating each class name with a space. For
 example:
 
-``` html
+```html
 <img class="class1 class2">
 ```
 
@@ -239,7 +239,7 @@ example:
 You can specify a `border-radius` with pixels. `border-radius` of
 `10px`.
 
-``` css
+```css
 <style>
   .thin-red-border {
     border-color: red;
@@ -256,7 +256,7 @@ You can set an element's background color with the `background-color`
 property. For example, if you wanted an element's background color to be
 `green`, you'd put this within your `style` element:
 
-``` css
+```css
 .green-background {
   background-color: green;
 }

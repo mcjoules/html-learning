@@ -19,7 +19,7 @@ Guide](https://www.markdownguide.org/cheat-sheet/)
 
 ### Dropdowns
 
-``` markdown
+```markdown
 <details>
 	<summary>Topic</summary>
 	This text will be hidden.
@@ -28,7 +28,7 @@ Guide](https://www.markdownguide.org/cheat-sheet/)
 
 ### Table of content TOC
 
-``` markdown
+```markdown
 Table of Contents
 =================
   * [Topic](#class-name)
@@ -37,7 +37,7 @@ Table of Contents
 
 ### Empty line break `<br/>`
 
-``` html
+```html
 <!--sometimes an empty line break is required, so <br/> does not affect other syntax/elements in markdown-->
 <br/>
 <br/>
@@ -45,7 +45,7 @@ Table of Contents
 
 ### Italic/ bold/ header
 
-``` markdown
+```markdown
 <!--italic-->*Hello*
 <!--bold-->**Hello**
 <!--h3-->### Hello ###
@@ -53,10 +53,10 @@ Table of Contents
 
 ### Making a code fence
 
-```` markdown
-```html/css/markdown
-	<!--insert code here-->
-```
+````markdown
+    ```html/css/markdown
+    	<!--insert code here-->
+    ```
 ````
 
 ### Adding a shield.io badge
@@ -68,19 +68,19 @@ YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)
 projects](https://shields.io/#your-badge)
 
 Study the web link address carefully, input in place of <input> and
-remove the \<\> as well. Select the categories in the shields.io website
+remove the \\&lt;> as well. Select the categories in the shields.io website
 for interactive, dynamic badges linked to GitHub
 
 **Markdown:**
 
-``` markdown
+```markdown
 <!--https://shields.io/--> <!--Markdown-->
 ![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
 ```
 
 **HTML:**
 
-``` html
+```html
 <!--https://shields.io/--> <!--HTML-->
 <img alt="alt-text" src="https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>">
 
@@ -100,12 +100,12 @@ markdown. To turn the **Typora** markdown table of content TOC into
 functional TOC in GitHub, we need to export the Typora file as
 **Markdown (other spec)**.
 
-1 - Go to **File \> Preferences \> Export**  
-2 - Add export type as **Markdown (other spec) \> variant:
+1 - Go to **File > Preferences > Export**  
+2 - Add export type as **Markdown (other spec) > variant:
 GitHub-flavored markdown**  
 3 - Install **pandoc** as instructed  
 4 - Restart **PC? or Typora**  
-5 - Export your **Typora** file: **File \> Export \> Markdown (other
+5 - Export your **Typora** file: **File > Export > Markdown (other
 spec)**  
 6 - Your new file should have TOC that works in GitHub README.md/ GitHub
 markdown

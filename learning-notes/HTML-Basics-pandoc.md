@@ -1,32 +1,32 @@
 <div id="toc">
 
-- [Responsive Web Design](#responsive-web-design)
-  * [HTML](#html)
-    + [Headings](#headings)
-    + [Comments in HTML start with `<!--` and end with a `-->`](#comments-in-html-start-with--------and-end-with-a------)
-    + [Link to Internal Sections of a Page with Anchor Elements](#link-to-internal-sections-of-a-page-with-anchor-elements)
-    + [The Body](#the-body)
-    + [Differences between main and body:](#differences-between-main-and-body-)
-    + [`<div>` Div Element](#--div---div-element)
-    + [`<html>` HTML Element](#--html---html-element)
-    + [Make Dead Links Using the Hash Symbol](#make-dead-links-using-the-hash-symbol)
-    + [Turn an Image into a Link `with a dead link`](#turn-an-image-into-a-link--with-a-dead-link-)
-    + [Create a Bulleted Unordered List](#create-a-bulleted-unordered-list)
-    + [Create an Ordered List](#create-an-ordered-list)
-    + [Create a Text Field](#create-a-text-field)
-    + [Add Placeholder Text to a Text Field](#add-placeholder-text-to-a-text-field)
-    + [Create a Form Element](#create-a-form-element)
-    + [Add a Submit Button to a Form](#add-a-submit-button-to-a-form)
-    + [Use HTML5 to Require a Field](#use-html5-to-require-a-field)
-    + [Create a Set of Radio Buttons](#create-a-set-of-radio-buttons)
-    + [Create a Set of Checkboxes](#create-a-set-of-checkboxes)
-    + [Use the value attribute with Radio Buttons and Checkboxes](#use-the-value-attribute-with-radio-buttons-and-checkboxes)
-    + [Check Radio Buttons and Checkboxes by Default](#check-radio-buttons-and-checkboxes-by-default)
-    + [Nest Many Elements within a Single div Element](#nest-many-elements-within-a-single-div-element)
-    + [Declare the Doctype of an HTML Document](#declare-the-doctype-of-an-html-document)
-    + [Define the Head and Body of an HTML Document](#define-the-head-and-body-of-an-html-document)
-    + [Align text](#align-text)
-    + [Adding a shield.io badge](#adding-a-shieldio-badge)
+-   [Responsive Web Design](#responsive-web-design)
+    -   [HTML](#html)
+        -   [Headings](#headings)
+        -   [Comments in HTML start with `<!--` and end with a `-->`](#comments-in-html-start-with--------and-end-with-a------)
+        -   [Link to Internal Sections of a Page with Anchor Elements](#link-to-internal-sections-of-a-page-with-anchor-elements)
+        -   [The Body](#the-body)
+        -   [Differences between main and body:](#differences-between-main-and-body-)
+        -   [`<div>` Div Element](#--div---div-element)
+        -   [`<html>` HTML Element](#--html---html-element)
+        -   [Make Dead Links Using the Hash Symbol](#make-dead-links-using-the-hash-symbol)
+        -   [Turn an Image into a Link `with a dead link`](#turn-an-image-into-a-link--with-a-dead-link-)
+        -   [Create a Bulleted Unordered List](#create-a-bulleted-unordered-list)
+        -   [Create an Ordered List](#create-an-ordered-list)
+        -   [Create a Text Field](#create-a-text-field)
+        -   [Add Placeholder Text to a Text Field](#add-placeholder-text-to-a-text-field)
+        -   [Create a Form Element](#create-a-form-element)
+        -   [Add a Submit Button to a Form](#add-a-submit-button-to-a-form)
+        -   [Use HTML5 to Require a Field](#use-html5-to-require-a-field)
+        -   [Create a Set of Radio Buttons](#create-a-set-of-radio-buttons)
+        -   [Create a Set of Checkboxes](#create-a-set-of-checkboxes)
+        -   [Use the value attribute with Radio Buttons and Checkboxes](#use-the-value-attribute-with-radio-buttons-and-checkboxes)
+        -   [Check Radio Buttons and Checkboxes by Default](#check-radio-buttons-and-checkboxes-by-default)
+        -   [Nest Many Elements within a Single div Element](#nest-many-elements-within-a-single-div-element)
+        -   [Declare the Doctype of an HTML Document](#declare-the-doctype-of-an-html-document)
+        -   [Define the Head and Body of an HTML Document](#define-the-head-and-body-of-an-html-document)
+        -   [Align text](#align-text)
+        -   [Adding a shield.io badge](#adding-a-shieldio-badge)
 
 </div>
 
@@ -38,19 +38,19 @@
 
 Opening tags look like this:
 
-``` html
+```html
 <h1>
 ```
 
 Closing tags look like this:
 
-``` html
+```html
 </h1>
 ```
 
 //Hello World! Output:
 
-``` html
+```html
 <h1>Hello World!</h1>
 <h2>I am Tom.</h2>
 ```
@@ -63,7 +63,7 @@ elements to indicate different levels of subheadings.
 `p` elements are the preferred element for paragraph text on websites.
 `p` is short for "paragraph".
 
-``` html
+```html
 <h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
 <p>Hello Paragraph</p>
@@ -71,7 +71,7 @@ elements to indicate different levels of subheadings.
 
 ### Comments in HTML start with `<!--` and end with a `-->`
 
-``` html
+```html
 <!-- This is a comment in HTML -->
 ```
 
@@ -83,7 +83,7 @@ easier to read, and help with Search Engine Optimization (SEO) and
 accessibility. The `main` HTML5 tag helps search engines and other
 developers find the main content of your page.
 
-``` html
+```html
 <main>
 <p>Lorem Ipsum</p>
 <p>Lorem Ipsum2</p>
@@ -100,23 +100,23 @@ to improve accessibility and is displayed if the image fails to load.
 attribute is a best practice. Ideally the `alt` attribute should not
 contain special characters unless needed.
 
-``` html
+```html
 <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
 <img src="https://www.bit.ly/fcc-relaxing-cat" alt="A relaxing cat.">
 ```
 
-You can use `a` (*anchor*) elements to link to content outside of your
+You can use `a` (_anchor_) elements to link to content outside of your
 web page. `a` elements need a destination web address called an `href`
 attribute. They also need anchor text.
 
-``` html
+```html
 <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
 <a href="https://www.freecatphotoapp.com"> cat photos </a>
 ```
 
 ### Link to Internal Sections of a Page with Anchor Elements
 
-`a` (*anchor*) elements can also be used to create internal links to
+`a` (_anchor_) elements can also be used to create internal links to
 jump to different sections within a webpage.
 
 To create an internal link, you assign a link's `href` attribute to a
@@ -127,7 +127,7 @@ to. An `id` is an attribute that uniquely describes an element.
 
 Below is an example of an internal anchor link and its target element:
 
-``` html
+```html
 <a href="#contacts-header">Contacts</a>
 <h2 id="contacts-header">Contacts</h2>
 ```
@@ -137,14 +137,14 @@ the webpage with the **Contacts** header element.
 `#` create an internal link, `target="_blank"` cause it to open a new
 window tab
 
-``` html
+```html
  <a href="#footer" target="_blank">cat photos</a>
 ```
 
 //Create a `Jump to Bottom` internal link with the `footer` element. It
 is **important** to `id` the footer element, or other elements.
 
-``` html
+```html
 <main>
   <a href="#footer">Jump to Bottom</a>
   ...
@@ -154,12 +154,12 @@ is **important** to `id` the footer element, or other elements.
 
 ### The Body
 
-One of the key HTML elements we use to build a webpage is the *body*
+One of the key HTML elements we use to build a webpage is the _body_
 element. Only content inside the opening and closing body tags can be
 displayed to the screen. Here’s what opening and closing body tags look
 like:
 
-``` html
+```html
 <body>
 </body>
 ```
@@ -167,7 +167,7 @@ like:
 Once the file has a body, many different types of content – including
 text, images, and buttons – can be added to the body.
 
-``` html
+```html
 <body>
   <p>What's up, doc?</p>
 </body>
@@ -194,9 +194,9 @@ but outside the main, as you will do with your menu, or sidebar.
 
 The `<div>` element is used as a container that divides an HTML document
 into sections and is short for “division”. `<div>` elements can contain
-*flow content* such as headings, paragraphs, links, images, etc.
+_flow content_ such as headings, paragraphs, links, images, etc.
 
-``` html
+```html
 <div>
   <h1>A section of grouped elements</h1>
   <p>Here’s some text for the section</p>
@@ -214,7 +214,7 @@ after the `!DOCTYPE` declaration. All content/structure for an HTML
 document should be contained between the opening and closing `<html>`
 tags.
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
   <!-- I'm a comment -->
@@ -227,7 +227,7 @@ Add `a` elements to your website before you know where they will link.
 This is also handy when you're changing the behaviour of a link using
 `JavaScript`. For example: `href="#"`
 
-``` html
+```html
 <!--dead link--> 
 <p>View more <a href="#" target="_blank">cat photos</a>.</p>
 ```
@@ -237,7 +237,7 @@ This is also handy when you're changing the behaviour of a link using
 You can make elements into links by nesting them within an `a` element.
 Nest your image within an `a` element. Here's an example:
 
-``` html
+```html
 <a href="#"><img src="https://www.bit.ly/fcc-running-cats" alt="Three kittens running towards the camera."></a>
 ```
 
@@ -251,7 +251,7 @@ style lists. Unordered lists start with an opening `<ul>` element,
 followed by any number of `<li>` elements. Finally, unordered lists
 close with a `</ul>`. For example:
 
-``` html
+```html
 <ul>
   <li>milk</li>
   <li>cheese</li>
@@ -265,7 +265,7 @@ lists. Ordered lists start with an opening `<ol>` element, followed by
 any number of `<li>` elements. Finally, ordered lists are closed with
 the `</ol>` tag. For example:
 
-``` html
+```html
 <ol>
   <li>Garfield</li>
   <li>Sylvester</li>
@@ -279,7 +279,7 @@ would create a numbered list of `Garfield` and `Sylvester`.
 `input` elements are a convenient way to get input from your user. You
 can create a text input like this:
 
-``` html
+```html
 <input type="text">
 <p>Input type="text"<input type="text" placeholder="text here"></p>
 <p>Input type="date"<input type="date"></p>
@@ -293,7 +293,7 @@ Placeholder text is what is displayed in your `input` element before
 your user has inputted anything. You can create placeholder text like
 so:
 
-``` html
+```html
 <input type="text" placeholder="this is placeholder text">
 ```
 
@@ -301,7 +301,7 @@ so:
 
 `form` element. For example:
 
-``` html
+```html
 <form action="/url-where-you-want-to-submit-form-data">
     <input type="text" placeholder="Text here">
 </form>
@@ -311,13 +311,13 @@ so:
 
 Here's an example submit button: put it within the form element
 
-``` html
+```html
 <button type="submit">Submit</button>
 ```
 
 ### Use HTML5 to Require a Field
 
-``` html
+```html
 <form action="/url-where-to-submit-form-data">
       <input type="text" placeholder="Text here" required>
       <button type="submit">Submit</button>
@@ -330,7 +330,7 @@ this: `<input type="text" required>`
 
 ### Create a Set of Radio Buttons
 
-``` html
+```html
 <!--Radio buttons-->
 <label for="indoor">
   <input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
@@ -340,7 +340,7 @@ this: `<input type="text" required>`
 
 ### Create a Set of Checkboxes
 
-``` html
+```html
   <!-- checkbox input element-->
       <label for="Coffee">
         <input id="Coffee" type="checkbox" name="morning"> Coffee</label>
@@ -356,7 +356,7 @@ When a form gets submitted, the data is sent to the server and includes
 entries for the options selected. Inputs of type `radio` and `checkbox`
 report their values from the `value` attribute. For example:
 
-``` html
+```html
 <label for="indoor">
   <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor</label>
 <label for="outdoor">
@@ -369,7 +369,7 @@ You can set a checkbox or radio button to be checked by default using
 the `checked` attribute. To do this, just add the word `checked` to the
 inside of an input element. For example:
 
-``` html
+```html
 <input type="radio" name="test-name" checked>
 ```
 
@@ -402,7 +402,7 @@ closing `</html>` goes at the end of the page.
 Here's an example of the page structure. Your HTML code would go in the
 space between the two `html` tags.
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 </html>
@@ -421,7 +421,7 @@ typically go inside the `head` element.
 
 Here's an example of a page's layout:
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -439,11 +439,11 @@ Here's an example of a page's layout:
 [Alignment, font styles, and horizontal rules in HTML documents
 (w3.org)](https://www.w3.org/TR/html401/present/graphics.html)
 
-``` html
+```html
 <p align="justify">paragraph</p>
 ```
 
-### Adding a shield.io badge 
+### Adding a shield.io badge
 
 ![](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
 [GitHub: How to add Shields \| Easy, visible info on your projects -
@@ -452,19 +452,19 @@ YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)
 projects](https://shields.io/#your-badge)
 
 Study the web link address carefully, input in place of <input> and
-remove the \<\> as well. Select the categories in the shields.io website
+remove the \\&lt;> as well. Select the categories in the shields.io website
 for interactive, dynamic badges linked to GitHub
 
 **Markdown:**
 
-``` markdown
+```markdown
 <!--https://shields.io/--> <!--Markdown-->
 ![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
 ```
 
 **HTML:**
 
-``` html
+```html
 <!--https://shields.io/--> <!--HTML-->
 <img alt="alt-text" src="https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>">
 
