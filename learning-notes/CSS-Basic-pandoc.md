@@ -23,7 +23,7 @@
 
 # CSS Basic
 
-### **Meta for setting Viewport for mobile device**
+### Meta for setting Viewport for mobile device
 
 [Responsive Web Design Viewport
 (w3schools.com)](https://www.w3schools.com/css/css_rwd_viewport.asp)
@@ -36,7 +36,7 @@ viewport, through the `<meta>` tag. You should include the following
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-### **Change the Color of Text**
+### Change the Color of Text
 
 [HTML Color Names
 (w3schools.com)](https://www.w3schools.com/colors/colors_names.asp)
@@ -52,7 +52,7 @@ text color to blue:
 Note that it is a good practice to end inline `style` declarations with
 a `;` .
 
-### **Use CSS Selectors to Style Elements**
+### Use CSS Selectors to Style Elements
 
 Inside that style block, you can create a CSS selector for all `h2`
 elements. For example, if you wanted all `h2` elements to be red, you
@@ -72,7 +72,7 @@ sure that your element's style definition is between the opening and
 closing style tags. Finally, be sure to add a semicolon to the end of
 each of your element's style rules.
 
-### **Use a CSS Class to Style an Element**
+### Use a CSS Class to Style an Element
 
 Classes are reusable styles that can be added to HTML elements. Here's
 an example CSS class declaration:
@@ -91,7 +91,7 @@ You can see that we've created a CSS class called `blue-text` within the
 element, class names start with a period. In your HTML elements' class
 attribute, the class name does not include the period.
 
-### **Style Multiple Elements with a CSS Class**
+### Style Multiple Elements with a CSS Class
 
 Classes allow you to use the same CSS styles on multiple HTML elements.
 You can see this by applying your `red-text` class to the first `p`
@@ -107,7 +107,7 @@ h1 {
 }
 ```
 
-### **Set the Font Family of an Element**
+### Set the Font Family of an Element
 
 You can set which font an element should use, by using the `font-family`
 property.
@@ -121,7 +121,7 @@ h2 {
 }
 ```
 
-### **Import a Google Font**
+### Import a Google Font
 
 In addition to specifying common fonts that are found on most operating
 systems, we can also specify non-standard, custom web fonts for use on
@@ -162,7 +162,7 @@ Family names are case-sensitive and need to be wrapped in quotes if
 there is a space in the name. For example, you need quotes to use the
 `"Open Sans"` font, but not to use the `Lobster` font.
 
-### **Specify How Fonts Should Degrade**
+### Specify How Fonts Should Degrade
 
 There are several default fonts that are available in all browsers.
 These generic font families include `monospace`, `serif` and
@@ -184,7 +184,7 @@ p {
 Generic font family names are not case-sensitive. Also, they do not need
 quotes because they are CSS keywords.
 
-### **Size Your Images**
+### Size Your Images
 
 CSS has a property called `width` that controls an element's width. Just
 like with fonts, we'll use `px` (pixels) to specify the image's width.
@@ -200,7 +200,7 @@ that gave HTML elements a width of 500 pixels, we'd use:
 </style>
 ```
 
-### **Add Borders Around Your Elements**
+### Add Borders Around Your Elements
 
 CSS borders have properties like `style`, `color` and `width`. For
 example, if we wanted to create a red, 5 pixel border around an HTML
@@ -217,7 +217,7 @@ element, we could use this class:
 </style>
 ```
 
-### **Multiple classes**
+### Multiple classes
 
 Remember that you can apply multiple classes to an element using its
 `class` attribute, by separating each class name with a space. For
@@ -227,7 +227,7 @@ example:
 <img class="class1 class2">
 ```
 
-### **Add Rounded Corners with border-radius**
+### Add Rounded Corners with border-radius
 
 You can specify a `border-radius` with pixels. `border-radius` of
 `10px`.
@@ -243,7 +243,7 @@ You can specify a `border-radius` with pixels. `border-radius` of
 </style>
 ```
 
-### **Give a Background Color to a div Element**
+### Give a Background Color to a div Element
 
 You can set an element's background color with the `background-color`
 property. For example, if you wanted an element's background color to be
