@@ -3,14 +3,14 @@
 - [Responsive Web Design](#responsive-web-design)
   * [HTML](#html)
     + [Headings](#headings)
-    + [Comments in HTML start with `<!--` and end with a `-->`](#comments-in-html-start-with--------and-end-with-a------)
+    + [Comments in HTML](#comments-in-html)
     + [Link to Internal Sections of a Page with Anchor Elements](#link-to-internal-sections-of-a-page-with-anchor-elements)
     + [The Body](#the-body)
     + [Differences between main and body:](#differences-between-main-and-body-)
-    + [`<div>` Div Element](#--div---div-element)
-    + [`<html>` HTML Element](#--html---html-element)
+    + [Div Element](#div-element)
+    + [HTML Element](#html-element)
     + [Make Dead Links Using the Hash Symbol](#make-dead-links-using-the-hash-symbol)
-    + [Turn an Image into a Link `with a dead link`](#turn-an-image-into-a-link--with-a-dead-link-)
+    + [Turn an Image into a Link](#turn-an-image-into-a-link)
     + [Create a Bulleted Unordered List](#create-a-bulleted-unordered-list)
     + [Create an Ordered List](#create-an-ordered-list)
     + [Create a Text Field](#create-a-text-field)
@@ -29,6 +29,7 @@
     + [Adding a shield.io badge](#adding-a-shieldio-badge)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 </div>
@@ -72,7 +73,7 @@ elements to indicate different levels of subheadings.
 <p>Hello Paragraph</p>
 ```
 
-### Comments in HTML start with `<!--` and end with a `-->`
+### Comments in HTML
 
 ```html
 <!-- This is a comment in HTML -->
@@ -193,7 +194,7 @@ text, images, and buttons – can be added to the body.
 An easy example, the footer element; you should put it inside the body,
 but outside the main, as you will do with your menu, or sidebar.
 
-### `<div>` Div Element
+### Div Element
 
 The `<div>` element is used as a container that divides an HTML document
 into sections and is short for “division”. `<div>` elements can contain
@@ -210,7 +211,7 @@ _flow content_ such as headings, paragraphs, links, images, etc.
 </div>
 ```
 
-### `<html>` HTML Element
+### HTML Element
 
 The `<html>` element, the root of an HTML document, should be added
 after the `!DOCTYPE` declaration. All content/structure for an HTML
@@ -235,7 +236,7 @@ This is also handy when you're changing the behaviour of a link using
 <p>View more <a href="#" target="_blank">cat photos</a>.</p>
 ```
 
-### Turn an Image into a Link `with a dead link`
+### Turn an Image into a Link
 
 You can make elements into links by nesting them within an `a` element.
 Nest your image within an `a` element. Here's an example:
