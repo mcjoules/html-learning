@@ -7,10 +7,10 @@ Table of content
 - [Font-family](#font-family)
 - [Atom](#atom)
   * [Packages](#packages)
-- [Typora](#typora)
-- [GitHub markdown](#github-markdown)
 - [VS-Code](#vs-code)
   * [Extensions](#extensions)
+- [Typora](#typora)
+- [GitHub markdown](#github-markdown)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -21,7 +21,6 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 ```
 
 ### Atom
-
 #### Packages
 
 [Emmet](https://atom.io/packages/emmet) by emmetio  
@@ -36,6 +35,18 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 [Atom-beautify](https://atom.io/packages/atom-beautify) by Glavin001  
 [Ask a stack](https://atom.io/packages/ask-stack) by Chris911  
 [Highlight selected](https://atom.io/packages/highlight-selected) by richrace
+
+
+### VS-Code
+#### Extensions
+
+[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
+[Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  
+[HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
+[Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR
+[File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons
+
 
 ### Typora
 
@@ -61,13 +72,3 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
 ```
 
-### VS-Code
-
-#### Extensions
-
-[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
-[Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
-[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  
-[HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
-[Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR
-[File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons
