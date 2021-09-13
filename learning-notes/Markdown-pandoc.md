@@ -69,8 +69,8 @@ YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)
 [Shields.io: Quality metadata badges for open source
 projects](https://shields.io/#your-badge)
 
-Study the web link address carefully, input in place of <input> and
-remove the \\&lt;> as well. Select the categories in the shields.io website
+Study the web link address carefully, input in place of `<input>` and
+remove the `<` and `>` as well. Select the categories in the shields.io website
 for interactive, dynamic badges linked to GitHub
 
 **Markdown:**
