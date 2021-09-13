@@ -24,11 +24,13 @@
 <br/>
 
 Table of Contents  
+
+- [Basic-HTML-learning](#basic-html-learning)
 - [HTML learning Introduction](#html-learning-introduction)
 - [Progress](#progress)
-  * [Basic HTML](#basic-html)
-  * [Basic CSS](#basic-css)
-  * [Markdown](#markdown)
+  - [Basic HTML](#basic-html)
+  - [Basic CSS](#basic-css)
+  - [Markdown](#markdown)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 <br/>
@@ -36,6 +38,7 @@ Table of Contents
 * * *
 
 ### Progress
+
 #### Basic HTML
 
 _h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br, align_
