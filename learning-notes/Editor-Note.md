@@ -4,6 +4,7 @@ Some helpful tips and extensions for editors for personal reference.
 
 Table of content
 - [Editor notes](#editor-notes)
+- [Font-family](#font-family)
 - [Atom](#atom)
   * [Packages](#packages)
 - [Typora](#typora)
@@ -12,6 +13,12 @@ Table of content
   * [Extensions](#extensions)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+### Font-family
+```html
+font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
+```
 
 ### Atom
 
@@ -48,8 +55,11 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
 
 ### GitHub markdown
 
-Create TOC in markdown File  
-[GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada
+**Create TOC in markdown File** - [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada  
+// Special characters such as `` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
+```markdown
+[**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
+```
 
 ### VS-Code
 
