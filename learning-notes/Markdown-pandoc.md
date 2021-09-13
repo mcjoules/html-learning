@@ -1,20 +1,18 @@
 <div id="toc">
 
 - [Markdown](#markdown)
-    + [Dropdowns](#dropdowns)
-    + [Table of content TOC](#table-of-content-toc)
-    + [Empty line break](#empty-line-break)
-    + [Italic/ bold/ header](#italic--bold--header)
-    + [Making a code fence](#making-a-code-fence)
-    + [Adding a shield.io badge](#adding-a-shieldio-badge)
-    + [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
-    + [GitHub markdown](#github-markdown)
-    + [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
-    + [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
+    - [Dropdowns](#dropdowns)
+    - [Table of content TOC](#table-of-content-toc)
+    - [Empty line break](#empty-line-break)
+    - [Italic/ bold/ header](#italic-bold-header)
+    - [Making a code fence](#making-a-code-fence)
+    - [Adding a shield.io badge](#adding-a-shieldio-badge)
+    - [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
+    - [GitHub markdown](#github-markdown)
+    - [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
+    - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 
 </div>
 
@@ -27,8 +25,8 @@ Guide](https://www.markdownguide.org/cheat-sheet/)
 
 ```markdown
 <details>
-	<summary>Topic</summary>
-	This text will be hidden.
+  <summary>Topic</summary>
+  This text will be hidden.
 </details>
 ```
 
@@ -61,13 +59,13 @@ Table of Contents
 
 ````markdown
     ```html/css/markdown
-    	<!--insert code here-->
+      <!--insert code here-->
     ```
 ````
 
 ### Adding a shield.io badge
 
-![](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
+![shields.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
 [GitHub: How to add Shields \| Easy, visible info on your projects -
 YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)  
 [Shields.io: Quality metadata badges for open source
@@ -120,12 +118,15 @@ markdown
 
 **Create TOC in markdown File** - [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada  
 // Special characters such as `` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
+
 ```markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
 ```
 
 ### Reduce HTML elements in Markdown
+
 When possible, avoid using HTML elements in Markdown, e.g. links, italics, bold. Focus on using Markdown syntax.
 
 ### Beautify and Markdown syntax
+
 Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.

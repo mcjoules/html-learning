@@ -1,37 +1,34 @@
 <div id="toc">
 
 - [Responsive Web Design](#responsive-web-design)
-  * [HTML](#html)
-    + [Headings](#headings)
-    + [Comments in HTML](#comments-in-html)
-    + [Link to Internal Sections of a Page with Anchor Elements](#link-to-internal-sections-of-a-page-with-anchor-elements)
-    + [The Body](#the-body)
-    + [Differences between main and body](#differences-between-main-and-body)
-    + [Div Element](#div-element)
-    + [HTML Element](#html-element)
-    + [Make Dead Links Using the Hash Symbol](#make-dead-links-using-the-hash-symbol)
-    + [Turn an Image into a Link](#turn-an-image-into-a-link)
-    + [Create a Bulleted Unordered List](#create-a-bulleted-unordered-list)
-    + [Create an Ordered List](#create-an-ordered-list)
-    + [Create a Text Field](#create-a-text-field)
-    + [Add Placeholder Text to a Text Field](#add-placeholder-text-to-a-text-field)
-    + [Create a Form Element](#create-a-form-element)
-    + [Add a Submit Button to a Form](#add-a-submit-button-to-a-form)
-    + [Use HTML5 to Require a Field](#use-html5-to-require-a-field)
-    + [Create a Set of Radio Buttons](#create-a-set-of-radio-buttons)
-    + [Create a Set of Checkboxes](#create-a-set-of-checkboxes)
-    + [Use the value attribute with Radio Buttons and Checkboxes](#use-the-value-attribute-with-radio-buttons-and-checkboxes)
-    + [Check Radio Buttons and Checkboxes by Default](#check-radio-buttons-and-checkboxes-by-default)
-    + [Nest Many Elements within a Single div Element](#nest-many-elements-within-a-single-div-element)
-    + [Declare the Doctype of an HTML Document](#declare-the-doctype-of-an-html-document)
-    + [Define the Head and Body of an HTML Document](#define-the-head-and-body-of-an-html-document)
-    + [Align text](#align-text)
-    + [Adding a shield.io badge](#adding-a-shieldio-badge)
+  - [HTML](#html)
+    - [Headings](#headings)
+    - [Comments in HTML](#comments-in-html)
+    - [Link to Internal Sections of a Page with Anchor Elements](#link-to-internal-sections-of-a-page-with-anchor-elements)
+    - [The Body](#the-body)
+    - [Differences between main and body](#differences-between-main-and-body)
+    - [Div Element](#div-element)
+    - [HTML Element](#html-element)
+    - [Make Dead Links Using the Hash Symbol](#make-dead-links-using-the-hash-symbol)
+    - [Turn an Image into a Link](#turn-an-image-into-a-link)
+    - [Create a Bulleted Unordered List](#create-a-bulleted-unordered-list)
+    - [Create an Ordered List](#create-an-ordered-list)
+    - [Create a Text Field](#create-a-text-field)
+    - [Add Placeholder Text to a Text Field](#add-placeholder-text-to-a-text-field)
+    - [Create a Form Element](#create-a-form-element)
+    - [Add a Submit Button to a Form](#add-a-submit-button-to-a-form)
+    - [Use HTML5 to Require a Field](#use-html5-to-require-a-field)
+    - [Create a Set of Radio Buttons](#create-a-set-of-radio-buttons)
+    - [Create a Set of Checkboxes](#create-a-set-of-checkboxes)
+    - [Use the value attribute with Radio Buttons and Checkboxes](#use-the-value-attribute-with-radio-buttons-and-checkboxes)
+    - [Check Radio Buttons and Checkboxes by Default](#check-radio-buttons-and-checkboxes-by-default)
+    - [Nest Many Elements within a Single div Element](#nest-many-elements-within-a-single-div-element)
+    - [Declare the Doctype of an HTML Document](#declare-the-doctype-of-an-html-document)
+    - [Define the Head and Body of an HTML Document](#define-the-head-and-body-of-an-html-document)
+    - [Align text](#align-text)
+    - [Adding a shield.io badge](#adding-a-shieldio-badge)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
 
 </div>
 
@@ -440,7 +437,7 @@ and `style`, typically go inside the `head` element. Here's an example of a page
 
 ### Adding a shield.io badge
 
-![](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
+![shield.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
 [GitHub: How to add Shields \| Easy, visible info on your projects -
 YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)  
 [Shields.io: Quality metadata badges for open source

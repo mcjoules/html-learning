@@ -1,20 +1,20 @@
 <div id="toc">
 
 - [CSS Basic](#css-basic)
-    + [Meta for setting Viewport for mobile device](#meta-for-setting-viewport-for-mobile-device)
-    + [Change the Color of Text](#change-the-color-of-text)
-    + [Use CSS Selectors to Style Elements](#use-css-selectors-to-style-elements)
-    + [Use a CSS Class to Style an Element](#use-a-css-class-to-style-an-element)
-    + [Style Multiple Elements with a CSS Class](#style-multiple-elements-with-a-css-class)
-    + [Change the Font Size of an Element](#change-the-font-size-of-an-element)
-    + [Set the Font Family of an Element](#set-the-font-family-of-an-element)
-    + [Import a Google Font](#import-a-google-font)
-    + [Specify How Fonts Should Degrade](#specify-how-fonts-should-degrade)
-    + [Size Your Images](#size-your-images)
-    + [Add Borders Around Your Elements](#add-borders-around-your-elements)
-    + [Multiple classes](#multiple-classes)
-    + [Add Rounded Corners with border-radius](#add-rounded-corners-with-border-radius)
-    + [Give a Background Color to a div Element](#give-a-background-color-to-a-div-element)
+    - [Meta for setting Viewport for mobile device](#meta-for-setting-viewport-for-mobile-device)
+    - [Change the Color of Text](#change-the-color-of-text)
+    - [Use CSS Selectors to Style Elements](#use-css-selectors-to-style-elements)
+    - [Use a CSS Class to Style an Element](#use-a-css-class-to-style-an-element)
+    - [Style Multiple Elements with a CSS Class](#style-multiple-elements-with-a-css-class)
+    - [Change the Font Size of an Element](#change-the-font-size-of-an-element)
+    - [Set the Font Family of an Element](#set-the-font-family-of-an-element)
+    - [Import a Google Font](#import-a-google-font)
+    - [Specify How Fonts Should Degrade](#specify-how-fonts-should-degrade)
+    - [Size Your Images](#size-your-images)
+    - [Add Borders Around Your Elements](#add-borders-around-your-elements)
+    - [Multiple classes](#multiple-classes)
+    - [Add Rounded Corners with border-radius](#add-rounded-corners-with-border-radius)
+    - [Give a Background Color to a div Element](#give-a-background-color-to-a-div-element)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -140,9 +140,9 @@ and paste it into the top of your code editor (before the opening
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 or
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
 </head>
 ```
 

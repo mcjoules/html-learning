@@ -3,26 +3,27 @@
 Some helpful tips and extensions for editors for personal reference.
 
 Table of content
+
 - [Editor notes](#editor-notes)
 - [Font-family](#font-family)
 - [Atom](#atom)
-  * [Packages](#packages)
+  - [Packages](#packages)
 - [VS-Code](#vs-code)
-  * [Extensions](#extensions)
-- [Typora/ GitHub Markdown](#typora--github-markdown)
-  * [GitHub Markdown TOC](#github-markdown-toc)
-  * [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
+  - [Extensions](#extensions)
+- [Typora/ GitHub Markdown](#typora-github-markdown)
+  - [GitHub Markdown TOC](#github-markdown-toc)
+  - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
-
 ### Font-family
+
 ```html
 font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 ```
 
 ### Atom
+
 #### Packages
 
 [Emmet](https://atom.io/packages/emmet) by emmetio  
@@ -43,15 +44,17 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 
   Settings > Editor > Show Indent Guide  
   Settings > Editor > Zoom Font When Ctrl Scrolling  
-  Settings > Keybindings > Keymap file add:  
-    ```
-      'atom-text-editor':
-      'f10': 'editor:toggle-soft-wrap'
-    ```  
+  Settings > Keybindings > Keymap file add:
+
+  ```js
+    'atom-text-editor':
+    'f10': 'editor:toggle-soft-wrap'
+  ```  
 
 </details>
 
 ### VS-Code
+
 #### Extensions
 
 [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
@@ -94,9 +97,11 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 
 **Create TOC in markdown File** - [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada  
 // Special characters such as `` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
+
 ```markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
 ```
 
 #### Beautify and Markdown syntax
+
 Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.
