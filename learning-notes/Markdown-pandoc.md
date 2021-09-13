@@ -8,8 +8,12 @@
     + [Making a code fence](#making-a-code-fence)
     + [Adding a shield.io badge](#adding-a-shieldio-badge)
     + [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
+    + [GitHub markdown](#github-markdown)
+    + [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
+    + [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 </div>
@@ -122,3 +126,6 @@ markdown
 
 ### Reduce HTML elements in Markdown
 When possible, avoid using HTML elements in Markdown, e.g. links, italics, bold. Focus on using Markdown syntax.
+
+### Beautify and Markdown syntax
+Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.
