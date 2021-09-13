@@ -180,16 +180,12 @@ text, images, and buttons – can be added to the body.
 ### Differences between main and body:
 
 **main**:
-
-> The content inside the **main** element should be unique to the
-> document. It should not contain any content that is repeated across
-> documents such as sidebars, navigation links, copyright information,
-> site logos, and search forms.
+The content inside the **main** element should be unique to the document. It should not contain any content that is
+repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
 
 **body**:
-
-> The **body** element contains all the contents of an HTML document,
-> such as text, hyperlinks, images, tables, lists, etc.
+The **body** element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists,
+etc.
 
 An easy example, the footer element; you should put it inside the body,
 but outside the main, as you will do with your menu, or sidebar.
@@ -414,16 +410,10 @@ space between the two `html` tags.
 
 ### Define the Head and Body of an HTML Document
 
-You can add another level of organization in your HTML document within
-the `html` tags with the `head` and `body` elements. Any markup with
-information about your page would go into the `head` tag. Then any
-markup with the content of the page (what displays for a user) would go
-into the `body` tag.
-
-Metadata elements, such as `link`, `meta`, `title`, and `style`,
-typically go inside the `head` element.
-
-Here's an example of a page's layout:
+You can add another level of organization in your HTML document within the `html` tags with the `head` and `body`
+elements. Any markup with information about your page would go into the `head` tag. Then any markup with the content of
+the page (what displays for a user) would go into the `body` tag. Metadata elements, such as `link`, `meta`, `title`,
+and `style`, typically go inside the `head` element. Here's an example of a page's layout:
 
 ```html
 <!DOCTYPE html>
