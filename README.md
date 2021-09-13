@@ -14,7 +14,7 @@
 
 ### HTML learning Introduction
 
-// Just trying to learn some basic coding, started with [freeCodeCamp](https://www.freecodecamp.org/) ^^
+// Just trying to learn some basic coding, started with [freeCodeCamp](https://www.freecodecamp.org/) ^^  
 [Main Page](https://mcjoules.github.io/html-learning)  
 [HTML Build Project](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html)  
 [HTML Build Project - c](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic-c)  
@@ -24,7 +24,7 @@
 
 <br/>
 
-Table of Contents
+Table of Contents  
 - [HTML learning Introduction](#html-learning-introduction)
 - [Progress](#progress)
   * [Basic HTML](#basic-html)
@@ -37,7 +37,6 @@ Table of Contents
 * * *
 
 ### Progress
-
 #### Basic HTML
 
 _h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br, align_
