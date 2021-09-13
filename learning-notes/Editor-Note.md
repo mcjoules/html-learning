@@ -10,7 +10,7 @@ Table of content
 - [VS-Code](#vs-code)
   * [Extensions](#extensions)
 - [Typora](#typora)
-- [GitHub markdown](#github-markdown)
+  * [GitHub markdown](#github-markdown)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -64,11 +64,10 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
 
 </details>
 
-### GitHub markdown
+#### GitHub markdown
 
 **Create TOC in markdown File** - [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada  
 // Special characters such as `` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
 ```markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
 ```
-
