@@ -60,3 +60,4 @@ Create TOC in markdown File
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  
 [HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
 [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR
+[File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons
