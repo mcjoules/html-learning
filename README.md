@@ -23,16 +23,16 @@
 
 <br/>
 
-Table of Contents  
-
 - [Basic-HTML-learning](#basic-html-learning)
 - [HTML learning Introduction](#html-learning-introduction)
 - [Progress](#progress)
   - [Basic HTML](#basic-html)
   - [Basic CSS](#basic-css)
   - [Markdown](#markdown)
+  - [Editors](#editors)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 <br/>
 
 * * *
@@ -127,3 +127,11 @@ Table of Contents
 ```
 
 **Things I struggle with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
+
+#### Editors
+
+*Extenions, settings, fonts, themes, lint, live-servers, previews, json, shortcuts*  
+
+**Coolest Thing I learnt:** Using both Atom and VS Code, applying extensions, local live-server, shortcuts to stage, commit, and push. Using terminal.  
+
+**Things I struggle with:** Dealing with settings in VS Code extensions, using json file for custom configs. Using lint.  
