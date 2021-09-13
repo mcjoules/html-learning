@@ -6,10 +6,10 @@ Table of content
 
 - [Editor notes](#editor-notes)
 - [Font-family](#font-family)
-- [Atom](#atom)
-  - [Packages](#packages)
 - [VS-Code](#vs-code)
   - [Extensions](#extensions)
+- [Atom](#atom)
+  - [Packages](#packages)
 - [Typora/ GitHub Markdown](#typora-github-markdown)
   - [GitHub Markdown TOC](#github-markdown-toc)
   - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
@@ -19,8 +19,46 @@ Table of content
 ### Font-family
 
 ```html
-font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
+font-family: Monaco, Consolas, Ubuntu Mono, monospace;
 ```
+
+### VS-Code
+
+#### Extensions
+
+[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
+[Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  
+[HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
+[Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR  
+[File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons  
+[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) by Yu Zhang  
+[Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) by David Anson  
+
+Extensions are stored in the following location  
+`DRIVE:\Users\%USERPROFILE%\.vscode\extensions`
+
+<details>
+  <summary>Settings</summary>
+Settings > Text Editor > Minimap > Editor > Minimap: Render Characters  
+Settings > Editor: Font-family  
+Settings > Editor: Code Lens Font-family  
+Settings > SCM: Input Font Family  
+Settings > Debug > Console: Font Family  
+Settings > Terminal > Integrated: Font Family  
+</details>
+
+<details>
+  <summary>Markdown Lint</summary>
+Rules can be enabled, disabled, and customized by creating a JSON file named `.markdownlint.jsonc`/`.markdownlint.json` or a YAML file named `.markdownlint.yaml`/`.markdownlint.yml` or a JavaScript file named `.markdownlint.js` in any directory of a project. The default rule configuration disables MD013/line-length because many files include lines longer than the conventional 80 character limit:  
+
+```json
+{
+    "MD013": false
+}
+```
+
+</details>
 
 ### Atom
 
@@ -53,29 +91,6 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 
 </details>
 
-### VS-Code
-
-#### Extensions
-
-[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
-[Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
-[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  
-[HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
-[Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR  
-[File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons
-
-<details>
-  <summary>Settings</summary>
-
-  Settings > Text Editor > Minimap > Editor > Minimap: Render Characters  
-  Settings > Editor: Font-family  
-  Settings > Editor: Code Lens Font-family  
-  Settings > SCM: Input Font Family  
-  Settings > Debug > Console: Font Family  
-  Settings > Terminal > Integrated: Font Family  
-
-</details>
-
 ### Typora/ GitHub Markdown
 
 <details>
@@ -104,4 +119,4 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 
 #### Beautify and Markdown syntax
 
-Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.
+Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.  

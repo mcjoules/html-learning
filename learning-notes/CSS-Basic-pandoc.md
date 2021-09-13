@@ -20,8 +20,7 @@
 
 ### Meta for setting Viewport for mobile device
 
-[Responsive Web Design Viewport
-(w3schools.com)](https://www.w3schools.com/css/css_rwd_viewport.asp)
+[Responsive Web Design Viewport(w3schools.com)](https://www.w3schools.com/css/css_rwd_viewport.asp)  
 
 HTML5 introduced a method to let web designers take control over the
 viewport, through the `<meta>` tag. You should include the following
@@ -33,8 +32,7 @@ viewport, through the `<meta>` tag. You should include the following
 
 ### Change the Color of Text
 
-[HTML Color Names
-(w3schools.com)](https://www.w3schools.com/colors/colors_names.asp)
+[HTML Color Names(w3schools.com)](https://www.w3schools.com/colors/colors_names.asp)
 
 The property that is responsible for the color of an element's text is
 the `color` style property. Here's how you would set your `h2` element's

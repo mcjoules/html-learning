@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "Monaco, Consolas, Ubuntu Mono, monospace",
+    "editor.codeLensFontFamily": "Monaco, Consolas, monospace",
+    "editor.inlayHints.fontFamily": "Monaco, Consolas, monospace",
+    "terminal.integrated.fontFamily": "Monaco, Consolas, monospace",
+    "terminal.integrated.customGlyphs": false,
+    "terminal.integrated.lineHeight": 1.4
+}
