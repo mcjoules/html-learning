@@ -21,7 +21,7 @@
 
 // I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the **output** of my code and experience **progress** motivates me to continue to learn coding. A lot of my effort will be going into building my **learning notes** besides my project. Writing down notes help me tremendously in my learning.  
 
-<br/>
+Table of Content
 
 - [Basic-HTML-learning](#basic-html-learning)
 - [HTML learning Introduction](#html-learning-introduction)
@@ -32,10 +32,6 @@
   - [Editors](#editors)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-<br/>
-
-* * *
 
 ### Progress
 
@@ -72,9 +68,6 @@ _h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, a
   </html>
 ```
 
-<br/>
-<br/>
-
 #### Basic CSS
 
 _style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}, background-color_
@@ -101,9 +94,6 @@ Credit to [w3schools](https://www.w3schools.com/css/css_rwd_viewport.asp)
 ```
 
 **Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes
-<br/>
-<br/>
-<br/>
 
 #### Markdown
 
