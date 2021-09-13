@@ -1,5 +1,3 @@
-<div id="toc">
-
 - [CSS Basic](#css-basic)
     - [Meta for setting Viewport for mobile device](#meta-for-setting-viewport-for-mobile-device)
     - [Change the Color of Text](#change-the-color-of-text)
@@ -17,8 +15,6 @@
     - [Give a Background Color to a div Element](#give-a-background-color-to-a-div-element)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-</div>
 
 # CSS Basic
 

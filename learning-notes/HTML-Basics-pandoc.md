@@ -1,5 +1,3 @@
-<div id="toc">
-
 - [Responsive Web Design](#responsive-web-design)
   - [HTML](#html)
     - [Headings](#headings)
@@ -29,8 +27,6 @@
     - [Adding a shield.io badge](#adding-a-shieldio-badge)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-</div>
 
 # Responsive Web Design
 

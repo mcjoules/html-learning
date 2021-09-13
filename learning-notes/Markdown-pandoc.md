@@ -1,5 +1,3 @@
-<div id="toc">
-
 - [Markdown](#markdown)
     - [Dropdowns](#dropdowns)
     - [Table of content TOC](#table-of-content-toc)
@@ -13,8 +11,6 @@
     - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-</div>
 
 # Markdown
 
