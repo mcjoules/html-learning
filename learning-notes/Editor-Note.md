@@ -47,7 +47,7 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
     ```
       'atom-text-editor':
       'f10': 'editor:toggle-soft-wrap'
-    ```
+    ```  
 
 </details>
 
@@ -64,12 +64,12 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 <details>
   <summary>Settings</summary>
 
-  Settings > Text Editor > Minimap > Editor > Minimap: Render Characters
-  Settings > Editor: Font-family
-  Settings > Editor: Code Lens Font-family
-  Settings > SCM: Input Font Family
-  Settings > Debug > Console: Font Family
-  Settings > Terminal > Integrated: Font Family
+  Settings > Text Editor > Minimap > Editor > Minimap: Render Characters  
+  Settings > Editor: Font-family  
+  Settings > Editor: Code Lens Font-family  
+  Settings > SCM: Input Font Family  
+  Settings > Debug > Console: Font Family  
+  Settings > Terminal > Integrated: Font Family  
 
 </details>
 

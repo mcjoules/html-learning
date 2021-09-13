@@ -6,7 +6,7 @@
     + [Use CSS Selectors to Style Elements](#use-css-selectors-to-style-elements)
     + [Use a CSS Class to Style an Element](#use-a-css-class-to-style-an-element)
     + [Style Multiple Elements with a CSS Class](#style-multiple-elements-with-a-css-class)
-    + [**Change the Font Size of an Element**](#--change-the-font-size-of-an-element--)
+    + [Change the Font Size of an Element](#change-the-font-size-of-an-element)
     + [Set the Font Family of an Element](#set-the-font-family-of-an-element)
     + [Import a Google Font](#import-a-google-font)
     + [Specify How Fonts Should Degrade](#specify-how-fonts-should-degrade)
@@ -17,8 +17,6 @@
     + [Give a Background Color to a div Element](#give-a-background-color-to-a-div-element)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 
 </div>
 
@@ -98,7 +96,7 @@ Classes allow you to use the same CSS styles on multiple HTML elements.
 You can see this by applying your `red-text` class to the first `p`
 element.
 
-### **Change the Font Size of an Element**
+### Change the Font Size of an Element
 
 Font size is controlled by the `font-size` CSS property, like this:
 
