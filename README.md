@@ -1,6 +1,8 @@
-<h3><a name="title" style="color: Teal;"><b>Basic-HTML-learning</b></a></h3>
+### Basic-HTML-learning
 
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=github"> <img alt="GitHub commits since latest release (by date including pre-releases)" src="https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=github"> <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/mcjoules/html-learning?logo=GitHub">
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=Github)
+![GitHub commits since latest release by date (including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/mcjoules/html-learning?logo=GitHub)
 <a href="https://html.spec.whatwg.org/" target="_blank"><img alt="HTML shield.io" src="https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5"></a>
 <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img alt="CSS shield.io" src="https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3"></a>
 <a href="https://daringfireball.net/projects/markdown/" target="_blank"><img alt="Markdown shield.io" src="https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown"></a>
@@ -12,12 +14,12 @@
 
 ### HTML learning Introduction
 
-// Just trying to learn some basic coding, started with <a href="https://www.freecodecamp.org/" target="_blank" style="color: MidnightBlue">FreeCodeCamp</a> ^^<br>
-<a href="https://mcjoules.github.io/html-learning" style="color: DarkSeaGreen;">Main Page</a>;<br>
-<a href="https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html" target="_blank" style="color: Teal;"> HTML Build Project</a>;<br>
-<a href="https://mcjoules.github.io/html-learning/web-build-project/htmlbasic-c" target="_blank" style="color: pink;">HTML Build Project - c</a>
+// Just trying to learn some basic coding, started with [freeCodeCamp](https://www.freecodecamp.org/) ^^
+[Main Page](https://mcjoules.github.io/html-learning)  
+[HTML Build Project](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html)  
+[HTML Build Project - c](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic-c)  
 
-// I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the <b>output</b> of my code and experience <b>progress</b> motivates me to continue to learn coding. A lot of my effort will be going into building my learning notes besides my project. Writing down notes help me tremendously in my learning.  
+// I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the **output** of my code and experience **progress** motivates me to continue to learn coding. A lot of my effort will be going into building my **learning notes** besides my project. Writing down notes help me tremendously in my learning.  
 
 
 <br/>
@@ -90,7 +92,7 @@ _style, color: color_name, rgb value, margin, class, margin, border-color, borde
 ```
 
 **Treasure discovery:** `meta` responsive web development - setting viewport <br>
-Credit to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">w3schools</a>
+Credit to [w3schools](https://www.w3schools.com/css/css_rwd_viewport.asp)  
 
 ```html
   <!--meta wonder for mobile devices experience-->
