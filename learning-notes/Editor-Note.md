@@ -44,7 +44,7 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  
 [HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
-[Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR
+[Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR  
 [File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons
 
 
