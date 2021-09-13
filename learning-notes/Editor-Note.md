@@ -41,9 +41,9 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 <details>
   <summary>Settings</summary>
 
-  Settings > Editor > Show Indent Guide
-  Settings > Editor > Zoom Font When Ctrl Scrolling
-  Settings > Keybindings > Keymap file add:
+  Settings > Editor > Show Indent Guide  
+  Settings > Editor > Zoom Font When Ctrl Scrolling  
+  Settings > Keybindings > Keymap file add:  
     ```
       'atom-text-editor':
       'f10': 'editor:toggle-soft-wrap'
