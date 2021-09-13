@@ -6,7 +6,7 @@
     + [Comments in HTML](#comments-in-html)
     + [Link to Internal Sections of a Page with Anchor Elements](#link-to-internal-sections-of-a-page-with-anchor-elements)
     + [The Body](#the-body)
-    + [Differences between main and body:](#differences-between-main-and-body-)
+    + [Differences between main and body](#differences-between-main-and-body)
     + [Div Element](#div-element)
     + [HTML Element](#html-element)
     + [Make Dead Links Using the Hash Symbol](#make-dead-links-using-the-hash-symbol)
@@ -29,6 +29,7 @@
     + [Adding a shield.io badge](#adding-a-shieldio-badge)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -177,7 +178,7 @@ text, images, and buttons – can be added to the body.
 </body>
 ```
 
-### Differences between main and body:
+### Differences between main and body
 
 **main**:
 The content inside the **main** element should be unique to the document. It should not contain any content that is
