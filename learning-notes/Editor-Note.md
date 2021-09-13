@@ -38,6 +38,18 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 [Ask a stack](https://atom.io/packages/ask-stack) by Chris911  
 [Highlight selected](https://atom.io/packages/highlight-selected) by richrace
 
+<details>
+  <summary>Settings</summary>
+
+  Settings > Editor > Show Indent Guide
+  Settings > Editor > Zoom Font When Ctrl Scrolling
+  Settings > Keybindings > Keymap file add:
+    ```
+      'atom-text-editor':
+      'f10': 'editor:toggle-soft-wrap'
+    ```
+
+</details>
 
 ### VS-Code
 #### Extensions
@@ -49,6 +61,17 @@ font-family: "Menlo", Consolas, DejaVu Sans Mono, monospace;
 [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR  
 [File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons
 
+<details>
+  <summary>Settings</summary>
+
+  Settings > Text Editor > Minimap > Editor > Minimap: Render Characters
+  Settings > Editor: Font-family
+  Settings > Editor: Code Lens Font-family
+  Settings > SCM: Input Font Family
+  Settings > Debug > Console: Font Family
+  Settings > Terminal > Integrated: Font Family
+
+</details>
 
 ### Typora/ GitHub Markdown
 
