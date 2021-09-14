@@ -40,17 +40,20 @@ Extensions are stored in the following location
 
 <details>
   <summary>Settings</summary>
+
 Settings > Text Editor > Minimap > Editor > Minimap: Render Characters  
 Settings > Editor: Font-family  
 Settings > Editor: Code Lens Font-family  
 Settings > SCM: Input Font Family  
 Settings > Debug > Console: Font Family  
-Settings > Terminal > Integrated: Font Family  
+Settings > Terminal > Integrated: Font Family 
 </details>
 
 <details>
   <summary>Markdown Lint</summary>
-Rules can be enabled, disabled, and customized by creating a JSON file named `.markdownlint.jsonc`/`.markdownlint.json` or a YAML file named `.markdownlint.yaml`/`.markdownlint.yml` or a JavaScript file named `.markdownlint.js` in any directory of a project. The default rule configuration disables MD013/line-length because many files include lines longer than the conventional 80 character limit:  
+Rules can be enabled, disabled, and customized by creating a JSON file named `\.markdownlint.jsonc` / .markdownlint.json or a YAML file named .markdownlint.yaml / .markdownlint.yml or a JavaScript file named .markdownlint.js in any directory of a project.  
+
+The default rule configuration disables MD013/line-length because many files include lines longer than the conventional 80 character limit:  
 
 ```json
 {
