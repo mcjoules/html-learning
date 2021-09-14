@@ -9,6 +9,7 @@
     - [GitHub markdown](#github-markdown)
     - [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
     - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
+    - [Space after HTML element for markdown syntax](#space-after-html-element-for-markdown-syntax)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -126,3 +127,27 @@ When possible, avoid using HTML elements in Markdown, e.g. links, italics, bold.
 ### Beautify and Markdown syntax
 
 Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.
+
+### Space after HTML element for markdown syntax
+
+It is important to have a blank line after HTML element to allow Markdown syntax to function.
+
+**Incorrect example:**
+
+```html
+<details>
+  <summary>Wrong</summary>
+This is a `wrong example` <!--no blank lines, md syntax will not work-->
+</details>
+```
+
+**Correct example:**
+
+```html
+<details>
+  <summary>Correct</summary>
+
+This is a `correct example` <!--add blank lines, md syntax works-->
+
+</details>
+```

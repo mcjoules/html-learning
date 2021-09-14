@@ -46,12 +46,13 @@ Settings > Editor: Font-family
 Settings > Editor: Code Lens Font-family  
 Settings > SCM: Input Font Family  
 Settings > Debug > Console: Font Family  
-Settings > Terminal > Integrated: Font Family 
+Settings > Terminal > Integrated: Font Family  
 </details>
 
 <details>
   <summary>Markdown Lint</summary>
-Rules can be enabled, disabled, and customized by creating a JSON file named `\.markdownlint.jsonc` / .markdownlint.json or a YAML file named .markdownlint.yaml / .markdownlint.yml or a JavaScript file named .markdownlint.js in any directory of a project.  
+
+Rules can be enabled, disabled, and customized by creating a JSON file named `.markdownlint.jsonc` / `.markdownlint.json` or a YAML file named `.markdownlint.yaml` / `.markdownlint.yml` or a JavaScript file named `.markdownlint.js` in any directory of a project.  
 
 The default rule configuration disables MD013/line-length because many files include lines longer than the conventional 80 character limit:  
 
@@ -85,7 +86,7 @@ The default rule configuration disables MD013/line-length because many files inc
 
   Settings > Editor > Show Indent Guide  
   Settings > Editor > Zoom Font When Ctrl Scrolling  
-  Settings > Keybindings > Keymap file add:
+  Settings > Keybindings > Keymap file add:  
 
   ```js
     'atom-text-editor':
@@ -102,12 +103,12 @@ The default rule configuration disables MD013/line-length because many files inc
   GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To turn the **Typora** markdown table of
   content TOC into functional TOC in GitHub, we need to export the Typora file as **Markdown (other spec)**.
 
-  1 - Go to **File > Preferences > Export**
-  2 - Add export type as **Markdown (other spec) > variant: GitHub-flavored markdown**
-  3 - Install **pandoc** as instructed
-  4 - Restart **PC? or Typora**
-  5 - Export your **Typora** file: **File > Export > Markdown (other spec)**
-  6 - Your new file should have TOC that works in GitHub README.md/ GitHub markdown
+  1 - Go to **File > Preferences > Export**  
+  2 - Add export type as **Markdown (other spec) > variant: GitHub-flavored markdown**  
+  3 - Install **pandoc** as instructed  
+  4 - Restart **PC? or Typora**  
+  5 - Export your **Typora** file: **File > Export > Markdown (other spec)**  
+  6 - Your new file should have TOC that works in GitHub README.md/ GitHub markdown  
 
 </details>
 
