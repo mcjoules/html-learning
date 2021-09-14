@@ -34,6 +34,7 @@ font-family: Monaco, Consolas, Ubuntu Mono, monospace;
 [File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons  
 [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) by Yu Zhang  
 [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) by David Anson  
+[GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) by GitHub
 
 Extensions are stored in the following location  
 `DRIVE:\Users\%USERPROFILE%\.vscode\extensions`
