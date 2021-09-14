@@ -1,4 +1,4 @@
-### Basic-HTML-learning
+# Basic-HTML-learning
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=Github)
 ![GitHub commits since latest release by date (including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
@@ -12,30 +12,29 @@
 <a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp shield.io" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=course&color=yellow&logo=freeCodeCamp"></a>
 <a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shield.io" src="https://img.shields.io/static/v1?label=Codecademy&message=course&color=yellow&logo=Codecademy"></a>
 
-### HTML learning Introduction
+I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the **output** of my code and experience **progress** motivates me to continue to learn coding. A lot of my effort will be going into building my **learning notes** besides my project. Writing down notes help me tremendously in my learning.  
 
-// Just trying to learn some basic coding, started with [freeCodeCamp](https://www.freecodecamp.org/) ^^  
+## Project
+
 [Main Page](https://mcjoules.github.io/html-learning)  
 [HTML Build Project](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html)  
 [HTML Build Project - c](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic-c)  
 
-// I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the **output** of my code and experience **progress** motivates me to continue to learn coding. A lot of my effort will be going into building my **learning notes** besides my project. Writing down notes help me tremendously in my learning.  
-
 **Table of Content**
 
 - [Basic-HTML-learning](#basic-html-learning)
-- [HTML learning Introduction](#html-learning-introduction)
-- [Progress](#progress)
-  - [Basic HTML](#basic-html)
-  - [Basic CSS](#basic-css)
-  - [Markdown](#markdown)
-  - [Editors](#editors)
+  - [Project](#project)
+  - [Progress](#progress)
+    - [Basic HTML](#basic-html)
+    - [Basic CSS](#basic-css)
+    - [Markdown](#markdown)
+    - [Editors](#editors)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-### Progress
+## Progress
 
-#### Basic HTML
+### Basic HTML
 
 _h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br, align_
 <br/>
@@ -68,7 +67,7 @@ _h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, a
   </html>
 ```
 
-#### Basic CSS
+### Basic CSS
 
 _style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}, background-color_
 <br/>
@@ -95,7 +94,7 @@ Credit to [w3schools](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
 **Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes
 
-#### Markdown
+### Markdown
 
 _code box, dropdowns, table of content [TOC], horizontal line, shield.io badge_
 <br/>
@@ -118,7 +117,7 @@ Table of Contents
 
 **Things I struggle with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
 
-#### Editors
+### Editors
 
 *Extenions, settings, fonts, themes, lint, live-servers, previews, json, shortcuts*  
 
