@@ -18,7 +18,7 @@ I am trying to put what I have learnt into this little web build project, starti
 
 [Html-learning Repo](https://github.com/mcjoules/html-learning)  
 [Repo GitHub Page](https://mcjoules.github.io/html-learning)  
-[Repo Wiki](https://github.com/mcjoules/html-learning/wiki)
+[Repo Wiki](https://github.com/mcjoules/html-learning/wiki)  
 [HTML Build Project](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html)  
 [HTML Build Project - c](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic-c)  
 
