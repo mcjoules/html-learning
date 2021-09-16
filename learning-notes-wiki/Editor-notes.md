@@ -65,6 +65,19 @@ The default rule configuration disables MD013/line-length because many files inc
 
 </details>
 
+<details>
+  <summary>Clone a Repository to VS Code</summary>
+
+1. `Ctrl`+`Shift`+`P` > Open "Command Palette"  
+2. "Git: Clone"  
+3. Input: Provide repository URL  
+4. Select Folder for clone location  
+
+!!Syncing will not work (push, pull) if the repo is cloned into another repo.  
+See [Git clone into another git repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existing-git-repo)
+
+</details>
+
 ### Atom
 
 #### Packages
