@@ -1,31 +1,31 @@
-### Editor notes
+# Editor notes
 
 Some helpful tips and extensions for editors for personal reference.
 
 Table of content
 
 - [Editor notes](#editor-notes)
-- [Font-family](#font-family)
-- [VS-Code](#vs-code)
-  - [Extensions](#extensions)
-- [Atom](#atom)
-  - [Packages](#packages)
-- [Typora/ GitHub Markdown](#typora-github-markdown)
-  - [GitHub Markdown TOC](#github-markdown-toc)
-  - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
+  - [Font-family](#font-family)
+  - [VS-Code](#vs-code)
+    - [Extensions](#extensions)
+  - [Atom](#atom)
+    - [Packages](#packages)
+  - [Typora/ GitHub Markdown](#typora-github-markdown)
+    - [GitHub Markdown TOC](#github-markdown-toc)
+    - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table
 of contents generated with markdown-toc</a></i></small>
 
-### Font-family
+## Font-family
 
 ```html
 font-family: Monaco, Consolas, Ubuntu Mono, monospace;
 ```
 
-### VS-Code
+## VS-Code
 
-#### Extensions
+### Extensions
 
 [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
 [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
@@ -73,18 +73,19 @@ files include lines longer than the conventional 80 character limit:
 <details>
   <summary>Clone a Repository to VS Code</summary>
 
-1. `Ctrl`+`Shift`+`P` > Open "Command Palette"  
-2. "Git: Clone"  
-3. Input: Provide repository URL  
-4. Select Folder for clone location  
+1 - `Ctrl`+`Shift`+`P` > Open "Command Palette"  
+2 - "Git: Clone"  
+3 - Input: Provide repository URL  
+4 - Select Folder for clone location  
 
-!!Syncing will not work (push, pull) if the repo is cloned into another repo. See [Git clone into another git repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existing-git-repo)
+Syncing will not work (pull, push) if the repo is cloned into another repo.  
+[Git clone into another git repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existing-git-repo)  
 
 </details>
 
-### Atom
+## Atom
 
-#### Packages
+### Packages
 
 [Emmet](https://atom.io/packages/emmet) by emmetio  
 [File Icons](https://atom.io/packages/file-icons) by file-icons  
@@ -140,7 +141,7 @@ exclude_rule 'MD033'
 
 </details>
 
-### Typora/ GitHub Markdown
+## Typora/ GitHub Markdown
 
 <details>
   <summary>Transfer Typora TOC onto GitHub README.md</summary>
@@ -156,7 +157,7 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
 
 </details>
 
-#### GitHub Markdown TOC
+### GitHub Markdown TOC
 
 **Create TOC in markdown File** - [GitHub TOC
 Generator](https://ecotrust-canada.github.io/markdown-toc/) by
@@ -168,7 +169,6 @@ For example:
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
 ```
 
-#### Beautify and Markdown syntax
+### Beautify and Markdown syntax
 
-Beware that **Beautify** may affect some Markdown syntax. Use with
-caution in Markdown.  
+Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.  
