@@ -27,16 +27,15 @@ font-family: Monaco, Consolas, Ubuntu Mono, monospace;
 
 #### Extensions
 
-[Atom One Dark
-Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali   [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
-[Live
-Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey   [HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
+[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark) by Mahmoud Ali  
+[Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) by Matt Bierner  
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) by Ritwick Dey  
+[HTML Preview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode) by Thomas Haakon Townsend  
 [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) by HookyQR  
 [File-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) by file-icons  
-[Markdown All in
-One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) by Yu Zhang   [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) by David Anson  
-[GitHub Pull Requests and
-Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) by GitHub
+[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) by Yu Zhang  
+[Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) by David Anson  
+[GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) by GitHub  
 
 Extensions are stored in the following location  
 `DRIVE:\Users\%USERPROFILE%\.vscode\extensions`
@@ -79,9 +78,7 @@ files include lines longer than the conventional 80 character limit:
 3. Input: Provide repository URL  
 4. Select Folder for clone location  
 
-!!Syncing will not work (push, pull) if the repo is cloned into another
-repo.   See [Git clone into another git
-repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existing-git-repo)
+!!Syncing will not work (push, pull) if the repo is cloned into another repo. See [Git clone into another git repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existing-git-repo)
 
 </details>
 
@@ -91,8 +88,8 @@ repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existi
 
 [Emmet](https://atom.io/packages/emmet) by emmetio  
 [File Icons](https://atom.io/packages/file-icons) by file-icons  
-[Atom Live Server](https://atom.io/packages/atom-live-server) by
-jas-chen   [Todo](https://atom.io/packages/todo) by reergymerej  
+[Atom Live Server](https://atom.io/packages/atom-live-server) by jas-chen  
+[Todo](https://atom.io/packages/todo) by reergymerej  
 [Minimap](https://atom.io/packages/minimap) by atom-minimap  
 [Pigments](https://atom.io/packages/pigments) by abe33  
 [Linter](https://atom.io/packages/linter) by steelbrain  
@@ -100,8 +97,10 @@ jas-chen   [Todo](https://atom.io/packages/todo) by reergymerej
 [Linter-jscs](https://atom.io/packages/linter-jscs) by AtomLinter  
 [Atom-beautify](https://atom.io/packages/atom-beautify) by Glavin001  
 [Ask a stack](https://atom.io/packages/ask-stack) by Chris911  
-[Highlight selected](https://atom.io/packages/highlight-selected) by
-richrace
+[Highlight selected](https://atom.io/packages/highlight-selected) by richrace  
+[Linter](https://atom.io/packages/linter) by steelbrain (follow install instructions)  
+[Linter-ui-default](https://atom.io/packages/linter-ui-default) by steelbrain (follow install instructions)
+[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)  
 
 <details>
   <summary>Settings</summary>
@@ -117,23 +116,43 @@ richrace
 
 </details>
 
+<details>
+  <summary>Atom Mardownlint Configuration</summary>
+
+1 - Follow the install instructions, (install packages) 1. Linter, 2. Linter-ui-default, 3. Linter-markdownlint.  
+2 - Add the following to `DRIVE:\Users\%USERPROFILE%\.atom\config.cson` (choose Config... in Atom menu)
+
+```cson
+'linter-markdownlint':
+  executablePath: 'mdl'
+  severity: 'error'
+```
+
+3 - Go to `DRIVE:\Users\%USERPROFILE%\.atom\packages\linter-markdownlint`, then copy the `.mdlrc` file (important!) and copy the `.style.rb` file  
+4 - Paste the `.mdlrc` and `.style.rb` files onto the root folder of repository  
+5 - You can now configure the Markdown Linter in the `.style.rb` file by adding codes. Example as below:
+
+```rb
+all
+exclude_rule 'MD009'
+exclude_rule 'MD033'
+```
+
+</details>
+
 ### Typora/ GitHub Markdown
 
 <details>
   <summary>Transfer Typora TOC onto GitHub README.md</summary>
 
-  GitHub markdown uses **pandoc** markdown which differs from Typora
-markdown. To turn the **Typora** markdown table of   content TOC into
-functional TOC in GitHub, we need to export the Typora file as
-**Markdown (other spec)**.
+GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To turn the **Typora** markdown table of content TOC into functional TOC in GitHub, we need to export the Typora file as **Markdown (other spec)**.
 
   1 - Go to **File > Preferences > Export**  
-  2 - Add export type as **Markdown (other spec) > variant:
-GitHub-flavored markdown**     3 - Install **pandoc** as instructed  
+  2 - Add export type as **Markdown (other spec) > variant: GitHub-flavored markdown**  
+  3 - Install **pandoc** as instructed  
   4 - Restart **PC? or Typora**  
-  5 - Export your **Typora** file: **File > Export > Markdown (other
-spec)**     6 - Your new file should have TOC that works in GitHub
-README.md/ GitHub markdown  
+  5 - Export your **Typora** file: **File > Export > Markdown (other spec)**  
+  6 - Your new file should have TOC that works in GitHub `README.md` or GitHub markdown  
 
 </details>
 
