@@ -78,9 +78,9 @@ files include lines longer than the conventional 80 character limit:
 3 - Input: Provide repository URL  
 4 - Select Folder for clone location  
 
-Syncing will not work (pull, push) if the repo is cloned into another repo. See [Git clone into another git repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existing-git-repo)  
-
 </details>
+
+Syncing will not work (pull, push) if the repo is cloned into another repo. See [Git clone into another git repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existing-git-repo)  
 
 ## Atom
 

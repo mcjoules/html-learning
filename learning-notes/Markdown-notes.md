@@ -1,24 +1,24 @@
+# Markdown
+
 - [Markdown](#markdown)
-    - [Dropdowns](#dropdowns)
-    - [Table of content TOC](#table-of-content-toc)
-    - [Empty line break](#empty-line-break)
-    - [Italic/ bold/ header](#italic-bold-header)
-    - [Making a code fence](#making-a-code-fence)
-    - [Adding a shield.io badge](#adding-a-shieldio-badge)
-    - [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
-    - [GitHub markdown](#github-markdown)
-    - [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
-    - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
-    - [Space after HTML element for markdown syntax](#space-after-html-element-for-markdown-syntax)
+  * [Dropdowns](#dropdowns)
+  * [Table of content TOC](#table-of-content-toc)
+  * [Empty line break](#empty-line-break)
+  * [Italic/ bold/ header](#italic--bold--header)
+  * [Making a code fence](#making-a-code-fence)
+  * [Adding a shield.io badge](#adding-a-shieldio-badge)
+  * [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
+  * [GitHub markdown](#github-markdown)
+  * [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
+  * [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
+  * [Space after HTML element for markdown syntax](#space-after-html-element-for-markdown-syntax)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-# Markdown
 
 [Markdown Cheat Sheet \| Markdown
 Guide](https://www.markdownguide.org/cheat-sheet/)
 
-### Dropdowns
+## Dropdowns
 
 ```markdown
 <details>
@@ -27,7 +27,7 @@ Guide](https://www.markdownguide.org/cheat-sheet/)
 </details>
 ```
 
-### Table of content TOC
+## Table of content TOC
 
 ```markdown
 Table of Contents
@@ -36,7 +36,7 @@ Table of Contents
   <a href="class-name">Topic</a>
 ```
 
-### Empty line break
+## Empty line break
 
 ```html
 <!--sometimes an empty line break is required, so <br/> does not affect other syntax/elements in markdown-->
@@ -44,7 +44,7 @@ Table of Contents
 <br/>
 ```
 
-### Italic/ bold/ header
+## Italic/ bold/ header
 
 ```markdown
 <!--italic-->*Hello*
@@ -52,7 +52,7 @@ Table of Contents
 <!--h3-->### Hello ###
 ```
 
-### Making a code fence
+## Making a code fence
 
 ````markdown
     ```html/css/markdown
@@ -60,7 +60,7 @@ Table of Contents
     ```
 ````
 
-### Adding a shield.io badge
+## Adding a shield.io badge
 
 ![shields.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
 [GitHub: How to add Shields \| Easy, visible info on your projects -
@@ -94,7 +94,7 @@ Click on the categories, e.g. activity, version is the release version
 tag e.g. `v1.0.0`, shield.io will automatically check if the version
 exist or not.
 
-### Transfer Typora TOC onto GitHub README.md
+## Transfer Typora TOC onto GitHub README.md
 
 GitHub markdown uses **pandoc** markdown which differs from Typora
 markdown. To turn the **Typora** markdown table of content TOC into
@@ -111,7 +111,7 @@ spec)**
 6 - Your new file should have TOC that works in GitHub README.md/ GitHub
 markdown
 
-### GitHub markdown
+## GitHub markdown
 
 **Create TOC in markdown File** - [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada  
 // Special characters such as `` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
@@ -120,15 +120,15 @@ markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
 ```
 
-### Reduce HTML elements in Markdown
+## Reduce HTML elements in Markdown
 
 When possible, avoid using HTML elements in Markdown, e.g. links, italics, bold. Focus on using Markdown syntax.
 
-### Beautify and Markdown syntax
+## Beautify and Markdown syntax
 
 Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.
 
-### Space after HTML element for markdown syntax
+## Space after HTML element for markdown syntax
 
 It is important to have a blank line after HTML element to allow Markdown syntax to function.
 
