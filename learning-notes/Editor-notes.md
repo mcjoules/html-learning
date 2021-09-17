@@ -99,7 +99,7 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 [Ask a stack](https://atom.io/packages/ask-stack) by Chris911  
 [Highlight selected](https://atom.io/packages/highlight-selected) by richrace  
 [Linter](https://atom.io/packages/linter) by steelbrain (follow install instructions)  
-[Linter-ui-default](https://atom.io/packages/linter-ui-default) by steelbrain (follow install instructions)
+[Linter-ui-default](https://atom.io/packages/linter-ui-default) by steelbrain (follow install instructions)  
 [Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)  
 
 <details>
