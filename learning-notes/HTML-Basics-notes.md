@@ -1,38 +1,35 @@
 # Responsive Web Design
 
 - [Responsive Web Design](#responsive-web-design)
-  - [HTML](#html)
-    - [Headings](#headings)
-    - [Comments in HTML](#comments-in-html)
-    - [Link to Internal Sections of a Page with Anchor Elements](#link-to-internal-sections-of-a-page-with-anchor-elements)
-    - [The Body](#the-body)
-    - [Differences between main and body](#differences-between-main-and-body)
-    - [Div Element](#div-element)
-    - [HTML Element](#html-element)
-    - [Make Dead Links Using the Hash Symbol](#make-dead-links-using-the-hash-symbol)
-    - [Turn an Image into a Link](#turn-an-image-into-a-link)
-    - [Create a Bulleted Unordered List](#create-a-bulleted-unordered-list)
-    - [Create an Ordered List](#create-an-ordered-list)
-    - [Create a Text Field](#create-a-text-field)
-    - [Add Placeholder Text to a Text Field](#add-placeholder-text-to-a-text-field)
-    - [Create a Form Element](#create-a-form-element)
-    - [Add a Submit Button to a Form](#add-a-submit-button-to-a-form)
-    - [Use HTML5 to Require a Field](#use-html5-to-require-a-field)
-    - [Create a Set of Radio Buttons](#create-a-set-of-radio-buttons)
-    - [Create a Set of Checkboxes](#create-a-set-of-checkboxes)
-    - [Use the value attribute with Radio Buttons and Checkboxes](#use-the-value-attribute-with-radio-buttons-and-checkboxes)
-    - [Check Radio Buttons and Checkboxes by Default](#check-radio-buttons-and-checkboxes-by-default)
-    - [Nest Many Elements within a Single div Element](#nest-many-elements-within-a-single-div-element)
-    - [Declare the Doctype of an HTML Document](#declare-the-doctype-of-an-html-document)
-    - [Define the Head and Body of an HTML Document](#define-the-head-and-body-of-an-html-document)
-    - [Align text](#align-text)
-    - [Adding a shield.io badge](#adding-a-shieldio-badge)
+  - [Headings](#headings)
+  - [Comments in HTML](#comments-in-html)
+  - [Link to Internal Sections of a Page with Anchor Elements](#link-to-internal-sections-of-a-page-with-anchor-elements)
+  - [The Body](#the-body)
+  - [Differences between main and body](#differences-between-main-and-body)
+  - [Div Element](#div-element)
+  - [HTML Element](#html-element)
+  - [Make Dead Links Using the Hash Symbol](#make-dead-links-using-the-hash-symbol)
+  - [Turn an Image into a Link](#turn-an-image-into-a-link)
+  - [Create a Bulleted Unordered List](#create-a-bulleted-unordered-list)
+  - [Create an Ordered List](#create-an-ordered-list)
+  - [Create a Text Field](#create-a-text-field)
+  - [Add Placeholder Text to a Text Field](#add-placeholder-text-to-a-text-field)
+  - [Create a Form Element](#create-a-form-element)
+  - [Add a Submit Button to a Form](#add-a-submit-button-to-a-form)
+  - [Use HTML5 to Require a Field](#use-html5-to-require-a-field)
+  - [Create a Set of Radio Buttons](#create-a-set-of-radio-buttons)
+  - [Create a Set of Checkboxes](#create-a-set-of-checkboxes)
+  - [Use the value attribute with Radio Buttons and Checkboxes](#use-the-value-attribute-with-radio-buttons-and-checkboxes)
+  - [Check Radio Buttons and Checkboxes by Default](#check-radio-buttons-and-checkboxes-by-default)
+  - [Nest Many Elements within a Single div Element](#nest-many-elements-within-a-single-div-element)
+  - [Declare the Doctype of an HTML Document](#declare-the-doctype-of-an-html-document)
+  - [Define the Head and Body of an HTML Document](#define-the-head-and-body-of-an-html-document)
+  - [Align text](#align-text)
+  - [Adding a shield.io badge](#adding-a-shieldio-badge)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-## HTML
-
-### Headings
+## Headings
 
 Opening tags look like this:
 
@@ -67,7 +64,7 @@ elements to indicate different levels of subheadings.
 <p>Hello Paragraph</p>
 ```
 
-### Comments in HTML
+## Comments in HTML
 
 ```html
 <!-- This is a comment in HTML -->
@@ -112,7 +109,7 @@ attribute. They also need anchor text.
 <a href="https://www.freecatphotoapp.com"> cat photos </a>
 ```
 
-### Link to Internal Sections of a Page with Anchor Elements
+## Link to Internal Sections of a Page with Anchor Elements
 
 `a` (_anchor_) elements can also be used to create internal links to
 jump to different sections within a webpage.
@@ -150,7 +147,7 @@ is **important** to `id` the footer element, or other elements.
 <footer id="footer">Copyright Cat Photo App</footer>
 ```
 
-### The Body
+## The Body
 
 One of the key HTML elements we use to build a webpage is the _body_
 element. Only content inside the opening and closing body tags can be
@@ -171,7 +168,7 @@ text, images, and buttons – can be added to the body.
 </body>
 ```
 
-### Differences between main and body
+## Differences between main and body
 
 **main**:
 The content inside the **main** element should be unique to the document. It should not contain any content that is
@@ -184,7 +181,7 @@ etc.
 An easy example, the footer element; you should put it inside the body,
 but outside the main, as you will do with your menu, or sidebar.
 
-### Div Element
+## Div Element
 
 The `<div>` element is used as a container that divides an HTML document
 into sections and is short for “division”. `<div>` elements can contain
@@ -201,7 +198,7 @@ _flow content_ such as headings, paragraphs, links, images, etc.
 </div>
 ```
 
-### HTML Element
+## HTML Element
 
 The `<html>` element, the root of an HTML document, should be added
 after the `!DOCTYPE` declaration. All content/structure for an HTML
@@ -215,7 +212,7 @@ tags.
 </html>
 ```
 
-### Make Dead Links Using the Hash Symbol
+## Make Dead Links Using the Hash Symbol
 
 Add `a` elements to your website before you know where they will link.
 This is also handy when you're changing the behaviour of a link using
@@ -226,7 +223,7 @@ This is also handy when you're changing the behaviour of a link using
 <p>View more <a href="#" target="_blank">cat photos</a>.</p>
 ```
 
-### Turn an Image into a Link
+## Turn an Image into a Link
 
 You can make elements into links by nesting them within an `a` element.
 Nest your image within an `a` element. Here's an example:
@@ -238,7 +235,7 @@ Nest your image within an `a` element. Here's an example:
 Remember to use `#` as your `a` element's `href` property in order to
 turn it into a dead link.
 
-### Create a Bulleted Unordered List
+## Create a Bulleted Unordered List
 
 HTML has a special element for creating unordered lists, or bullet point
 style lists. Unordered lists start with an opening `<ul>` element,
@@ -252,7 +249,7 @@ close with a `</ul>`. For example:
 </ul>
 ```
 
-### Create an Ordered List
+## Create an Ordered List
 
 HTML has another special element for creating ordered lists, or numbered
 lists. Ordered lists start with an opening `<ol>` element, followed by
@@ -268,7 +265,7 @@ the `</ol>` tag. For example:
 
 would create a numbered list of `Garfield` and `Sylvester`.
 
-### Create a Text Field
+## Create a Text Field
 
 `input` elements are a convenient way to get input from your user. You
 can create a text input like this:
@@ -281,7 +278,7 @@ can create a text input like this:
 
 Note that `input` elements are self-closing.
 
-### Add Placeholder Text to a Text Field
+## Add Placeholder Text to a Text Field
 
 Placeholder text is what is displayed in your `input` element before
 your user has inputted anything. You can create placeholder text like
@@ -291,7 +288,7 @@ so:
 <input type="text" placeholder="this is placeholder text">
 ```
 
-### Create a Form Element
+## Create a Form Element
 
 `form` element. For example:
 
@@ -301,7 +298,7 @@ so:
 </form>
 ```
 
-### Add a Submit Button to a Form
+## Add a Submit Button to a Form
 
 Here's an example submit button: put it within the form element
 
@@ -309,7 +306,7 @@ Here's an example submit button: put it within the form element
 <button type="submit">Submit</button>
 ```
 
-### Use HTML5 to Require a Field
+## Use HTML5 to Require a Field
 
 ```html
 <form action="/url-where-to-submit-form-data">
@@ -322,7 +319,7 @@ For example, if you wanted to make a text input field required, you can
 just add the attribute `required` within your `input` element, like
 this: `<input type="text" required>`
 
-### Create a Set of Radio Buttons
+## Create a Set of Radio Buttons
 
 ```html
 <!--Radio buttons-->
@@ -332,7 +329,7 @@ this: `<input type="text" required>`
   <input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
 ```
 
-### Create a Set of Checkboxes
+## Create a Set of Checkboxes
 
 ```html
   <!-- checkbox input element-->
@@ -344,7 +341,7 @@ this: `<input type="text" required>`
         <input id="Dress" type="checkbox" name="morning"> Dress</label>
 ```
 
-### Use the value attribute with Radio Buttons and Checkboxes
+## Use the value attribute with Radio Buttons and Checkboxes
 
 When a form gets submitted, the data is sent to the server and includes
 entries for the options selected. Inputs of type `radio` and `checkbox`
@@ -357,7 +354,7 @@ report their values from the `value` attribute. For example:
   <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor</label>
 ```
 
-### Check Radio Buttons and Checkboxes by Default
+## Check Radio Buttons and Checkboxes by Default
 
 You can set a checkbox or radio button to be checked by default using
 the `checked` attribute. To do this, just add the word `checked` to the
@@ -367,14 +364,14 @@ inside of an input element. For example:
 <input type="radio" name="test-name" checked>
 ```
 
-### Nest Many Elements within a Single div Element
+## Nest Many Elements within a Single div Element
 
 The `div` element, also known as a division element, is a general
 purpose container for other elements.  
 The `div` element is probably the most commonly used HTML element of
 all.
 
-### Declare the Doctype of an HTML Document
+## Declare the Doctype of an HTML Document
 
 At the top of your document, you need to tell the browser which version
 of HTML your page is using. HTML is an evolving language, and is updated
@@ -402,7 +399,7 @@ space between the two `html` tags.
 </html>
 ```
 
-### Define the Head and Body of an HTML Document
+## Define the Head and Body of an HTML Document
 
 You can add another level of organization in your HTML document within the `html` tags with the `head` and `body`
 elements. Any markup with information about your page would go into the `head` tag. Then any markup with the content of
@@ -422,7 +419,7 @@ and `style`, typically go inside the `head` element. Here's an example of a page
 </html>
 ```
 
-### Align text
+## Align text
 
 [Alignment, font styles, and horizontal rules in HTML documents
 (w3.org)](https://www.w3.org/TR/html401/present/graphics.html)
@@ -431,7 +428,7 @@ and `style`, typically go inside the `head` element. Here's an example of a page
 <p align="justify">paragraph</p>
 ```
 
-### Adding a shield.io badge
+## Adding a shield.io badge
 
 ![shield.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
 [GitHub: How to add Shields \| Easy, visible info on your projects -
