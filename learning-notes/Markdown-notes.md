@@ -114,7 +114,7 @@ markdown
 ## GitHub markdown
 
 **Create TOC in markdown File** - [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada  
-// Special characters such as `` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
+// Special characters such as \`\` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
 
 ```markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
@@ -150,4 +150,58 @@ This is a `wrong example` <!--no blank lines, md syntax will not work-->
 This is a `correct example` <!--add blank lines, md syntax works-->
 
 </details>
+```
+
+## Escaping Characters
+
+To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash `\` in front of the character.
+
+See [markdownguide.org - Escaping Characters](https://www.markdownguide.org/basic-syntax/#escaping-characters)
+
+|Character|Name|
+|-------|--------|
+|`\`|backslash|  
+|`|backtick|
+|`*`|asterisk|
+|`_`|underscore|
+|`{` `}`|curly braces|
+|`[` `]`|brackets|
+|`<` `>`|angle brackets|
+|`(` `)`|parentheses|
+|`#`|hash|
+|`+`|plus sign|
+|`-`|hyphen|
+|`.`|dot|
+|`!`|exclamation mark|
+|`\|`|pipe|
+
+## Tables in Markdown
+
+See [markdownguide - tables](https://www.markdownguide.org/extended-syntax/#tables)  
+To add a table, use three or more hyphens `---` to create each column’s header, and use pipes `|` to separate each column. For compatibility, you should also add a pipe on either end of the row.
+
+```markdown
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+```
+
+Cell widths can vary, as shown below. The rendered output will look the same.
+
+```markdown
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
+
+**Alignment**
+You can align text in the columns to the left, right, or centre by adding a colon `:` to the left, right, or on both side of the hyphens within the header row.
+
+```markdown
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 ```
