@@ -1,17 +1,19 @@
 # Markdown
 
 - [Markdown](#markdown)
-  * [Dropdowns](#dropdowns)
-  * [Table of content TOC](#table-of-content-toc)
-  * [Empty line break](#empty-line-break)
-  * [Italic/ bold/ header](#italic--bold--header)
-  * [Making a code fence](#making-a-code-fence)
-  * [Adding a shield.io badge](#adding-a-shieldio-badge)
-  * [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
-  * [GitHub markdown](#github-markdown)
-  * [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
-  * [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
-  * [Space after HTML element for markdown syntax](#space-after-html-element-for-markdown-syntax)
+  - [Dropdowns](#dropdowns)
+  - [Table of content TOC](#table-of-content-toc)
+  - [Empty line break](#empty-line-break)
+  - [Italic/ bold/ header](#italic-bold-header)
+  - [Making a code fence](#making-a-code-fence)
+  - [Adding a shield.io badge](#adding-a-shieldio-badge)
+  - [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
+  - [GitHub markdown](#github-markdown)
+  - [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
+  - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
+  - [Space after HTML element for markdown syntax](#space-after-html-element-for-markdown-syntax)
+  - [Escaping Characters](#escaping-characters)
+  - [Tables in Markdown](#tables-in-markdown)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -161,13 +163,13 @@ See [markdownguide.org - Escaping Characters](https://www.markdownguide.org/basi
 |Character|Name|
 |-------|--------|
 |`\`|backslash|  
-|`|backtick|
+|`\``|backtick|
 |`*`|asterisk|
 |`_`|underscore|
-|`{` `}`|curly braces|
-|`[` `]`|brackets|
-|`<` `>`|angle brackets|
-|`(` `)`|parentheses|
+|`{`,`}`|curly braces|
+|`[`,`]`|brackets|
+|`<`,`>`|angle brackets|
+|`(`,`)`|parentheses|
 |`#`|hash|
 |`+`|plus sign|
 |`-`|hyphen|
