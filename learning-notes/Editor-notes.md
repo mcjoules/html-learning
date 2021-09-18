@@ -10,6 +10,7 @@ Table of content
     - [Extensions](#extensions)
   - [Atom](#atom)
     - [Packages](#packages)
+  - [Linter rules](#linter-rules)
   - [Typora/ GitHub Markdown](#typora-github-markdown)
     - [GitHub Markdown TOC](#github-markdown-toc)
     - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
@@ -102,7 +103,7 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 [Linter-ui-default](https://atom.io/packages/linter-ui-default) by steelbrain (follow install instructions)  
 [Linter-node-markdownlint](https://atom.io/packages/linter-node-markdownlint) by josa42  
 [Atom-ide-ui](https://atom.io/packages/atom-ide-ui) by facebook-atom  
-x[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)  
+Disabled [Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)  
 
 <details>
   <summary>Settings</summary>
@@ -137,6 +138,8 @@ x[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelga
 
 </details>
 
+Also See [Documentation and Repository](https://github.com/josa42/atom-linter-node-markdownlint) for Linter-node-markdownlint
+
 <details>
   <summary>x Atom Mardownlint by leonelgalan Configuration</summary>
 
@@ -160,6 +163,12 @@ exclude_rule 'MD033'
 ```
 
 </details>
+
+Also see [Documentation and Repository](https://github.com/leonelgalan/linter-markdownlint) for Linter-markdownlint
+
+## Linter rules
+
+See [Markdownlint GitHub](https://github.com/DavidAnson/markdownlint) by David Anson.  
 
 ## Typora/ GitHub Markdown
 
