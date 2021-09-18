@@ -122,15 +122,15 @@ Disabled [Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by 
 <details>
   <summary>Linter-node-markdownlint by josa42 Configuration</summary>
 
-1 - Follow the install instructions, (install packages) 
+1 - Follow the install instructions, (install packages)  
 
 |No.|Packages|
 |---|--------|
-|1.|Linter| 
+|1.|Linter|
 |2.|Linter-ui-default|
 |3.|Linter-node-markdownlint (by josa42)|
 |4.| tom-ide-ui|
- 
+
 2 - A conflict message may appear in atom - select disable `Linter`, allow `atom-ide-ui`  
 3 - Go to `DRIVE:\Users\%USERPROFILE%\.atom\packages\linter-node-markdownlint` and find `.markdownlintrc` file  
 4 - Copy `.markdownlintrc` file and paste it to the root folder of repository  
