@@ -163,7 +163,7 @@ See [markdownguide.org - Escaping Characters](https://www.markdownguide.org/basi
 |Character|Name|
 |-------|--------|
 |`\`|backslash|  
-|`\``|backtick|
+|`` ` ``|backtick|
 |`*`|asterisk|
 |`_`|underscore|
 |`{`,`}`|curly braces|
