@@ -141,7 +141,7 @@ Table of Contents
 
 **Coolest Thing I learnt:** Using both Atom and VS Code, applying extensions, local live-server, shortcuts to stage, commit, and push. Using terminal.  
 
-**Things I struggle with:** Dealing with settings in VS Code extensions, using json file for custom configs. Using lint. Example to configure and ignore specific lint rule in markdown:  
+**Things I struggle with:** Dealing with settings in VS Code extensions, Atom packages and configurations, using json files, ruby files, for custom configs. Using lint. Following the documentations and instructions, using terminal commands. It has been a significant struggle for a beginner. Glad to finally manage to setup linter for both VS Code and Atom and was able to configure the rules, after many late evenings. Example to configure and ignore specific lint rule in markdown:  
 
 ```json
 {
