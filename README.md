@@ -1,7 +1,5 @@
 # Basic-HTML-learning
 
-I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the **output** of my code and experience **progress** motivates me to continue to learn coding. A lot of my effort will be going into building my **learning notes** besides my project. Writing down notes help me tremendously in my learning.  
-
 **GitHub**  
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=Github)
 ![GitHub commits since latest release by date (including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
@@ -21,7 +19,9 @@ I am trying to put what I have learnt into this little web build project, starti
 <a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=resource&color=yellow&logo=freeCodeCamp"></a>
 <a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy" src="https://img.shields.io/static/v1?label=Codecademy&message=resource&color=yellow&logo=Codecademy"></a>
 <a href="https://stackoverflow.com/" target="_blank"><img alt="stack overflow" src="https://img.shields.io/static/v1?label=StackOverflow&message=resource&color=yellow&logo=StackOverflow"></a>
-<a href="https://docs.github.com/en" target="_blank"><img alt="GitHub Doc" src="https://img.shields.io/static/v1?label=GitHub%20Doc&message=resources&color=yellow&logo=GitHub&link=https://docs.github.com/en&link=%27#"></a>
+<a href="https://docs.github.com/en" target="_blank"><img alt="GitHub Doc" src="https://img.shields.io/static/v1?label=GitHub%20Doc&message=resources&color=yellow&logo=GitHub&link=https://docs.github.com/en&link=%27#"></a>  
+
+I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the **output** of my code and experience **progress** motivates me to continue to learn coding. A lot of my effort will be going into building my **learning notes** besides my project. Writing down notes help me tremendously in my learning.  
 
 ## Project
 
