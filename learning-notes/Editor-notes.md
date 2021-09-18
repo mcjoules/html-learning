@@ -99,11 +99,11 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 [Atom-beautify](https://atom.io/packages/atom-beautify) by Glavin001  
 [Ask a stack](https://atom.io/packages/ask-stack) by Chris911  
 [Highlight selected](https://atom.io/packages/highlight-selected) by richrace  
-[Linter](https://atom.io/packages/linter) by steelbrain (follow install instructions)  
-[Linter-ui-default](https://atom.io/packages/linter-ui-default) by steelbrain (follow install instructions)  
-[Linter-node-markdownlint](https://atom.io/packages/linter-node-markdownlint) by josa42 (Preferred)  
-[Atom-ide-ui](https://atom.io/packages/atom-ide-ui) by facebook-atom  
-[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)  
+[Linter](https://atom.io/packages/linter) by steelbrain (see install instructions)  
+[Linter-ui-default](https://atom.io/packages/linter-ui-default) by steelbrain  
+[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (see install instructions)  
+[Linter-node-markdownlint](https://atom.io/packages/linter-node-markdownlint) by josa42 [Preferred]  
+[Atom-ide-ui](https://atom.io/packages/atom-ide-ui) by facebook-atom [Preferred]  
 
 <details>
   <summary>Settings</summary>
@@ -122,16 +122,15 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 <details>
   <summary>Linter-node-markdownlint by josa42 Configuration</summary>
 
-1 - Follow the install instructions, (install packages)  
+1 - Follow the install instructions (install packages)  
 
 |No.|Packages|
 |---|--------|
 |1.|Linter|
-|2.|Linter-ui-default|
-|3.|Linter-node-markdownlint (by josa42)|
-|4.| tom-ide-ui|
+|2.|Linter-node-markdownlint (by josa42)|
+|3.|atom-ide-ui|
 
-2 - A conflict message may appear in atom - select disable `Linter`, allow `atom-ide-ui`  
+2 - A conflict message may appear in atom if you have other linter-ui - select which ui to disable  
 3 - Go to `DRIVE:\Users\%USERPROFILE%\.atom\packages\linter-node-markdownlint` and find `.markdownlintrc` file  
 4 - Copy `.markdownlintrc` file and paste it to the root folder of repository  
 5 - !!DO NOT add `.json` or other file type suffix to the file, otherwise, the config will not work.  
