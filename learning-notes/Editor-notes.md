@@ -101,9 +101,9 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 [Highlight selected](https://atom.io/packages/highlight-selected) by richrace  
 [Linter](https://atom.io/packages/linter) by steelbrain (follow install instructions)  
 [Linter-ui-default](https://atom.io/packages/linter-ui-default) by steelbrain (follow install instructions)  
-[Linter-node-markdownlint](https://atom.io/packages/linter-node-markdownlint) by josa42  
+[Linter-node-markdownlint](https://atom.io/packages/linter-node-markdownlint) by josa42 (Preferred)  
 [Atom-ide-ui](https://atom.io/packages/atom-ide-ui) by facebook-atom  
-Disabled ~~[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)~~  
+[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)  
 
 <details>
   <summary>Settings</summary>
@@ -149,7 +149,7 @@ Disabled ~~[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) b
 Also See [Documentation and Repository](https://github.com/josa42/atom-linter-node-markdownlint) for Linter-node-markdownlint
 
 <details>
-  <summary>Disabled - ~~Atom Mardownlint by leonelgalan Configuration~~</summary>
+  <summary>Disabled - Atom Mardownlint by leonelgalan Configuration</summary>
 
 1 - Follow the install instructions, (install packages) 1. Linter, 2. Linter-ui-default, 3. Linter-markdownlint.  
 2 - Add the following to `DRIVE:\Users\%USERPROFILE%\.atom\config.cson` (choose Config... in Atom menu)
