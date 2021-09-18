@@ -100,7 +100,9 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 [Highlight selected](https://atom.io/packages/highlight-selected) by richrace  
 [Linter](https://atom.io/packages/linter) by steelbrain (follow install instructions)  
 [Linter-ui-default](https://atom.io/packages/linter-ui-default) by steelbrain (follow install instructions)  
-[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)  
+[Linter-node-markdownlint](https://atom.io/packages/linter-node-markdownlint) by josa42  
+[Atom-ide-ui](https://atom.io/packages/atom-ide-ui) by facebook-atom  
+x[Linter-markdownlint](https://atom.io/packages/linter-markdownlint) by leonelgalan (follow install instructions)  
 
 <details>
   <summary>Settings</summary>
@@ -117,7 +119,26 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 </details>
 
 <details>
-  <summary>Atom Mardownlint Configuration</summary>
+  <summary>Linter-node-markdownlint by josa42 Configuration</summary>
+
+1 - Follow the install instructions, (install packages) 1. Linter, 2. Linter-ui-default, 3. Linter-node-markdownlint (by josa42), 4. Atom-ide-ui
+2 - A conflict message may appear in atom - select disable `Linter`, allow `atom-ide-ui`
+3 - Go to `DRIVE:\Users\%USERPROFILE%\.atom\packages\linter-node-markdownlint` and find `.markdownlintrc` file
+4 - Copy `.markdownlintrc` file and paste it to the root folder of repository
+5 - !!DO NOT add `.json` or other file type suffix to the file, otherwise, the config will not work.
+6 - Configure Linter-node-markdownlint package in `.markdownlintrc` file by adding code. Example as follow:
+
+```json
+{
+  "MD004": false,
+  "MD007": false
+}
+```
+
+</details>
+
+<details>
+  <summary>x Atom Mardownlint by leonelgalan Configuration</summary>
 
 1 - Follow the install instructions, (install packages) 1. Linter, 2. Linter-ui-default, 3. Linter-markdownlint.  
 2 - Add the following to `DRIVE:\Users\%USERPROFILE%\.atom\config.cson` (choose Config... in Atom menu)
