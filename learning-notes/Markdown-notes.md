@@ -13,6 +13,7 @@
   - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
   - [Space after HTML element for markdown syntax](#space-after-html-element-for-markdown-syntax)
   - [Escaping Characters](#escaping-characters)
+    - [Backstick in inline code](#backstick-in-inline-code)
   - [Tables in Markdown](#tables-in-markdown)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -167,6 +168,16 @@ See [markdownguide.org - Escaping Characters](https://www.markdownguide.org/basi
 |`.`|dot|
 |`!`|exclamation mark|
 |`\|`|pipe|
+
+### Backstick in inline code
+
+To place the backstick `` ` `` in a inline code, spacing *before* and *after* the `` ` `` is needed, and **double backstick** quote is needed. See example:  
+
+```markdown
+`` ` `` <!--correct-->
+```     <!--incorrect-->
+`````   <!--incorrect-->
+```
 
 ## Tables in Markdown
 
