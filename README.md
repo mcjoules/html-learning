@@ -8,19 +8,20 @@ I am trying to put what I have learnt into this little web build project, starti
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/mcjoules/html-learning?logo=GitHub&color=brightgreen)  
 
 **Languages**  
-<a href="https://html.spec.whatwg.org/" target="_blank"><img alt="HTML shields.io" src="https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5"></a>
-<a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img alt="CSS shields.io" src="https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3"></a>
-<a href="https://daringfireball.net/projects/markdown/" target="_blank"><img alt="Markdown shields.io" src="https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown"></a>  
+<a href="https://html.spec.whatwg.org/" target="_blank"><img alt="HTML" src="https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5"></a>
+<a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img alt="CSS" src="https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3"></a>
+<a href="https://daringfireball.net/projects/markdown/" target="_blank"><img alt="Markdown" src="https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown"></a>  
 
 **Editors**  
-<a href="https://atom.io/" target="_blank"><img alt="Atom shields.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
-<a href="https://code.visualstudio.com/" target="_blank"><img alt="VS Code shields.io" src="https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code"></a>
-<a href="https://typora.io/" target="_blank"><img alt="Typora shields.io" src="https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo="></a>
+<a href="https://atom.io/" target="_blank"><img alt="Atom" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
+<a href="https://code.visualstudio.com/" target="_blank"><img alt="VS Code" src="https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code"></a>
+<a href="https://typora.io/" target="_blank"><img alt="Typora" src="https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo="></a>
 
 **Resources**  
-<a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp shields.io" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=resource&color=yellow&logo=freeCodeCamp"></a>
-<a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shields.io" src="https://img.shields.io/static/v1?label=Codecademy&message=resource&color=yellow&logo=Codecademy"></a>
-<a href="https://stackoverflow.com/" target="_blank"><img alt="stack overflow shields.io>" src="https://img.shields.io/static/v1?label=Stack Overflow&message=resource&color=yellow&logo=Stack Overflow"></a>
+<a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=resource&color=yellow&logo=freeCodeCamp"></a>
+<a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy" src="https://img.shields.io/static/v1?label=Codecademy&message=resource&color=yellow&logo=Codecademy"></a>
+<a href="https://stackoverflow.com/" target="_blank"><img alt="stack overflow" src="https://img.shields.io/static/v1?label=StackOverflow&message=resource&color=yellow&logo=StackOverflow"></a>
+![GitHub Doc](https://img.shields.io/static/v1?label=GitHub%20Doc&message=resources&color=yellow&logo=GitHub&link=https://docs.github.com/en&link=%27#')
 
 ## Project
 
