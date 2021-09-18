@@ -174,9 +174,9 @@ See [markdownguide.org - Escaping Characters](https://www.markdownguide.org/basi
 To place the backstick `` ` `` in a inline code, spacing *before* and *after* the `` ` `` is needed, and **double backstick** quote is needed. See example:  
 
 ```markdown
-`` ` `` <!--correct-->
-```     <!--incorrect-->
-`````   <!--incorrect-->
+`` ` `` //correct
+```     //incorrect
+`````   //incorrect
 ```
 
 ## Tables in Markdown
