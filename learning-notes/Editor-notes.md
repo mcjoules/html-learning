@@ -158,11 +158,8 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
 
 ### GitHub Markdown TOC
 
-**Create TOC in markdown File** - [GitHub TOC
-Generator](https://ecotrust-canada.github.io/markdown-toc/) by
-ecotrust-canada   // Special characters such as `` or ** or : will
-invalidate the TOC link, as TOC generator turn it into `-` character.
-For example:
+**Create TOC in markdown File** - [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada  
+// Special characters such as \`\` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
 
 ```markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
