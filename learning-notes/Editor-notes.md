@@ -15,8 +15,7 @@ Table of content
     - [GitHub Markdown TOC](#github-markdown-toc)
     - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table
-of contents generated with markdown-toc</a></i></small>
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Font-family
 

@@ -65,14 +65,10 @@ Table of Contents
 ## Adding a shield.io badge
 
 ![shields.io](https://img.shields.io/static/v1?label=shields.io&message=badge&color=<color>&logo=Shields.io "fig:")  
-[GitHub: How to add Shields \| Easy, visible info on your projects -
-YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)  
-[Shields.io: Quality metadata badges for open source
-projects](https://shields.io/#your-badge)
+[GitHub: How to add Shields \| Easy, visible info on your projects -YouTube](https://www.youtube.com/watch?v=Dl-ekLb4quE&ab_channel=TroubleChute)  
+[Shields.io: Quality metadata badges for open source projects](https://shields.io/#your-badge)  
 
-Study the web link address carefully, input in place of `<input>` and
-remove the `<` and `>` as well. Select the categories in the shields.io website
-for interactive, dynamic badges linked to GitHub
+Study the web link address carefully, input in place of `<input>` and remove the `<` and `>` as well. Select the categories in the shields.io website for interactive, dynamic badges linked to GitHub  
 
 **Markdown:**
 
@@ -92,16 +88,11 @@ for interactive, dynamic badges linked to GitHub
 ```
 
 **Activity: version**  
-Click on the categories, e.g. activity, version is the release version
-tag e.g. `v1.0.0`, shield.io will automatically check if the version
-exist or not.
+Click on the categories, e.g. activity, version is the release version tag e.g. `v1.0.0`, shield.io will automatically check if the version exist or not.
 
 ## Transfer Typora TOC onto GitHub README.md
 
-GitHub markdown uses **pandoc** markdown which differs from Typora
-markdown. To turn the **Typora** markdown table of content TOC into
-functional TOC in GitHub, we need to export the Typora file as
-**Markdown (other spec)**.
+GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To turn the **Typora** markdown table of content TOC into functional TOC in GitHub, we need to export the Typora file as **Markdown (other spec)**.  
 
 1 - Go to **File > Preferences > Export**  
 2 - Add export type as **Markdown (other spec) > variant:
@@ -116,7 +107,7 @@ markdown
 ## GitHub markdown
 
 **Create TOC in markdown File** - [GitHub TOC Generator](https://ecotrust-canada.github.io/markdown-toc/) by ecotrust-canada  
-// Special characters such as \`\` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:
+// Special characters such as \`\` or ** or : will invalidate the TOC link, as TOC generator turn it into `-` character. For example:  
 
 ```markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
@@ -124,15 +115,15 @@ markdown
 
 ## Reduce HTML elements in Markdown
 
-When possible, avoid using HTML elements in Markdown, e.g. links, italics, bold. Focus on using Markdown syntax.
+When possible, avoid using HTML elements in Markdown, e.g. links, italics, bold. Focus on using Markdown syntax.  
 
 ## Beautify and Markdown syntax
 
-Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.
+Beware that **Beautify** may affect some Markdown syntax. Use with caution in Markdown.  
 
 ## Space after HTML element for markdown syntax
 
-It is important to have a blank line after HTML element to allow Markdown syntax to function.
+It is important to have a blank line after HTML element to allow Markdown syntax to function.  
 
 **Incorrect example:**
 
