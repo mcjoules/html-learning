@@ -2,33 +2,30 @@
 
 I am trying to put what I have learnt into this little web build project, starting from basic HTML tags, elements and CSS attributes. I also put comments within my code to help me learn. Being able to see the **output** of my code and experience **progress** motivates me to continue to learn coding. A lot of my effort will be going into building my **learning notes** besides my project. Writing down notes help me tremendously in my learning.  
 
-#### GitHub
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=Github)  
-![GitHub commits since latest release by date (including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)  
+**GitHub**  
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mcjoules/html-learning?color=brightgreen&logo=Github)
+![GitHub commits since latest release by date (including pre-releases)](https://img.shields.io/github/commits-since/mcjoules/html-learning/v1.0.0?color=brightgreen&include_prereleases&logo=Github)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/mcjoules/html-learning?logo=GitHub&color=brightgreen)  
 
-#### Languages
-
-<a href="https://html.spec.whatwg.org/" target="_blank"><img alt="HTML shields.io" src="https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5"></a>  
-<a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img alt="CSS shields.io" src="https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3"></a>  
+**Languages**  
+<a href="https://html.spec.whatwg.org/" target="_blank"><img alt="HTML shields.io" src="https://img.shields.io/static/v1?label=HTML&message=build&color=green&logo=HTML5"></a>
+<a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img alt="CSS shields.io" src="https://img.shields.io/static/v1?label=CSS&message=build&color=green&logo=CSS3"></a>
 <a href="https://daringfireball.net/projects/markdown/" target="_blank"><img alt="Markdown shields.io" src="https://img.shields.io/static/v1?label=Markdown&message=build&color=green&logo=Markdown"></a>  
 
-#### Editors
-
-<a href="https://atom.io/" target="_blank"><img alt="Atom shields.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>  
-<a href="https://code.visualstudio.com/" target="_blank"><img alt="VS Code shields.io" src="https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code"></a>  
+**Editors**  
+<a href="https://atom.io/" target="_blank"><img alt="Atom shields.io" src="https://img.shields.io/static/v1?label=Atom&message=editor&color=teal&logo=Atom"></a>
+<a href="https://code.visualstudio.com/" target="_blank"><img alt="VS Code shields.io" src="https://img.shields.io/static/v1?label=VS%20Code&message=editor&color=teal&logo=Visual%20Studio%20Code"></a>
 <a href="https://typora.io/" target="_blank"><img alt="Typora shields.io" src="https://img.shields.io/static/v1?label=Typora&message=editor&color=teal&logo="></a>
 
-#### Resources
-
-<a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp shields.io" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=resource&color=yellow&logo=freeCodeCamp"></a>  
-<a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shields.io" src="https://img.shields.io/static/v1?label=Codecademy&message=resource&color=yellow&logo=Codecademy"></a>  
+**Resources**  
+<a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp shields.io" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=resource&color=yellow&logo=freeCodeCamp"></a>
+<a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy shields.io" src="https://img.shields.io/static/v1?label=Codecademy&message=resource&color=yellow&logo=Codecademy"></a>
 <a href="https://stackoverflow.com/" target="_blank"><img alt="stack overflow shields.io>" src="https://img.shields.io/static/v1?label=Stack Overflow&message=resource&color=yellow&logo=Stack Overflow"></a>
 
 ## Project
 
 [Html-learning Repo](https://github.com/mcjoules/html-learning)  
+[Learning Note](https://github.com/mcjoules/html-learning/tree/main/learning-notes)  
 [Repo GitHub Page](https://mcjoules.github.io/html-learning)  
 [Repo Wiki](https://github.com/mcjoules/html-learning/wiki)  
 [HTML Build Project](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html)  
@@ -37,10 +34,6 @@ I am trying to put what I have learnt into this little web build project, starti
 **Table of Content**
 
 - [Basic-HTML-learning](#basic-html-learning)
-      - [GitHub](#github)
-      - [Languages](#languages)
-      - [Editors](#editors)
-      - [Resources](#resources)
   - [Project](#project)
   - [Progress](#progress)
     - [Basic HTML](#basic-html)
