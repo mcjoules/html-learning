@@ -41,6 +41,7 @@ I am trying to put what I have learnt into this little web build project, starti
     - [Basic CSS](#basic-css)
     - [Markdown](#markdown)
     - [Editors and settings](#editors-and-settings)
+    - [GitHub](#github)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -143,3 +144,11 @@ Table of Contents
     "MD014": false
 }
 ```
+
+### GitHub
+
+*Repository, GitHub Page, GitHub Markdown, Wiki, Issue, Issue template, GitHub Desktop, GitHub Doc, GitHub with Editors (push and pull), branch, fork, merge*
+
+**Coolest Thing I learnt:** Building my own web-build project and documentating what I have learnt. Discovering the power of GitHub.  
+
+**Things I struggle with:** Using GitHub Markdown, understanding releases and packages, actions, projects, workflow and docker. GitHub Doc does help with its amazing documentation.  
