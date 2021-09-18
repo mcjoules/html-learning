@@ -157,6 +157,6 @@ Table of Contents
 
 *Repository, GitHub Page, GitHub Markdown, Wiki, Issue, Issue template, GitHub Desktop, GitHub Doc, GitHub with Editors (push and pull), branch, fork, merge*
 
-**Coolest Thing I learnt:** Building my own web-build project and documentating what I have learnt. Discovering the power of GitHub.  
+**Coolest Thing I learnt:** Building my own web-build project and documenting what I have learnt. Discovering the power of GitHub.  
 
 **Things I struggle with:** Using GitHub Markdown, understanding releases and packages, actions, projects, workflow and docker. GitHub Doc does help with its amazing documentation.  
