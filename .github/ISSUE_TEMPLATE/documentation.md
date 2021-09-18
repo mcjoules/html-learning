@@ -1,6 +1,6 @@
 ---
 name: Documentation
-about: Describe improvement or changes to the documentation here.
+about: Suggest a documentation improvement
 title: ''
 labels: documentation
 assignees: mcjoules
