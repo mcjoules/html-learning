@@ -20,7 +20,8 @@ Table of content
 ## Font-family
 
 ```html
-font-family: Monaco, Consolas, Ubuntu Mono, monospace;
+<!--useful fonts-->
+font-family: Monaco, Consolas, "Ubuntu Mono", monospace, Menlo, "Helvetica Neue Light", "Helvetica Neue";
 ```
 
 ## VS-Code
