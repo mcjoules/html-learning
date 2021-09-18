@@ -21,7 +21,7 @@ I am trying to put what I have learnt into this little web build project, starti
 <a href="https://www.freecodecamp.org/" target="_blank"><img alt="freeCodeCamp" src="https://img.shields.io/static/v1?label=freeCodeCamp&message=resource&color=yellow&logo=freeCodeCamp"></a>
 <a href="https://www.codecademy.com/learn" target="_blank"><img alt="Codecademy" src="https://img.shields.io/static/v1?label=Codecademy&message=resource&color=yellow&logo=Codecademy"></a>
 <a href="https://stackoverflow.com/" target="_blank"><img alt="stack overflow" src="https://img.shields.io/static/v1?label=StackOverflow&message=resource&color=yellow&logo=StackOverflow"></a>
-![GitHub Doc](https://img.shields.io/static/v1?label=GitHub%20Doc&message=resources&color=yellow&logo=GitHub&link=https://docs.github.com/en&link=%27#')
+<a href="https://docs.github.com/en" target="_blank"><img alt="GitHub Doc" src="https://img.shields.io/static/v1?label=GitHub%20Doc&message=resources&color=yellow&logo=GitHub&link=https://docs.github.com/en&link=%27#"></a>
 
 ## Project
 
