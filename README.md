@@ -80,6 +80,8 @@ _h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, a
   </html>
 ```
 
+---
+
 ### Basic CSS
 
 _style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}, background-color_
@@ -107,6 +109,8 @@ Credit to [w3schools](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
 **Things I struggled with:** keeping the class attribute tidy, knowing which tags to apply class attribute, utilise the many available attributes
 
+---
+
 ### Markdown
 
 _code box, dropdowns, table of content [TOC], horizontal line, shield.io badge_
@@ -130,6 +134,8 @@ Table of Contents
 
 **Things I struggle with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
 
+---
+
 ### Editors and settings
 
 *Extenions, settings, fonts, themes, lint, live-servers, previews, json, shortcuts*  
@@ -144,6 +150,8 @@ Table of Contents
     "MD014": false
 }
 ```
+
+---
 
 ### GitHub
 
