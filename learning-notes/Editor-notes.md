@@ -8,8 +8,14 @@ Table of content
   - [Font-family](#font-family)
   - [VS-Code](#vs-code)
     - [Extensions](#extensions)
+    - [VSC Settings](#vsc-settings)
+    - [Markdown Lint](#markdown-lint)
+    - [Clone a Repository to VS Code](#clone-a-repository-to-vs-code)
   - [Atom](#atom)
     - [Packages](#packages)
+    - [Settings](#settings)
+    - [Linter-node-markdownlint by josa42 Configuration](#linter-node-markdownlint-by-josa42-configuration)
+    - [Disabled - Mardownlint by leonelgalan Configuration](#disabled---mardownlint-by-leonelgalan-configuration)
   - [Linter rules](#linter-rules)
   - [Typora/ GitHub Markdown](#typora-github-markdown)
     - [GitHub Markdown TOC](#github-markdown-toc)
@@ -23,6 +29,8 @@ Table of content
 <!--useful fonts-->
 font-family: Monaco, Consolas, "Ubuntu Mono", monospace, Menlo, "Helvetica Neue Light", "Helvetica Neue";
 ```
+
+---
 
 ## VS-Code
 
@@ -41,8 +49,7 @@ font-family: Monaco, Consolas, "Ubuntu Mono", monospace, Menlo, "Helvetica Neue 
 Extensions are stored in the following location  
 `DRIVE:\Users\%USERPROFILE%\.vscode\extensions`
 
-<details>
-  <summary>Settings</summary>
+### VSC Settings
 
 Settings > Text Editor > Minimap > Editor > Minimap: Render Characters  
 Settings > Editor: Font-family  
@@ -50,10 +57,8 @@ Settings > Editor: Code Lens Font-family
 Settings > SCM: Input Font Family  
 Settings > Debug > Console: Font Family  
 Settings > Terminal > Integrated: Font Family  
-</details>
 
-<details>
-  <summary>Markdown Lint</summary>
+### Markdown Lint
 
 Rules can be enabled, disabled, and customized by creating a JSON file
 named `.markdownlint.jsonc` / `.markdownlint.json` or a YAML file named
@@ -69,19 +74,16 @@ files include lines longer than the conventional 80 character limit:
 }
 ```
 
-</details>
-
-<details>
-  <summary>Clone a Repository to VS Code</summary>
+### Clone a Repository to VS Code
 
 1 - `Ctrl`+`Shift`+`P` > Open "Command Palette"  
 2 - "Git: Clone"  
 3 - Input: Provide repository URL  
 4 - Select Folder for clone location  
 
-</details>
-
 Syncing will not work (pull, push) if the repo is cloned into another repo. See [Git clone into another git repo](https://stackoverflow.com/questions/10360342/git-clone-into-another-existing-git-repo)  
+
+---
 
 ## Atom
 
@@ -105,8 +107,7 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 [Linter-node-markdownlint](https://atom.io/packages/linter-node-markdownlint) by josa42 [Preferred]  
 [Atom-ide-ui](https://atom.io/packages/atom-ide-ui) by facebook-atom [Preferred]  
 
-<details>
-  <summary>Settings</summary>
+### Settings
 
   Settings > Editor > Show Indent Guide  
   Settings > Editor > Zoom Font When Ctrl Scrolling  
@@ -117,10 +118,7 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
     'f10': 'editor:toggle-soft-wrap'
   ```  
 
-</details>
-
-<details>
-  <summary>Linter-node-markdownlint by josa42 Configuration</summary>
+### Linter-node-markdownlint by josa42 Configuration
 
 1 - Follow the install instructions (install packages)  
 
@@ -143,12 +141,9 @@ Syncing will not work (pull, push) if the repo is cloned into another repo. See 
 }
 ```
 
-</details>
-
 Also See [Documentation and Repository](https://github.com/josa42/atom-linter-node-markdownlint) for Linter-node-markdownlint
 
-<details>
-  <summary>Disabled - Atom Mardownlint by leonelgalan Configuration</summary>
+### Disabled - Mardownlint by leonelgalan Configuration
 
 1 - Follow the install instructions, (install packages) 1. Linter, 2. Linter-ui-default, 3. Linter-markdownlint.  
 2 - Add the following to `DRIVE:\Users\%USERPROFILE%\.atom\config.cson` (choose Config... in Atom menu)
@@ -169,13 +164,15 @@ exclude_rule 'MD009'
 exclude_rule 'MD033'
 ```
 
-</details>
-
 Also see [Documentation and Repository](https://github.com/leonelgalan/linter-markdownlint) for Linter-markdownlint
+
+---
 
 ## Linter rules
 
 See [Markdownlint GitHub](https://github.com/DavidAnson/markdownlint) by David Anson.  
+
+---
 
 ## Typora/ GitHub Markdown
 
