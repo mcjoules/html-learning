@@ -33,10 +33,10 @@ I am trying to put what I have learnt into this little web build project, starti
 
 ## Learning Notes Pages
 
-[HTML Basics Notes](learning-notes/HTML-Basics-notes.md)
-[CSS Basics Notes](learning-notes/CSS-Basic-notes.md)
-[Markdown Notes](learning-notes/Markdown-notes.md)
-[Editor Notes](learning-notes/Editor-notes.md)
+[HTML Basics Notes](learning-notes/HTML-Basics-notes.md)  
+[CSS Basics Notes](learning-notes/CSS-Basic-notes.md)  
+[Markdown Notes](learning-notes/Markdown-notes.md)  
+[Editor Notes](learning-notes/Editor-notes.md)  
 
 **Table of Content**
 
