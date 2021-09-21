@@ -9,6 +9,8 @@
   - [Adding a shield.io badge](#adding-a-shieldio-badge)
   - [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
   - [GitHub markdown](#github-markdown)
+    - [GitHub page customisation](#github-page-customisation)
+    - [GitHub markdown relative links](#github-markdown-relative-links)
   - [Reduce HTML elements in Markdown](#reduce-html-elements-in-markdown)
   - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
   - [Space after HTML element for markdown syntax](#space-after-html-element-for-markdown-syntax)
@@ -112,6 +114,32 @@ markdown
 
 ```markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
+```
+
+### GitHub page customisation
+
+Example of basic customisation on GitHub page, see [pages-themes minimal](https://github.com/pages-themes/minimal) by parkr:
+
+```yml
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: html-learning
+logo: assets/img/logo_bear2.png
+description: Basic HTML, CSS learning with a test web building project to implement what I learnt.
+show_downloads: true
+google_analytics:
+```
+
+### GitHub markdown relative links
+
+Example of creating internal links (relative links) to other markdown (md) notes in repository with markdown, see [stackoverflow GitHub Blog Relative Links](https://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file/7658676#7658676):
+
+```markdown
+[HTML Basics Notes](learning-notes/HTML-Basics-notes.md)  
+[CSS Basics Notes](learning-notes/CSS-Basic-notes.md)  
+[Markdown Notes](learning-notes/Markdown-notes.md)  
+[Editor Notes](learning-notes/Editor-notes.md)  
 ```
 
 ## Reduce HTML elements in Markdown

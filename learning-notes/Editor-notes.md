@@ -17,9 +17,11 @@ Table of content
     - [Linter-node-markdownlint by josa42 Configuration](#linter-node-markdownlint-by-josa42-configuration)
     - [Disabled - Mardownlint by leonelgalan Configuration](#disabled---mardownlint-by-leonelgalan-configuration)
   - [Linter rules](#linter-rules)
-  - [Typora/ GitHub Markdown](#typora-github-markdown)
+  - [GitHub Markdown](#github-markdown)
     - [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
     - [GitHub Markdown TOC](#github-markdown-toc)
+    - [GitHub page customisation](#github-page-customisation)
+    - [GitHub markdown relative links](#github-markdown-relative-links)
     - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -175,7 +177,7 @@ See [Markdownlint GitHub](https://github.com/DavidAnson/markdownlint) by David A
 
 ---
 
-## Typora/ GitHub Markdown  
+## GitHub Markdown  
 
 ### Transfer Typora TOC onto GitHub README.md  
 
@@ -195,6 +197,32 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
 
 ```markdown
 [**Atom**](#--atom--) <!--invalid TOC link due to `**` special characters, conversion into `--` characters-->
+```
+
+### GitHub page customisation
+
+Example of basic customisation on GitHub page, see [pages-themes minimal](https://github.com/pages-themes/minimal) by parkr:
+
+```yml
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: html-learning
+logo: assets/img/logo_bear2.png
+description: Basic HTML, CSS learning with a test web building project to implement what I learnt.
+show_downloads: true
+google_analytics:
+```
+
+### GitHub markdown relative links
+
+Example of creating internal links (relative links) to other markdown (md) notes in repository with markdown, see [stackoverflow GitHub Blog Relative Links](https://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file/7658676#7658676):
+
+```markdown
+[HTML Basics Notes](learning-notes/HTML-Basics-notes.md)  
+[CSS Basics Notes](learning-notes/CSS-Basic-notes.md)  
+[Markdown Notes](learning-notes/Markdown-notes.md)  
+[Editor Notes](learning-notes/Editor-notes.md)  
 ```
 
 ### Beautify and Markdown syntax
