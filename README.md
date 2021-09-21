@@ -31,10 +31,18 @@ I am trying to put what I have learnt into this little web build project, starti
 [HTML Build Project](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html)  
 [HTML Build Project - c](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic-c)  
 
+## Learning Notes Pages
+
+[HTML Basics Notes](learning-notes/HTML-Basics-notes.md)
+[CSS Basics Notes](learning-notes/CSS-Basic-notes.md)
+[Markdown Notes](learning-notes/Markdown-notes.md)
+[Editor Notes](learning-notes/Editor-notes.md)
+
 **Table of Content**
 
 - [Basic-HTML-learning](#basic-html-learning)
   - [Project](#project)
+  - [Learning Notes Pages](#learning-notes-pages)
   - [Progress](#progress)
     - [Basic HTML](#basic-html)
     - [Basic CSS](#basic-css)
