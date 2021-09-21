@@ -18,6 +18,7 @@ Table of content
     - [Disabled - Mardownlint by leonelgalan Configuration](#disabled---mardownlint-by-leonelgalan-configuration)
   - [Linter rules](#linter-rules)
   - [Typora/ GitHub Markdown](#typora-github-markdown)
+    - [Transfer Typora TOC onto GitHub README.md](#transfer-typora-toc-onto-github-readmemd)
     - [GitHub Markdown TOC](#github-markdown-toc)
     - [Beautify and Markdown syntax](#beautify-and-markdown-syntax)
 
@@ -174,12 +175,11 @@ See [Markdownlint GitHub](https://github.com/DavidAnson/markdownlint) by David A
 
 ---
 
-## Typora/ GitHub Markdown
+## Typora/ GitHub Markdown  
 
-<details>
-  <summary>Transfer Typora TOC onto GitHub README.md</summary>
+### Transfer Typora TOC onto GitHub README.md  
 
-GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To turn the **Typora** markdown table of content TOC into functional TOC in GitHub, we need to export the Typora file as **Markdown (other spec)**.
+GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To turn the **Typora** markdown table of content TOC into functional TOC in GitHub, we need to export the Typora file as **Markdown (other spec)**.  
 
   1 - Go to **File > Preferences > Export**  
   2 - Add export type as **Markdown (other spec) > variant: GitHub-flavored markdown**  
@@ -187,8 +187,6 @@ GitHub markdown uses **pandoc** markdown which differs from Typora markdown. To 
   4 - Restart **PC? or Typora**  
   5 - Export your **Typora** file: **File > Export > Markdown (other spec)**  
   6 - Your new file should have TOC that works in GitHub `README.md` or GitHub markdown  
-
-</details>
 
 ### GitHub Markdown TOC
 
