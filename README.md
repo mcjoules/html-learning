@@ -24,10 +24,10 @@ I am trying to put what I have learnt into this little web build project, starti
 
 ## Project
 
-[Html-learning Repo](https://github.com/mcjoules/html-learning)  
-[Learning Note](https://github.com/mcjoules/html-learning/tree/main/learning-notes)  
-[Repo GitHub Page](https://mcjoules.github.io/html-learning)  
-[Repo Wiki](https://github.com/mcjoules/html-learning/wiki)  
+[Html-learning Repository](https://github.com/mcjoules/html-learning)  
+[Learning Notes](https://github.com/mcjoules/html-learning/tree/main/learning-notes)  
+[GitHub Page](https://mcjoules.github.io/html-learning)  
+[GitHub Wiki](https://github.com/mcjoules/html-learning/wiki)  
 [HTML Build Project](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic.html)  
 [HTML Build Project - c](https://mcjoules.github.io/html-learning/web-build-project/htmlbasic-c)  
 
@@ -44,8 +44,8 @@ I am trying to put what I have learnt into this little web build project, starti
   - [Project](#project)
   - [Learning Notes Pages](#learning-notes-pages)
   - [Progress](#progress)
-    - [Basic HTML](#basic-html)
-    - [Basic CSS](#basic-css)
+    - [HTML Basics](#html-basics)
+    - [CSS Basics](#css-basics)
     - [Markdown](#markdown)
     - [Editors and settings](#editors-and-settings)
     - [GitHub](#github)
@@ -54,7 +54,7 @@ I am trying to put what I have learnt into this little web build project, starti
 
 ## Progress
 
-### Basic HTML
+### HTML Basics
 
 _h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, action, label, value, name, radio, checkbox, input, text, button, submit, placeholder, required, br, align_
 <br/>
@@ -89,7 +89,7 @@ _h1-h6, comment, href, #, target, body, div, html, img, alt, ul, ol, li, form, a
 
 ---
 
-### Basic CSS
+### CSS Basics
 
 _style, color: color_name, rgb value, margin, class, margin, border-color, border-width, border-style, border-radius, font-size, font-family: FAMILY_NAME, GENERIC_NAME;, img {height:;width:;}, background-color_
 <br/>
@@ -139,7 +139,7 @@ Table of Contents
 ![name](https://img.shields.io/static/v1?label=<label>&message=<message>&color=<color>&logo=<name>)
 ```
 
-**Things I struggle with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
+**Things I struggled with:** understanding markdown syntax, markdown spacing and line break, working between md syntax and html [what work and what doesn't work], discovering the affects and relation of md syntax and html, keeping codes tidy and well structured.
 
 ---
 
@@ -149,7 +149,7 @@ Table of Contents
 
 **Coolest Thing I learnt:** Using both Atom and VS Code, applying extensions, local live-server, shortcuts to stage, commit, and push. Using terminal.  
 
-**Things I struggle with:** Dealing with settings in VS Code extensions, Atom packages and configurations, using json files, ruby files, for custom configs. Using lint. Following the documentations and instructions, using terminal commands. It has been a significant struggle for a beginner. Glad to finally manage to setup linter for both VS Code and Atom and was able to configure the rules, after many late evenings. Example to configure and ignore specific lint rule in markdown:  
+**Things I struggled with:** Dealing with settings in VS Code extensions, Atom packages and configurations, using json files, ruby files, for custom configs. Using lint. Following the documentations and instructions, using terminal commands. It has been a significant struggle for a beginner. Glad to finally manage to setup linter for both VS Code and Atom and was able to configure the rules, after many late evenings. Example to configure and ignore specific lint rule in markdown:  
 
 ```json
 {
@@ -164,6 +164,28 @@ Table of Contents
 
 *Repository, GitHub Page, GitHub Markdown, Wiki, Issue, Issue template, GitHub Desktop, GitHub Doc, GitHub with Editors (push and pull), branch, fork, merge*
 
-**Coolest Thing I learnt:** Building my own web-build project and documenting what I have learnt. Discovering the power of GitHub.  
+**Coolest Thing I learnt:** Basic customisation of GitHub page, add internal links to other markdown notes I have in the repository. Building my own web-build project and documenting what I have learnt. Discovering the power of GitHub.  
 
-**Things I struggle with:** Using GitHub Markdown, understanding releases and packages, actions, projects, workflow and docker. GitHub Doc does help with its amazing documentation.  
+Example of basic customisation on GitHub page, see [pages-themes minimal](https://github.com/pages-themes/minimal) by parkr:
+
+```yml
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: html-learning
+logo: assets/img/logo_bear2.png
+description: Basic HTML, CSS learning with a test web building project to implement what I learnt.
+show_downloads: true
+google_analytics:
+```
+
+Example of creating internal links (relative links) to other markdown (md) notes in repository with markdown, see [stackoverflow GitHub Blog Relative Links](https://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file/7658676#7658676):
+
+```markdown
+[HTML Basics Notes](learning-notes/HTML-Basics-notes.md)  
+[CSS Basics Notes](learning-notes/CSS-Basic-notes.md)  
+[Markdown Notes](learning-notes/Markdown-notes.md)  
+[Editor Notes](learning-notes/Editor-notes.md)  
+```
+
+**Things I struggled with:** Using GitHub Markdown, understanding releases and packages, actions, projects, workflow and docker. GitHub Doc does help with its amazing documentation.  
